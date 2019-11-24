@@ -62,6 +62,7 @@ namespace YoutubeSubscriberManager
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
+            "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
 
         };
         private static void Main(string[] args)
