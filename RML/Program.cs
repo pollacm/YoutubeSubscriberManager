@@ -45,6 +45,11 @@ namespace YoutubeSubscriberManager
             "I'm Norman!".ToLower(),
             "Predator Zone Crazy".ToLower(),
             "Orjane Cristobal".ToLower(),
+            "SHOWTIME ULTRA".ToLower(),
+            "Marshallaw".ToLower(),
+            "NickMortuus".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
         };
 
 
