@@ -49,7 +49,7 @@ namespace YoutubeSubscriberManager
             "Marshallaw".ToLower(),
             "NickMortuus".ToLower(),
             "Publicgame".ToLower(),
-            "Orjane".ToLower(),
+            "gallegos s.".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -70,6 +70,12 @@ namespace YoutubeSubscriberManager
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
+            "Keyser Reveal".ToLower(),//3.5/10, 11k subs
+            "HAPPY TIME".ToLower(),//7.5/32
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
 
         };
         private static void Main(string[] args)
