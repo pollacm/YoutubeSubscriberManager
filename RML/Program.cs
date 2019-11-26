@@ -50,9 +50,16 @@ namespace YoutubeSubscriberManager
             "NickMortuus".ToLower(),
             "Publicgame".ToLower(),
             "gallegos s.".ToLower(),
-            "Crafty Folks".ToLower(),//not confirmed yet
             "Priti Saha".ToLower(),//not confirmed yet
             "Su madhur geet".ToLower(),//not confirmed yet
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
         };
