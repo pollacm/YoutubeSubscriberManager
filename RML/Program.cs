@@ -54,7 +54,7 @@ namespace YoutubeSubscriberManager
             "Crafty Folks".ToLower(),//not confirmed yet
             "Priti Saha".ToLower(),//not confirmed yet
             "Candy Art".ToLower(),//not confirmed yet
-            "Orjane".ToLower(),
+            "Su madhur geet".ToLower(),//not confirmed yet
             "Orjane".ToLower(),
             "Orjane".ToLower(),
         };
