@@ -67,7 +67,10 @@ namespace YoutubeSubscriberManager
 
         static List<string> whitelist = new List<string>
         {
-            "milada มิลา".ToLower(), //16/32
+            "milada มิลา".ToLower(), //FW
+            "Runningwolf World of TanksAam".ToLower(),//FW
+            "spanked bob".ToLower(),//FW
+            "DHV VLOG".ToLower(),//FW
             "Food Idea by Tuhin".ToLower(), //4.5/32
             "MT GAMING5".ToLower(), //15/32,
             "Game Boys".ToLower(), //8/32
@@ -77,6 +80,10 @@ namespace YoutubeSubscriberManager
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
