@@ -51,7 +51,7 @@ namespace YoutubeSubscriberManager
             "Publicgame".ToLower(),
             "gallegos s.".ToLower(),
             "Priti Saha".ToLower(),//not confirmed yet
-            "Su madhur geet".ToLower(),//not confirmed yet
+            //"Su madhur geet".ToLower(),//not confirmed yet
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
