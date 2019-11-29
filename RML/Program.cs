@@ -54,8 +54,8 @@ namespace YoutubeSubscriberManager
             //"Su madhur geet".ToLower(),//not confirmed yet
             "Saurabh Sawariya Official".ToLower(),
             "NK RAJASTHANI VIDEO".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "YouNot_Game".ToLower(),
+            "tbs-prod".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
