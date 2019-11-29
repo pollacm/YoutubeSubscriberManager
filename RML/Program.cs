@@ -56,7 +56,7 @@ namespace YoutubeSubscriberManager
             "NK RAJASTHANI VIDEO".ToLower(),
             "YouNot_Game".ToLower(),
             "tbs-prod".ToLower(),
-            "Orjane".ToLower(),
+            "Ethan".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
