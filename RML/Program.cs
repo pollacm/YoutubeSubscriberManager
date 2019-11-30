@@ -18,6 +18,7 @@ namespace YoutubeSubscriberManager
             //* = need to watch a vid and see if they respond
             "TOMXGAMERS".ToLower(), //
             "KHADIJA PRODUCTIONS Tutorials".ToLower(),//
+            "KHADIJA PRODUCTIONS Gameplay".ToLower(),//
             "I Am Lif3ofdreads".ToLower(),//
             "Xander Zone".ToLower(),//
             "Criminal 2020".ToLower(),
@@ -51,12 +52,22 @@ namespace YoutubeSubscriberManager
             "Publicgame".ToLower(),
             "gallegos s.".ToLower(),
             "Priti Saha".ToLower(),//not confirmed yet
-            //"Su madhur geet".ToLower(),//not confirmed yet
             "Saurabh Sawariya Official".ToLower(),
             "NK RAJASTHANI VIDEO".ToLower(),
             "YouNot_Game".ToLower(),
             "tbs-prod".ToLower(),
             "Ethan".ToLower(),
+            "BPat Beats".ToLower(),
+            "BİLGİ VE EĞLENCE DÜNYASI".ToLower(),
+            "Timothy B. Salinas".ToLower(),
+            "Afro Black".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -80,7 +91,7 @@ namespace YoutubeSubscriberManager
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
-            "Salus".ToLower(),
+            "NCshredder Gaming".ToLower(), //nice dude. Need to check on watch time though.
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
