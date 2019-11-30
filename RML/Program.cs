@@ -92,8 +92,8 @@ namespace YoutubeSubscriberManager
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
             "NCshredder Gaming".ToLower(), //nice dude. Need to check on watch time though.
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
+            "CREEPY KOULWAH".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
