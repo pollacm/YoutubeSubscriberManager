@@ -62,7 +62,7 @@ namespace YoutubeSubscriberManager
             "Afro Black".ToLower(),
             "NCshredder Gaming".ToLower(),
             "Lưu Quang Minh".ToLower(),
-            "Orjane".ToLower(),
+            "ŞAHİN TAKIMI".ToLower(),//waiting for sub back
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -94,7 +94,7 @@ namespace YoutubeSubscriberManager
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
             "DEGRA".ToLower(),
-            "Improved Gaming".ToLower(),
+            "Improved Gaming".ToLower(),//9.5/9.5
             "Djawek Game Company".ToLower(), //4.5/8
             "Miss Gam Survives".ToLower(), //9.5/9.5
             "No_Talent_Guy".ToLower(),
