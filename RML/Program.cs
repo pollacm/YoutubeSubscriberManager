@@ -63,7 +63,7 @@ namespace YoutubeSubscriberManager
             "Lưu Quang Minh".ToLower(),
             "ŞAHİN TAKIMI".ToLower(),//waiting for sub back
             "XScaleton Gaming".ToLower(),
-            "Orjane".ToLower(),
+            "Game Boys".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -82,7 +82,7 @@ namespace YoutubeSubscriberManager
             "DHV VLOG".ToLower(),//FW
             "Food Idea by Tuhin".ToLower(), //4.5/32
             "MT GAMING5".ToLower(), //15/32,
-            "Game Boys".ToLower(), //8/32
+            //"Game Boys".ToLower(), //8/32
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
@@ -397,7 +397,7 @@ namespace YoutubeSubscriberManager
 
         private static double GetIntegerViews(string views)
         {
-            if (views == "No"|| views.Contains("Premiere"))
+            if (views == "No" || views.Contains("Premiere") || views.Contains("Scheduled"))
                 return 0;
             var integerViews = double.Parse(views.Split(new string[] {"K"}, StringSplitOptions.None)[0].Split(new string[] { "M" }, StringSplitOptions.None)[0]);
             if (views.Contains("K"))
