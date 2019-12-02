@@ -29,7 +29,6 @@ namespace YoutubeSubscriberManager
             "PS5 Gamer".ToLower(),
             "CHILLSCISSORS".ToLower(),//
             "Timothy B. Salinas".ToLower(),
-            "DeGRA".ToLower(),
             "Zio bugio".ToLower(),
             "Mister Omega".ToLower(),
             "JeremiahGR".ToLower(),
