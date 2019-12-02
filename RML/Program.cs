@@ -93,8 +93,8 @@ namespace YoutubeSubscriberManager
             "NCshredder Gaming".ToLower(), //nice dude. Need to check on watch time though.
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "DEGRA".ToLower(),
+            "Improved Gaming".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
