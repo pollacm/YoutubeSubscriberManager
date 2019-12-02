@@ -50,7 +50,6 @@ namespace YoutubeSubscriberManager
             "NickMortuus".ToLower(),
             "Publicgame".ToLower(),
             "gallegos s.".ToLower(),
-            "Priti Saha".ToLower(),//not confirmed yet
             "Saurabh Sawariya Official".ToLower(),
             "NK RAJASTHANI VIDEO".ToLower(),
             "YouNot_Game".ToLower(),
@@ -63,7 +62,7 @@ namespace YoutubeSubscriberManager
             "NCshredder Gaming".ToLower(),
             "Lưu Quang Minh".ToLower(),
             "ŞAHİN TAKIMI".ToLower(),//waiting for sub back
-            "Orjane".ToLower(),
+            "XScaleton Gaming".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
