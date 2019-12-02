@@ -60,8 +60,8 @@ namespace YoutubeSubscriberManager
             "BİLGİ VE EĞLENCE DÜNYASI".ToLower(),
             "Timothy B. Salinas".ToLower(),
             "Afro Black".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "NCshredder Gaming".ToLower(),
+            "Lưu Quang Minh".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -90,11 +90,16 @@ namespace YoutubeSubscriberManager
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
-            "NCshredder Gaming".ToLower(), //nice dude. Need to check on watch time though.
+            "NCshredder Gaming".ToLower(),
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
             "DEGRA".ToLower(),
             "Improved Gaming".ToLower(),
+            "Djawek Game Company".ToLower(), //4.5/8
+            "Miss Gam Survives".ToLower(), //9.5/9.5
+            "No_Talent_Guy".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
