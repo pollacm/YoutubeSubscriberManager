@@ -112,7 +112,7 @@ namespace YoutubeSubscriberManager
             "Gaming University Conference".ToLower(),
             "Silent Scoperzzz".ToLower(),
             "Work Commute".ToLower(),
-            "Salus".ToLower(),
+            "Retro Toys and Cartoons".ToLower(),//2.8/2.8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
