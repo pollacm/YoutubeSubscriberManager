@@ -97,6 +97,17 @@ namespace YoutubeSubscriberManager
             "Djawek Game Company".ToLower(), //4.5/8
             "Miss Gam Survives".ToLower(), //9.5/9.5
             "No_Talent_Guy".ToLower(),
+            "Dr.JoshDaRealGamer".ToLower(),
+            "Nfamiz Jay".ToLower(),
+            "Select Start Save".ToLower(),
+            "GamingSiege Ghost".ToLower(),
+            "Gaming University Conference".ToLower(),
+            "Silent Scoperzzz".ToLower(),
+            "Work Commute".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
