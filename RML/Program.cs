@@ -64,9 +64,9 @@ namespace YoutubeSubscriberManager
             "ŞAHİN TAKIMI".ToLower(),//waiting for sub back
             "XScaleton Gaming".ToLower(),
             "Game Boys".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "嘎嘎巫啦啦".ToLower(),
+            "的的Vinky".ToLower(),
+            "Our Kitchen".ToLower(),//waiting
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
