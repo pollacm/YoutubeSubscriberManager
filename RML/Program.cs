@@ -67,13 +67,12 @@ namespace YoutubeSubscriberManager
             "嘎嘎巫啦啦".ToLower(),
             "的的Vinky".ToLower(),
             "Our Kitchen".ToLower(),//waiting
-            "Terese Benge".ToLower(),//waiting
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//waiting
             "UnspecGamer".ToLower(),//waiting
             "Phynoxtv".ToLower(),//waiting
-            "Orjane".ToLower(),
+            "Yoga Arief".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -114,7 +113,7 @@ namespace YoutubeSubscriberManager
             "Silent Scoperzzz".ToLower(),
             "Work Commute".ToLower(),
             "Retro Toys and Cartoons".ToLower(),//2.8/2.8
-            "Salus".ToLower(),
+            "Terese Benge".ToLower(),//9.5/9.5
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -143,10 +142,10 @@ namespace YoutubeSubscriberManager
             };
             var rowsToIncrementOnSubPage = 4;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -174,10 +173,14 @@ namespace YoutubeSubscriberManager
                     var watched = video.FindElements(By.XPath("./div[1]/ytd-thumbnail[1]/a[1]/div[1]/ytd-thumbnail-overlay-resume-playback-renderer")).Any();
                     if (watched)
                         subscriber.Watches++;
-                    var currentViewCount = video.FindElement(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Text.Split(new string[] {" view"}, StringSplitOptions.None)[0].Split(new string[] { " watching" }, StringSplitOptions.None)[0];
-                    subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
+
                     subscriber.Videos = 1;
-                    subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
+                    if (video.FindElements(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Any())
+                    {
+                        var currentViewCount = video.FindElement(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Text.Split(new string[] { " view" }, StringSplitOptions.None)[0].Split(new string[] { " watching" }, StringSplitOptions.None)[0];
+                        subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
+                        subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
+                    }
                     
                     subscribers.Add(subscriber);
                 }
@@ -186,10 +189,14 @@ namespace YoutubeSubscriberManager
                     var watched = video.FindElements(By.XPath("./div[1]/ytd-thumbnail[1]/a[1]/div[1]/ytd-thumbnail-overlay-resume-playback-renderer")).Any();
                     if (watched)
                         subscriber.Watches++;
-                    var currentViewCount = video.FindElement(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Text.Split(new string[] { " view" }, StringSplitOptions.None)[0].Split(new string[] { " watching" }, StringSplitOptions.None)[0];
-                    subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
+
                     subscriber.Videos++;
-                    subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
+                    if (video.FindElements(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Any())
+                    {
+                        var currentViewCount = video.FindElement(By.XPath("./div[1]//div[1]//div[1]//div[1]//div[1]//div[2]//span[1]")).Text.Split(new string[] { " view" }, StringSplitOptions.None)[0].Split(new string[] { " watching" }, StringSplitOptions.None)[0];
+                        subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
+                        subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
+                    }
                 }
             }
 
