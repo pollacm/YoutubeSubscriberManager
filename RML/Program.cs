@@ -61,17 +61,18 @@ namespace YoutubeSubscriberManager
             "Afro Black".ToLower(),
             "NCshredder Gaming".ToLower(),
             "Lưu Quang Minh".ToLower(),
-            "ŞAHİN TAKIMI".ToLower(),//waiting for sub back
+            "ŞAHİN TAKIMI".ToLower(),
             "XScaleton Gaming".ToLower(),
             "Game Boys".ToLower(),
             "嘎嘎巫啦啦".ToLower(),
             "的的Vinky".ToLower(),
             "Our Kitchen".ToLower(),//waiting
+            "Terese Benge".ToLower(),//waiting
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Gökhan Berber".ToLower(),//waiting
+            "UnspecGamer".ToLower(),//waiting
+            "Phynoxtv".ToLower(),//waiting
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
