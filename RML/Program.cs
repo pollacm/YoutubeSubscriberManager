@@ -61,7 +61,6 @@ namespace YoutubeSubscriberManager
             "Afro Black".ToLower(),
             "NCshredder Gaming".ToLower(),
             "Lưu Quang Minh".ToLower(),
-            "ŞAHİN TAKIMI".ToLower(),
             "XScaleton Gaming".ToLower(),
             "Game Boys".ToLower(),
             "嘎嘎巫啦啦".ToLower(),
@@ -114,7 +113,7 @@ namespace YoutubeSubscriberManager
             "Work Commute".ToLower(),
             "Retro Toys and Cartoons".ToLower(),//2.8/2.8
             "Terese Benge".ToLower(),//9.5/9.5
-            "Salus".ToLower(),
+            "ŞAHİN TAKIMI".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
