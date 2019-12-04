@@ -65,16 +65,15 @@ namespace YoutubeSubscriberManager
             "Game Boys".ToLower(),
             "嘎嘎巫啦啦".ToLower(),
             "的的Vinky".ToLower(),
-            "Our Kitchen".ToLower(),//waiting
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//waiting
             "UnspecGamer".ToLower(),//waiting
             "Phynoxtv".ToLower(),//waiting
             "Yoga Arief".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Гильдия Геймеров".ToLower(),//waiting full other
+            "Faith Fridayigbinosun".ToLower(),//waiting full other
+            "Coco Chimmy".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -114,7 +113,8 @@ namespace YoutubeSubscriberManager
             "Retro Toys and Cartoons".ToLower(),//2.8/2.8
             "Terese Benge".ToLower(),//9.5/9.5
             "ŞAHİN TAKIMI".ToLower(),
-            "Salus".ToLower(),
+            "Our Kitchen".ToLower(),//6.7/8
+            "Гильдия Геймеров".ToLower(),//6/8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
