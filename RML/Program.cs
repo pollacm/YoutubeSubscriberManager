@@ -74,7 +74,7 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),//waiting full other
             "Faith Fridayigbinosun".ToLower(),//waiting full other
             "Coco Chimmy".ToLower(),
-            "Orjane".ToLower(),
+            "om ryan".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
         };
