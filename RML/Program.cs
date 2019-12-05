@@ -80,7 +80,7 @@ namespace YoutubeSubscriberManager
             "Zhang萌萌的咪儿".ToLower(),//waiting full other
             "Poem By Asha".ToLower(),//waiting full other
             "ESCUELA السكويلة".ToLower(),//waiting full other
-            "Orjane".ToLower(),
+            "Shobana kitchen".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
