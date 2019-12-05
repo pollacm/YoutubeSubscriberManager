@@ -74,7 +74,7 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),//waiting full other
             "Faith Fridayigbinosun".ToLower(),//waiting full other
             "Coco Chimmy".ToLower(),
-            "Orjane".ToLower(),
+            "HiTechKing".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
         };
@@ -115,7 +115,7 @@ namespace YoutubeSubscriberManager
             "ŞAHİN TAKIMI".ToLower(),
             "Our Kitchen".ToLower(),//6.7/8
             "Гильдия Геймеров".ToLower(),//6/8
-            "Salus".ToLower(),
+            "GAME WFK".ToLower(),//8/8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
