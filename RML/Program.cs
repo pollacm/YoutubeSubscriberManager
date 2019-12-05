@@ -77,7 +77,6 @@ namespace YoutubeSubscriberManager
             "om ryan".ToLower(),
             "HiTechKing".ToLower(),
             "Prenses Melisam".ToLower(),
-            "Zhang萌萌的咪儿".ToLower(),//waiting full other
             "Poem By Asha".ToLower(),//waiting full other
             "ESCUELA السكويلة".ToLower(),//waiting full other
             "Shobana kitchen".ToLower(),
@@ -127,6 +126,7 @@ namespace YoutubeSubscriberManager
             "Our Kitchen".ToLower(),//6.7/8
             "Гильдия Геймеров".ToLower(),//6/8
             "GAME WFK".ToLower(),//8/8
+            "Zhang萌萌的咪儿".ToLower(),//4/8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
