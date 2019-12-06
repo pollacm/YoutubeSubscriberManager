@@ -89,7 +89,6 @@ namespace YoutubeSubscriberManager
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//waiting
-            "UnspecGamer".ToLower(),//waiting
             "Yoga Arief".ToLower(),
             "Гильдия Геймеров".ToLower(),//waiting full other
             "Faith Fridayigbinosun".ToLower(),//waiting full other
@@ -123,6 +122,7 @@ namespace YoutubeSubscriberManager
             "Abdul's Media".ToLower(),
             "viajes lauchas".ToLower(),
             "Arlene Arcebal CHANNEL".ToLower(),
+            "UnspecGamer".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
