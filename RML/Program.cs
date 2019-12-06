@@ -127,7 +127,7 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),//6/8
             "GAME WFK".ToLower(),//8/8
             "Zhang萌萌的咪儿".ToLower(),//4/8
-            "Salus".ToLower(),
+            "Phynoxtv".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
