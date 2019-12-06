@@ -24,6 +24,11 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UCJHS5Gi4EVuRg7ezLNlnVFw/videos
     https://www.youtube.com/channel/UC93uR6jk-TUj5yG8HVrRKcQ/videos
 
+    ind group
+    https://www.youtube.com/channel/UCMGuFQWO1h5nyGWyPbx25Uw/videos
+    https://www.youtube.com/channel/UC7y7wYXCwRIqyFSOtz_DcuQ
+    https://www.youtube.com/channel/UC42i6AVmftaGjWxPuiLvAkw
+    https://www.youtube.com/channel/UC9NYbpglaiw4dKfNC4rCk9w
     */
     internal class Program
     {
@@ -95,7 +100,15 @@ namespace YoutubeSubscriberManager
             "Poem By Asha".ToLower(),//waiting full other
             "ESCUELA السكويلة".ToLower(),
             "Shobana kitchen".ToLower(),
-            "Friendship Education".ToLower(),
+            "Nurlana Нурлана".ToLower(),
+            "Tasty food N talks".ToLower(),
+            "Lavz art".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -103,6 +116,25 @@ namespace YoutubeSubscriberManager
             "Orjane".ToLower(),
             "Orjane".ToLower(),
         };
+
+        static List<string> yellowlist = new List<string>
+        {
+            "Damla Abulfazli".ToLower(),
+            "Abdul's Media".ToLower(),
+            "viajes lauchas".ToLower(),
+            "Arlene Arcebal CHANNEL".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+
+        }
 
         //"Game Boys".ToLower(), //8/32
         static List<string> whitelist = new List<string>
@@ -143,6 +175,7 @@ namespace YoutubeSubscriberManager
             "Zhang萌萌的咪儿".ToLower(),//4/8
             "Phynoxtv".ToLower(),
             "K2Z U".ToLower(),
+            "Friendship Education".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
 
@@ -438,6 +471,8 @@ namespace YoutubeSubscriberManager
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid green\";");
+            if (yellowlist.Contains(subscriberName.ToLower()))
+                jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid yellow\";");
         }
 
         private static void ScrollToBottom(ChromeDriver driver)
