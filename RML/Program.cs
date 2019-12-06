@@ -9,6 +9,22 @@ using TubeBuddyScraper;
 
 namespace YoutubeSubscriberManager
 {
+    /*
+     https://www.youtube.com/channel/UCsmcy2P_3tvuCX53do_w6uw
+     https://www.youtube.com/channel/UCHKJbvewJX2J7Q3hgUwJQaA
+     https://www.youtube.com/channel/UCCVgMzuNENp8KjgLWy937XQ
+     https://www.youtube.com/channel/UCtdowDqHNtzfJvN7Vw33dHw
+     https://www.youtube.com/channel/UCastU-s3Mcx4Qa67iIQOIpg
+
+
+    full
+    https://www.youtube.com/channel/UCwoQf3bs7JVTMJe73YMnmVg/featured
+    https://www.youtube.com/channel/UC0SnDf0NskzBlUaoN9KSfEA/feed
+    https://www.youtube.com/channel/UCwXDNm__lLFZuRoyAHhTH3w/videos
+    https://www.youtube.com/channel/UCJHS5Gi4EVuRg7ezLNlnVFw/videos
+    https://www.youtube.com/channel/UC93uR6jk-TUj5yG8HVrRKcQ/videos
+
+    */
     internal class Program
     {
         //less than a minute watches
@@ -69,7 +85,6 @@ namespace YoutubeSubscriberManager
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//waiting
             "UnspecGamer".ToLower(),//waiting
-            "Phynoxtv".ToLower(),//waiting
             "Yoga Arief".ToLower(),
             "Гильдия Геймеров".ToLower(),//waiting full other
             "Faith Fridayigbinosun".ToLower(),//waiting full other
@@ -78,9 +93,9 @@ namespace YoutubeSubscriberManager
             "HiTechKing".ToLower(),
             "Prenses Melisam".ToLower(),
             "Poem By Asha".ToLower(),//waiting full other
-            "ESCUELA السكويلة".ToLower(),//waiting full other
+            "ESCUELA السكويلة".ToLower(),
             "Shobana kitchen".ToLower(),
-            "Orjane".ToLower(),
+            "Friendship Education".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -89,7 +104,7 @@ namespace YoutubeSubscriberManager
             "Orjane".ToLower(),
         };
 
-
+        //"Game Boys".ToLower(), //8/32
         static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
@@ -98,7 +113,6 @@ namespace YoutubeSubscriberManager
             "DHV VLOG".ToLower(),//FW
             "Food Idea by Tuhin".ToLower(), //4.5/32
             "MT GAMING5".ToLower(), //15/32,
-            //"Game Boys".ToLower(), //8/32
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
@@ -128,7 +142,7 @@ namespace YoutubeSubscriberManager
             "GAME WFK".ToLower(),//8/8
             "Zhang萌萌的咪儿".ToLower(),//4/8
             "Phynoxtv".ToLower(),
-            "Salus".ToLower(),
+            "K2Z U".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
 
