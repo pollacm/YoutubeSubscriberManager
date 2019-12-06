@@ -116,7 +116,7 @@ namespace YoutubeSubscriberManager
             "Orjane".ToLower(),
         };
 
-        static List<string> yellowlist = new List<string>
+        private static List<string> yellowlist = new List<string>
         {
             "Damla Abulfazli".ToLower(),
             "Abdul's Media".ToLower(),
@@ -134,7 +134,7 @@ namespace YoutubeSubscriberManager
             "Damla".ToLower(),
             "Damla".ToLower(),
 
-        }
+        };
 
         //"Game Boys".ToLower(), //8/32
         static List<string> whitelist = new List<string>
