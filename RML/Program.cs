@@ -29,6 +29,8 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UC7y7wYXCwRIqyFSOtz_DcuQ
     https://www.youtube.com/channel/UC42i6AVmftaGjWxPuiLvAkw
     https://www.youtube.com/channel/UC9NYbpglaiw4dKfNC4rCk9w
+
+    https://www.youtube.com/channel/UCjF192kLLaPuXX5ODXjbmkQ
     */
     internal class Program
     {
@@ -123,11 +125,11 @@ namespace YoutubeSubscriberManager
             "viajes lauchas".ToLower(),
             "Arlene Arcebal CHANNEL".ToLower(),
             "UnspecGamer".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Big Keys".ToLower(),
+            "Birgül'ün Yöresel Lezzetleri".ToLower(),
+            "KOBOY KNC SUKABUMI".ToLower(),
+            "LOOT JAC / AHMAD PAISAL".ToLower(),
+            "NnT Daily Game".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
