@@ -130,7 +130,7 @@ namespace YoutubeSubscriberManager
             "KOBOY KNC SUKABUMI".ToLower(),
             "LOOT JAC / AHMAD PAISAL".ToLower(),
             "NnT Daily Game".ToLower(),
-            "Damla".ToLower(),
+            "F2PlayGames".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
