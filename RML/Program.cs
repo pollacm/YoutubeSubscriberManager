@@ -105,7 +105,7 @@ namespace YoutubeSubscriberManager
             "Tasty food N talks".ToLower(),
             "Lavz art".ToLower(),
             "The gOod One".ToLower(),
-            "Orjane".ToLower(),
+            "DS. Kim".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -133,6 +133,7 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
+            "Гильдия Геймеров".ToLower(),//6/8 then .22
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -172,7 +173,6 @@ namespace YoutubeSubscriberManager
             "Terese Benge".ToLower(),//9.5/9.5
             "ŞAHİN TAKIMI".ToLower(),
             "Our Kitchen".ToLower(),//6.7/8
-            "Гильдия Геймеров".ToLower(),//6/8
             "GAME WFK".ToLower(),//8/8
             "Zhang萌萌的咪儿".ToLower(),//4/8
             "Phynoxtv".ToLower(),
