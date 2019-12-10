@@ -106,8 +106,9 @@ namespace YoutubeSubscriberManager
             "Lavz art".ToLower(),
             "The gOod One".ToLower(),
             "DS. Kim".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "moonlight kidz games".ToLower(),
+            "VIAJERO ANDRÉS".ToLower(),
+            "理科女人:紅葉的天空".ToLower(),//4.4/8 i think
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -133,7 +134,6 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
-            "理科女人:紅葉的天空".ToLower(),//4.4/8 i think
             "Damla".ToLower(),
 
         };
