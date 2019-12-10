@@ -133,8 +133,7 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
-            "Гильдия Геймеров".ToLower(),//6/8 then .22
-            "Damla".ToLower(),
+            "理科女人:紅葉的天空".ToLower(),//4.4/8 i think
             "Damla".ToLower(),
 
         };
@@ -179,6 +178,7 @@ namespace YoutubeSubscriberManager
             "K2Z U".ToLower(),
             "Friendship Education".ToLower(),
             "F2PlayGames".ToLower(),
+            "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
