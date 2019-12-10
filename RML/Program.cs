@@ -108,7 +108,7 @@ namespace YoutubeSubscriberManager
             "DS. Kim".ToLower(),
             "moonlight kidz games".ToLower(),
             "VIAJERO ANDRÉS".ToLower(),
-            "理科女人:紅葉的天空".ToLower(),//4.4/8 i think
+            "理科女人:紅葉的天空".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
