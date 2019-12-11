@@ -29,8 +29,10 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UC7y7wYXCwRIqyFSOtz_DcuQ
     https://www.youtube.com/channel/UC42i6AVmftaGjWxPuiLvAkw
     https://www.youtube.com/channel/UC9NYbpglaiw4dKfNC4rCk9w
+    https://www.youtube.com/channel/UCgAH3vaJUi41HuXdI-70OAw/videos
 
     https://www.youtube.com/channel/UCjF192kLLaPuXX5ODXjbmkQ
+    https://www.youtube.com/channel/UCm_Fx1ZgL4AXbcBBpnP6FBA
     */
     internal class Program
     {
@@ -109,7 +111,7 @@ namespace YoutubeSubscriberManager
             "moonlight kidz games".ToLower(),
             "VIAJERO ANDRÉS".ToLower(),
             "理科女人:紅葉的天空".ToLower(),
-            "Orjane".ToLower(),
+            "Lisa Le".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -128,7 +130,7 @@ namespace YoutubeSubscriberManager
             "UnspecGamer".ToLower(),
             "Big Keys".ToLower(),
             "Birgül'ün Yöresel Lezzetleri".ToLower(),
-            "KOBOY KNC SUKABUMI".ToLower(),
+            "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
             "NnT Daily Game".ToLower(),
             "F2PlayGames".ToLower(),
