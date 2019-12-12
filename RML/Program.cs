@@ -112,7 +112,7 @@ namespace YoutubeSubscriberManager
             "VIAJERO ANDRÉS".ToLower(),
             "理科女人:紅葉的天空".ToLower(),
             "Lisa Le".ToLower(),
-            "Orjane".ToLower(),
+            "NEW GAMER 13".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -136,6 +136,13 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
+            "Bcn Brazil Canal *Oficial*".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
 
         };
