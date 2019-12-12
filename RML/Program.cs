@@ -216,11 +216,12 @@ namespace YoutubeSubscriberManager
                 "3 weeks"
             };
             var rowsToIncrementOnSubPage = 4;
+            var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -281,6 +282,12 @@ namespace YoutubeSubscriberManager
             var button = driver.FindElementByXPath("//ytcp-comments-filter[@id='filter-bar']//button[@class='tb-btn tb-btn-grey tb-comment-filter-studio-go'][contains(text(),'Go')]");
             button.Click();
             Thread.Sleep(10000);
+
+            for (int i = 0; i < rowsToIncrementComments; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
 
             var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
             foreach (var comment in comments)
