@@ -10,16 +10,13 @@ using TubeBuddyScraper;
 namespace YoutubeSubscriberManager
 {
     /*
-     https://www.youtube.com/channel/UCsmcy2P_3tvuCX53do_w6uw
-     https://www.youtube.com/channel/UCHKJbvewJX2J7Q3hgUwJQaA
-     https://www.youtube.com/channel/UCCVgMzuNENp8KjgLWy937XQ
-     https://www.youtube.com/channel/UCtdowDqHNtzfJvN7Vw33dHw
-     https://www.youtube.com/channel/UCastU-s3Mcx4Qa67iIQOIpg
+     --https://www.youtube.com/channel/UCsmcy2P_3tvuCX53do_w6uw //too many views
+     --https://www.youtube.com/channel/UCtdowDqHNtzfJvN7Vw33dHw //too many views
+     --https://www.youtube.com/channel/UCastU-s3Mcx4Qa67iIQOIpg //cat
 
 
     full
     https://www.youtube.com/channel/UCwoQf3bs7JVTMJe73YMnmVg/featured
-    https://www.youtube.com/channel/UC0SnDf0NskzBlUaoN9KSfEA/feed
     https://www.youtube.com/channel/UCwXDNm__lLFZuRoyAHhTH3w/videos
     https://www.youtube.com/channel/UCJHS5Gi4EVuRg7ezLNlnVFw/videos
     https://www.youtube.com/channel/UC93uR6jk-TUj5yG8HVrRKcQ/videos
@@ -30,9 +27,15 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UC42i6AVmftaGjWxPuiLvAkw
     https://www.youtube.com/channel/UC9NYbpglaiw4dKfNC4rCk9w
     https://www.youtube.com/channel/UCgAH3vaJUi41HuXdI-70OAw/videos
+    https://www.youtube.com/channel/UCLnwmL2OVsJF-eG-BmVoVkg
+    https://www.youtube.com/channel/UCQpCVGExYhUYDCRZoCpmqGA
 
     https://www.youtube.com/channel/UCjF192kLLaPuXX5ODXjbmkQ
     https://www.youtube.com/channel/UCm_Fx1ZgL4AXbcBBpnP6FBA
+    https://www.youtube.com/channel/UCig_crSpZFaeW8NSkijSbGg
+    https://www.youtube.com/channel/UCb1G-EvDpkER6Edq4Cd8ktw/videos
+    https://www.youtube.com/channel/UCVM_zJM3SIwpkbp34oK89BQ/videos
+
     */
     internal class Program
     {
@@ -114,6 +117,14 @@ namespace YoutubeSubscriberManager
             "Lisa Le".ToLower(),
             "NEW GAMER 13".ToLower(),
             "NGAIZ TV".ToLower(),
+            "ALI. BEK. TV".ToLower(),
+            "Ishu Ki Rasoi".ToLower(),
+            "Usha misra ka Hamara kitchen & Blog".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -148,6 +159,7 @@ namespace YoutubeSubscriberManager
         };
 
         //"Game Boys".ToLower(), //8/32
+        //"fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10
         static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
@@ -188,8 +200,7 @@ namespace YoutubeSubscriberManager
             "Friendship Education".ToLower(),
             "F2PlayGames".ToLower(),
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
-            "fadaa zahira".ToLower(),//7.69/15
-            "Salus".ToLower(),
+            "Febina's fabulous life".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
