@@ -146,8 +146,8 @@ namespace YoutubeSubscriberManager
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
             "Bcn Brazil Canal *Oficial*".ToLower(),
-            "Ecen's Channel".ToLower(),//3.18/8 between 2
-            "Thor Reavenger".ToLower(),//3.18/8 between 2
+            "Ecen's Channel".ToLower(),//8/8 between 2
+            "Thor Reavenger".ToLower(),//8/8 between 2
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
