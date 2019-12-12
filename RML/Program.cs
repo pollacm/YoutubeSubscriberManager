@@ -113,7 +113,7 @@ namespace YoutubeSubscriberManager
             "理科女人:紅葉的天空".ToLower(),
             "Lisa Le".ToLower(),
             "NEW GAMER 13".ToLower(),
-            "Orjane".ToLower(),
+            "NGAIZ TV".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -188,7 +188,7 @@ namespace YoutubeSubscriberManager
             "Friendship Education".ToLower(),
             "F2PlayGames".ToLower(),
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
-            "Salus".ToLower(),
+            "fadaa zahira".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
