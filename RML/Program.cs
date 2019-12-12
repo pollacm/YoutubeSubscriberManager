@@ -188,7 +188,7 @@ namespace YoutubeSubscriberManager
             "Friendship Education".ToLower(),
             "F2PlayGames".ToLower(),
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
-            "fadaa zahira".ToLower(),
+            "fadaa zahira".ToLower(),//7.69/15
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
