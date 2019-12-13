@@ -202,7 +202,7 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
             "Febina's fabulous life".ToLower(),
             "Supportive Gamers Community".ToLower(), //2.7/2.7
-            "Salus".ToLower(),
+            "kenken TV Quang Thanh".ToLower(),//4.7/8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
