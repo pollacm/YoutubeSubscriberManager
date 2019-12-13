@@ -203,7 +203,7 @@ namespace YoutubeSubscriberManager
             "Febina's fabulous life".ToLower(),
             "Supportive Gamers Community".ToLower(), //2.7/2.7
             "kenken TV Quang Thanh".ToLower(),//4.7/8
-            "Salus".ToLower(),
+            "Blue British shorthair cat".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
