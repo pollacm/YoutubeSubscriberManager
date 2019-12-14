@@ -159,7 +159,6 @@ namespace YoutubeSubscriberManager
         };
 
         //"Game Boys".ToLower(), //8/32
-        //"fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10
         static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
@@ -167,7 +166,7 @@ namespace YoutubeSubscriberManager
             "spanked bob".ToLower(),//FW
             "DHV VLOG".ToLower(),//FW
             "Food Idea by Tuhin".ToLower(), //4.5/32
-            "MT GAMING5".ToLower(), //15/32,
+            "MT GAMING5".ToLower(), //15/32, 7/15
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
@@ -203,7 +202,8 @@ namespace YoutubeSubscriberManager
             "Febina's fabulous life".ToLower(),
             "Supportive Gamers Community".ToLower(), //2.7/2.7
             "kenken TV Quang Thanh".ToLower(),//4.7/8
-            "Salus".ToLower(),
+            "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
+            "Blue British shorthair cat".ToLower(), //32/32
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
