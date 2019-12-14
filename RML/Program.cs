@@ -122,7 +122,7 @@ namespace YoutubeSubscriberManager
             "Usha misra ka Hamara kitchen & Blog".ToLower(),
             "Brods Gaming".ToLower(),
             "LEXSEB GAMING".ToLower(),
-            "Orjane".ToLower(),
+            "Globetrot with Neel Ashar".ToLower(),//lied on FL; .4/8
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -204,7 +204,7 @@ namespace YoutubeSubscriberManager
             "kenken TV Quang Thanh".ToLower(),//4.7/8
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
             "Blue British shorthair cat".ToLower(), //32/32
-            "Salus".ToLower(),
+            "FTR Motivated Gaming".ToLower(),//8/8
             "Salus".ToLower(),
             "Salus".ToLower(),
 
