@@ -120,8 +120,8 @@ namespace YoutubeSubscriberManager
             "ALI. BEK. TV".ToLower(),
             "Ishu Ki Rasoi".ToLower(),
             "Usha misra ka Hamara kitchen & Blog".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Brods Gaming".ToLower(),
+            "LEXSEB GAMING".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -148,7 +148,7 @@ namespace YoutubeSubscriberManager
             "Bcn Brazil Canal *Oficial*".ToLower(),
             "Ecen's Channel".ToLower(),//8/8 between 2
             "Thor Reavenger".ToLower(),//8/8 between 2
-            "Damla".ToLower(),
+            "fia sonarean".ToLower(),//possible full between mult
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
