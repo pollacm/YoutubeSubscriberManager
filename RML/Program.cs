@@ -160,6 +160,7 @@ namespace YoutubeSubscriberManager
 
         //"Game Boys".ToLower(), //8/32
         //"fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10
+
         static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
@@ -174,7 +175,6 @@ namespace YoutubeSubscriberManager
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
-            "NCshredder Gaming".ToLower(),
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
             "DEGRA".ToLower(),
@@ -204,7 +204,7 @@ namespace YoutubeSubscriberManager
             "Supportive Gamers Community".ToLower(), //2.7/2.7
             "kenken TV Quang Thanh".ToLower(),//4.7/8
             "Blue British shorthair cat".ToLower(),
-            "Salus".ToLower(),
+            "Bits of Real Panther".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
 
