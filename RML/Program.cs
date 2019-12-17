@@ -171,7 +171,6 @@ namespace YoutubeSubscriberManager
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
-            "NCshredder Gaming".ToLower(),
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
             "DEGRA".ToLower(),
@@ -203,6 +202,8 @@ namespace YoutubeSubscriberManager
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
             "Blue British shorthair cat".ToLower(), //32/32
             "FTR Motivated Gaming".ToLower(),
+            "Bits of Real Panther".ToLower(),
+            "Salus".ToLower(),
             "Гильдия Геймеров".ToLower(),
             "F2PlayGames".ToLower(),//5/16
             "Salus".ToLower(),
