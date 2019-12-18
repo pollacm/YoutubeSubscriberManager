@@ -124,7 +124,8 @@ namespace YoutubeSubscriberManager
             "LEXSEB GAMING".ToLower(),
             "Globetrot with Neel Ashar".ToLower(),//lied on FV; .4/8
             "BANGLA GAMING TRICK".ToLower(),
-            "Orjane".ToLower(),
+            "Dr.JoshDaRealGamer".ToLower(),
+            "ApnaAvi".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -133,9 +134,8 @@ namespace YoutubeSubscriberManager
         private static List<string> yellowlist = new List<string>
         {
             "Damla Abulfazli".ToLower(),
-            "Abdul's Media".ToLower(),
+            "Abdul's Media".ToLower(),//2/2
             "viajes lauchas".ToLower(),
-            "Arlene Arcebal CHANNEL".ToLower(),
             "UnspecGamer".ToLower(),
             "Big Keys".ToLower(),
             "Birgül'ün Yöresel Lezzetleri".ToLower(),
@@ -149,8 +149,8 @@ namespace YoutubeSubscriberManager
             "Ecen's Channel".ToLower(),//8/8 between 2
             "Thor Reavenger".ToLower(),//8/8 between 2
             "fia sonarean".ToLower(),//possible full between mult
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Diah 082134778877wa".ToLower(), //4.4/8 split
+            "Correteando la Cheve".ToLower(),//4.4/8 split
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -180,7 +180,6 @@ namespace YoutubeSubscriberManager
             "Djawek Game Company".ToLower(), //4.5/8
             "Miss Gam Survives".ToLower(), //9.5/9.5
             "No_Talent_Guy".ToLower(),
-            "Dr.JoshDaRealGamer".ToLower(),
             "Nfamiz Jay".ToLower(),
             "Select Start Save".ToLower(),
             "GamingSiege Ghost".ToLower(),
@@ -199,12 +198,13 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
             "Febina's fabulous life".ToLower(),
-            "Supportive Gamers Community".ToLower(), //2.7/2.7
+            "Supportive Gamers Community".ToLower(), //2.7/2.7; 10/10
             "kenken TV Quang Thanh".ToLower(),//4.7/8
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
             "Blue British shorthair cat".ToLower(), //32/32
             "FTR Motivated Gaming".ToLower(),
             "Bits of Real Panther".ToLower(),
+            "Arlene Arcebal CHANNEL".ToLower(),//7/32
             "Salus".ToLower(),
             "Salus".ToLower(),
 
@@ -229,10 +229,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -322,7 +322,7 @@ namespace YoutubeSubscriberManager
                 }
             }
 
-            //white/yellow list
+            //white/yellow list/over 50 views
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
             {
@@ -332,6 +332,34 @@ namespace YoutubeSubscriberManager
 
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             var currentElement = 0;
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                if (subscriber != null)
+                {
+                    if ((!whitelist.Contains(subscriberName.ToLower()) && !yellowlist.Contains(subscriberName.ToLower())) || subscriber.AverageViewCount < 50)
+                    {
+                        RemoveElement(driver, currentElement);
+                    }
+                    else
+                    {
+                        StampElement(driver, subscriberName, currentElement);
+                        currentElement++;
+                    }
+                }
+            }
+
+            //white/yellow list
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            currentElement = 0;
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
