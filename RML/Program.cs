@@ -35,6 +35,7 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UCig_crSpZFaeW8NSkijSbGg
     https://www.youtube.com/channel/UCb1G-EvDpkER6Edq4Cd8ktw/videos
     https://www.youtube.com/channel/UCVM_zJM3SIwpkbp34oK89BQ/videos
+    https://www.youtube.com/channel/UCcaIbsvVEVitU4e4BxtOXpQ/videos
 
     */
     internal class Program
@@ -97,7 +98,6 @@ namespace YoutubeSubscriberManager
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//waiting
             "Yoga Arief".ToLower(),
-            "Гильдия Геймеров".ToLower(),//waiting full other
             "Faith Fridayigbinosun".ToLower(),//waiting full other
             "Coco Chimmy".ToLower(),
             "om ryan".ToLower(),
@@ -142,10 +142,8 @@ namespace YoutubeSubscriberManager
             "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
             "NnT Daily Game".ToLower(),
-            "F2PlayGames".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
-            "Bcn Brazil Canal *Oficial*".ToLower(),
             "Ecen's Channel".ToLower(),//8/8 between 2
             "Thor Reavenger".ToLower(),//8/8 between 2
             "fia sonarean".ToLower(),//possible full between mult
@@ -193,7 +191,7 @@ namespace YoutubeSubscriberManager
             "GAME WFK".ToLower(),//8/8
             "Zhang萌萌的咪儿".ToLower(),//4/8
             "Phynoxtv".ToLower(),
-            "K2Z U".ToLower(),
+            "K2Z U".ToLower(), //4.6/10
             "Friendship Education".ToLower(),
             "F2PlayGames".ToLower(),
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
@@ -206,6 +204,8 @@ namespace YoutubeSubscriberManager
             "Bits of Real Panther".ToLower(),
             "Arlene Arcebal CHANNEL".ToLower(),//7/32
             "Salus".ToLower(),
+            "Гильдия Геймеров".ToLower(),
+            "F2PlayGames".ToLower(),//5/16
             "Salus".ToLower(),
 
         };
