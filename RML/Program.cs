@@ -29,12 +29,14 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UCgAH3vaJUi41HuXdI-70OAw/videos
     https://www.youtube.com/channel/UCLnwmL2OVsJF-eG-BmVoVkg
     https://www.youtube.com/channel/UCQpCVGExYhUYDCRZoCpmqGA
+    https://www.youtube.com/channel/UC2luVo3LfuQaYw1a2ctg79Q/videos
 
     https://www.youtube.com/channel/UCjF192kLLaPuXX5ODXjbmkQ
     https://www.youtube.com/channel/UCm_Fx1ZgL4AXbcBBpnP6FBA
     https://www.youtube.com/channel/UCig_crSpZFaeW8NSkijSbGg
     https://www.youtube.com/channel/UCb1G-EvDpkER6Edq4Cd8ktw/videos
     https://www.youtube.com/channel/UCVM_zJM3SIwpkbp34oK89BQ/videos
+    https://www.youtube.com/channel/UCcaIbsvVEVitU4e4BxtOXpQ/videos
     https://www.youtube.com/channel/UCcaIbsvVEVitU4e4BxtOXpQ/videos
 
     */
@@ -126,6 +128,17 @@ namespace YoutubeSubscriberManager
             "BANGLA GAMING TRICK".ToLower(),
             "Dr.JoshDaRealGamer".ToLower(),
             "ApnaAvi".ToLower(),
+            "kids Diana show 2".ToLower(),
+            "NCshredder 【YT".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -149,7 +162,7 @@ namespace YoutubeSubscriberManager
             "fia sonarean".ToLower(),//possible full between mult
             "Diah 082134778877wa".ToLower(), //4.4/8 split
             "Correteando la Cheve".ToLower(),//4.4/8 split
-            "Damla".ToLower(),
+            "Mihaela Claudia Puscas".ToLower(),//pretty sure short watch. need to confirm
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
