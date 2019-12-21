@@ -162,8 +162,7 @@ namespace YoutubeSubscriberManager
             "fia sonarean".ToLower(),//possible full between mult
             "Diah 082134778877wa".ToLower(), //4.4/8 split
             "Correteando la Cheve".ToLower(),//4.4/8 split
-            "Mihaela Claudia Puscas".ToLower(),//pretty sure short watch. need to confirm
-            "Damla".ToLower(),
+            "Gökhan Berber".ToLower(), //think short watch. Need to confirm
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -219,6 +218,15 @@ namespace YoutubeSubscriberManager
             "Salus".ToLower(),
             "Гильдия Геймеров".ToLower(),
             "F2PlayGames".ToLower(),//5/16
+            "Mihaela Claudia Puscas".ToLower(), //24/32
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
             "Salus".ToLower(),
 
         };
