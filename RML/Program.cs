@@ -38,6 +38,7 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UCVM_zJM3SIwpkbp34oK89BQ/videos
     https://www.youtube.com/channel/UCcaIbsvVEVitU4e4BxtOXpQ/videos
     https://www.youtube.com/channel/UCcaIbsvVEVitU4e4BxtOXpQ/videos
+    https://www.youtube.com/channel/UCXM7C1JQtmUoN6tiZL_S-kg/videos
 
     */
     internal class Program
@@ -163,6 +164,22 @@ namespace YoutubeSubscriberManager
             "Diah 082134778877wa".ToLower(), //4.4/8 split
             "Correteando la Cheve".ToLower(),//4.4/8 split
             "Gökhan Berber".ToLower(), //think short watch. Need to confirm
+            "Billy B".ToLower(), //waiting
+            "Terrill".ToLower(), //waiting
+            "Shivani Devi s".ToLower(), //waiting
+            "Naomi's Filipino Kitchen and a New Life in France".ToLower(),//waiting
+            "GAMER FAV".ToLower(), //waiting
+            "badboy3420".ToLower(), //waiting
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -250,10 +267,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -322,23 +339,51 @@ namespace YoutubeSubscriberManager
             }
 
             var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            foreach (var comment in comments)
+            //foreach (var comment in comments)
+            //{
+            //    if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
+            //    {
+            //        var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
+            //        var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
+            //        if (commenter != null)
+            //        {
+            //            var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
+            //            foreach (var acceptableWatchTime in acceptableWatchTimes)
+            //            {
+            //                if (watchTime.Contains(acceptableWatchTime))
+            //                {
+            //                    commenter.CommentedLately = true;
+            //                    break;
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+
+            //higher views
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
             {
-                if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            var currentElement = 0;
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                if (subscriber != null)
                 {
-                    var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
-                    var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
-                    if (commenter != null)
+                    if (subscriber.AverageViewCount < 75)
                     {
-                        var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
-                        foreach (var acceptableWatchTime in acceptableWatchTimes)
-                        {
-                            if (watchTime.Contains(acceptableWatchTime))
-                            {
-                                commenter.CommentedLately = true;
-                                break;
-                            }
-                        }
+                        RemoveElement(driver, currentElement);
+                    }
+                    else
+                    {
+                        StampElement(driver, subscriberName, currentElement);
+                        currentElement++;
                     }
                 }
             }
@@ -352,7 +397,7 @@ namespace YoutubeSubscriberManager
             }
 
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
-            var currentElement = 0;
+            currentElement = 0;
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
@@ -399,33 +444,7 @@ namespace YoutubeSubscriberManager
                 }
             }
 
-            //higher views
-            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
-            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
-            {
-                ScrollToBottom(driver);
-                Thread.Sleep(3000);
-            }
-
-            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
-            currentElement = 0;
-            foreach (var video in videos)
-            {
-                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
-                if (subscriber != null)
-                {
-                    if (subscriber.AverageViewCount < 50)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement);
-                        currentElement++;
-                    }
-                }
-            }
+            
 
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
@@ -596,7 +615,7 @@ namespace YoutubeSubscriberManager
 
         private static double GetIntegerViews(string views)
         {
-            if (views == "No" || views.Contains("Premiere") || views.Contains("Scheduled"))
+            if (views == "No" || views.Contains("Premiere") || views.Contains("Scheduled") || views.Contains("%"))
                 return 0;
             var integerViews = double.Parse(views.Split(new string[] {"K"}, StringSplitOptions.None)[0].Split(new string[] { "M" }, StringSplitOptions.None)[0]);
             if (views.Contains("K"))
