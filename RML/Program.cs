@@ -99,8 +99,7 @@ namespace YoutubeSubscriberManager
             "的的Vinky".ToLower(),
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
-            "Gökhan Berber".ToLower(),//waiting
-            "Yoga Arief".ToLower(),
+            "Gökhan Berber".ToLower(),//short watch
             "Faith Fridayigbinosun".ToLower(),//waiting full other
             "Coco Chimmy".ToLower(),
             "om ryan".ToLower(),
@@ -131,6 +130,7 @@ namespace YoutubeSubscriberManager
             "ApnaAvi".ToLower(),
             "kids Diana show 2".ToLower(),
             "NCshredder 【YT".ToLower(),
+            "Yoga Arief".ToLower(), //was always red, now cant tell
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -165,16 +165,16 @@ namespace YoutubeSubscriberManager
             "Correteando la Cheve".ToLower(),//4.4/8 split
             "Gökhan Berber".ToLower(), //think short watch. Need to confirm
             "Billy B".ToLower(), //waiting
-            "Terrill".ToLower(), //waiting
-            "Shivani Devi s".ToLower(), //waiting
-            "Naomi's Filipino Kitchen and a New Life in France".ToLower(),//waiting
+            "Terrill".ToLower(), //think she watched full. not sure split naomi
+            "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
+            "Naomi's Filipino Kitchen and a New Life in France".ToLower(),//think she watched full. not sure split terrill
             "GAMER FAV".ToLower(), //waiting
             "badboy3420".ToLower(), //waiting
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "VDM8".ToLower(), //think we watched 6/8 but not sure
+            "FredoriaGaming".ToLower(),//waiting
+            "GeumSung entertainment".ToLower(),//waiting
+            "Jeann Williams My Reality Tv".ToLower(),//waiting
+            "Precocious Turtle".ToLower(), //waiting
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -236,7 +236,7 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),
             "F2PlayGames".ToLower(),//5/16
             "Mihaela Claudia Puscas".ToLower(), //24/32
-            "Salus".ToLower(),
+            "walterarce7".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
