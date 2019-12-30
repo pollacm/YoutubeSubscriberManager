@@ -131,8 +131,8 @@ namespace YoutubeSubscriberManager
             "kids Diana show 2".ToLower(),
             "NCshredder 【YT".ToLower(),
             "Yoga Arief".ToLower(), //was always red, now cant tell
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Jawdan Toys".ToLower(), //cant tell but pretty sure its red
+            "depoze komedi".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -175,8 +175,8 @@ namespace YoutubeSubscriberManager
             "GeumSung entertainment".ToLower(),//waiting
             "Jeann Williams My Reality Tv".ToLower(),//waiting
             "Precocious Turtle".ToLower(), //waiting
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
+            "Sudda production සුද්දා".ToLower(),//split but think its red
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -237,8 +237,8 @@ namespace YoutubeSubscriberManager
             "F2PlayGames".ToLower(),//5/16
             "Mihaela Claudia Puscas".ToLower(), //24/32
             "walterarce7".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "FredoriaGaming".ToLower(),//8/8
+            "Precocious Turtle".ToLower(),//32/32
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
