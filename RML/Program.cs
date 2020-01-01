@@ -133,7 +133,7 @@ namespace YoutubeSubscriberManager
             "Yoga Arief".ToLower(), //was always red, now cant tell
             "Jawdan Toys".ToLower(), //cant tell but pretty sure its red
             "depoze komedi".ToLower(),
-            "Orjane".ToLower(),
+            "JackyDalshim Letsplays".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
