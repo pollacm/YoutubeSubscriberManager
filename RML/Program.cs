@@ -177,8 +177,8 @@ namespace YoutubeSubscriberManager
             "Precocious Turtle".ToLower(), //waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
             "Sudda production සුද්දා".ToLower(),//split but think its red
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "EA TRUL DAK LAK QUE TOI".ToLower(), //split but full I think
+            "THÙY TV".ToLower(),//split but red I think
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
