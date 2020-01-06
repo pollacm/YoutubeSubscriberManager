@@ -174,13 +174,10 @@ namespace YoutubeSubscriberManager
             "FredoriaGaming".ToLower(),//waiting
             "GeumSung entertainment".ToLower(),//waiting
             "Jeann Williams My Reality Tv".ToLower(),//waiting
-            "Precocious Turtle".ToLower(), //waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
             "Sudda production සුද්දා".ToLower(),//split but think its red
             "EA TRUL DAK LAK QUE TOI".ToLower(), //split but full I think
-            "THÙY TV".ToLower(),//split but red I think
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "THÙY TV".ToLower(),//split but red I think            
             "Damla".ToLower(),
 
         };
@@ -239,6 +236,7 @@ namespace YoutubeSubscriberManager
             "walterarce7".ToLower(),
             "FredoriaGaming".ToLower(),//8/8
             "Precocious Turtle".ToLower(),//32/32
+            "Silomroad HollandAsianVibe".ToLower(),//waiting
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
