@@ -179,6 +179,18 @@ namespace YoutubeSubscriberManager
             "Sudda production සුද්දා".ToLower(),//split but think its red
             "EA TRUL DAK LAK QUE TOI".ToLower(), //split but full I think
             "THÙY TV".ToLower(),//split but red I think            
+            "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
+            "Diverse Canal".ToLower(),//possible full; I don't think so though
+            "ShowTimeGaming".ToLower(),//full other waiting
+            "Baczek Stream".ToLower(),//full other waiting
+            "EA Cubing".ToLower(),//full other waiting
+            "RedShadow".ToLower(),//full other waiting
+            "SPECTREBOSS GAMES".ToLower(),//full other waiting
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
 
         };
