@@ -135,7 +135,7 @@ namespace YoutubeSubscriberManager
             "Jawdan Toys".ToLower(), //cant tell but pretty sure its red
             "depoze komedi".ToLower(),
             "JackyDalshim Letsplays".ToLower(),
-            "Orjane".ToLower(),
+            "Ross Roams".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -250,7 +250,7 @@ namespace YoutubeSubscriberManager
             "FredoriaGaming".ToLower(),//8/8
             "Precocious Turtle".ToLower(),//32/32
             "Silomroad HollandAsianVibe".ToLower(),//waiting
-            "Salus".ToLower(),
+            "MercBenz family".ToLower(),//5/9
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
