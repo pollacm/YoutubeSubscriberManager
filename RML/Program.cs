@@ -136,11 +136,11 @@ namespace YoutubeSubscriberManager
             "depoze komedi".ToLower(),
             "JackyDalshim Letsplays".ToLower(),
             "Ross Roams".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "العقاب تي في AL OKKAB TV".ToLower(),
+            "Família da estrada".ToLower(),
+            "MAESTROGHOST".ToLower(),
+            "MoveMekMiPaZz".ToLower(),
+            "Ock gaming".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -168,7 +168,6 @@ namespace YoutubeSubscriberManager
             "Billy B".ToLower(), //waiting
             "Terrill".ToLower(), //think she watched full. not sure split naomi
             "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
-            "Naomi's Filipino Kitchen and a New Life in France".ToLower(),//think she watched full. not sure split terrill
             "GAMER FAV".ToLower(), //waiting
             "badboy3420".ToLower(), //waiting
             "VDM8".ToLower(), //think we watched 6/8 but not sure
@@ -186,10 +185,25 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "SPECTREBOSS GAMES".ToLower(),//full other waiting
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Slendecs".ToLower(),//full other waiting
+            "Crazy Gamer".ToLower(),//full other waiting
+            "Cooking with Lisa".ToLower(),//full other waiting
+            "The Twins Day".ToLower(),//full other waiting
+            "다락귀신[ V ]".ToLower(),//full other waiting
+            "xspysquirrel Gaming".ToLower(),//full other waiting
+            "Unplugged Gaming".ToLower(),//full other waiting
+            "Daisuke Un Visual Gamer UwU".ToLower(),//full other waiting
+            "Game Zone World".ToLower(),//full other waiting
+            "BloodyMany".ToLower(),//full other waiting
+            "gamingwithaji".ToLower(),//full other waiting
+            "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
+            "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -251,6 +265,17 @@ namespace YoutubeSubscriberManager
             "Precocious Turtle".ToLower(),//32/32
             "Silomroad HollandAsianVibe".ToLower(),//waiting
             "MercBenz family".ToLower(),//5/9
+            "Naomi's Filipino Kitchen and a New Life in France".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
+            "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
