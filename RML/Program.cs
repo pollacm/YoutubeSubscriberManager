@@ -141,6 +141,18 @@ namespace YoutubeSubscriberManager
             "MAESTROGHOST".ToLower(),
             "MoveMekMiPaZz".ToLower(),
             "Ock gaming".ToLower(),
+            "Kevin Breemans".ToLower(),
+            "TEKJA GAMEPLAYS".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -198,8 +210,8 @@ namespace YoutubeSubscriberManager
             "gamingwithaji".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
             "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
+            "marvelous sweet411".ToLower(),//full other waiting
+            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
