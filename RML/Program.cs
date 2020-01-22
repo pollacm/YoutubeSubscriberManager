@@ -143,8 +143,8 @@ namespace YoutubeSubscriberManager
             "Ock gaming".ToLower(),
             "Kevin Breemans".ToLower(),
             "TEKJA GAMEPLAYS".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Kitschiko".ToLower(),
+            "97Jonnyboy".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -216,6 +216,25 @@ namespace YoutubeSubscriberManager
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "Damla".ToLower(),//full other waiting
+            "ENKI'S FUN TECHNO STUFF".ToLower(),//2 watched 15 minutes (out of 10)
+            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)
+            "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
+            "Tt TV OKE".ToLower(),//think he is full
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
 
