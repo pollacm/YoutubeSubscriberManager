@@ -134,7 +134,6 @@ namespace YoutubeSubscriberManager
             "Yoga Arief".ToLower(), //was always red, now cant tell
             "Jawdan Toys".ToLower(), //cant tell but pretty sure its red
             "depoze komedi".ToLower(),
-            "JackyDalshim Letsplays".ToLower(),
             "Ross Roams".ToLower(),
             "العقاب تي في AL OKKAB TV".ToLower(),
             "Família da estrada".ToLower(),
@@ -145,9 +144,9 @@ namespace YoutubeSubscriberManager
             "TEKJA GAMEPLAYS".ToLower(),
             "Kitschiko".ToLower(),
             "97Jonnyboy".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "GomsoonTV 곰순TV".ToLower(),
+            "依然对你说".ToLower(),
+            "Zhiri Abdo".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -182,35 +181,21 @@ namespace YoutubeSubscriberManager
             "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
             "GAMER FAV".ToLower(), //waiting
             "badboy3420".ToLower(), //waiting
-            "VDM8".ToLower(), //think we watched 6/8 but not sure
-            "FredoriaGaming".ToLower(),//waiting
             "GeumSung entertainment".ToLower(),//waiting
-            "Jeann Williams My Reality Tv".ToLower(),//waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
             "Sudda production සුද්දා".ToLower(),//split but think its red
             "EA TRUL DAK LAK QUE TOI".ToLower(), //split but full I think
             "THÙY TV".ToLower(),//split but red I think            
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
-            "ShowTimeGaming".ToLower(),//full other waiting
-            "Baczek Stream".ToLower(),//full other waiting
+            "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
-            "SPECTREBOSS GAMES".ToLower(),//full other waiting
-            "Slendecs".ToLower(),//full other waiting
             "Crazy Gamer".ToLower(),//full other waiting
             "Cooking with Lisa".ToLower(),//full other waiting
-            "The Twins Day".ToLower(),//full other waiting
             "다락귀신[ V ]".ToLower(),//full other waiting
-            "xspysquirrel Gaming".ToLower(),//full other waiting
             "Unplugged Gaming".ToLower(),//full other waiting
-            "Daisuke Un Visual Gamer UwU".ToLower(),//full other waiting
-            "Game Zone World".ToLower(),//full other waiting
-            "BloodyMany".ToLower(),//full other waiting
-            "gamingwithaji".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
-            "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
-            "marvelous sweet411".ToLower(),//full other waiting
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
@@ -226,7 +211,7 @@ namespace YoutubeSubscriberManager
             "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Tt TV OKE".ToLower(),//think he is full
-            "Damla".ToLower(),
+            "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -297,7 +282,22 @@ namespace YoutubeSubscriberManager
             "Silomroad HollandAsianVibe".ToLower(),//waiting
             "MercBenz family".ToLower(),//5/9
             "Naomi's Filipino Kitchen and a New Life in France".ToLower(),
-            "Salus".ToLower(),
+            "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
+            "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
+            "marvelous sweet411".ToLower(),//full other waiting
+            "Daisuke Un Visual Gamer UwU".ToLower(),//full other waiting
+            "Game Zone World".ToLower(),//full other waiting
+            "BloodyMany".ToLower(),//full other waiting
+            "gamingwithaji".ToLower(),//full other waiting
+            "The Twins Day".ToLower(),//full other waiting
+            "xspysquirrel Gaming".ToLower(),//full other waiting
+            "VDM8".ToLower(), //think we watched 6/8 but not sure
+            "FredoriaGaming".ToLower(),//waiting
+            "Jeann Williams My Reality Tv".ToLower(),//waiting
+            "ShowTimeGaming".ToLower(),//full other waiting
+            "Baczek Stream".ToLower(),//full other waiting
+            "SPECTREBOSS GAMES".ToLower(),//full other waiting
+            "Slendecs".ToLower(),//full other waiting
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
