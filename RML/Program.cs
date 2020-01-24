@@ -10,6 +10,49 @@ using YoutubeSubscriberManager.Subscriber;
 
 namespace YoutubeSubscriberManager
 {
+    //delete list - Dec 2019 - Jan 29
+    /*
+        Khadija Productions Gameplay,
+        Project Gamer Corp,
+        Total Mage,
+        DMB Does Gaming,
+        Games And Fun,
+        嘎嘎巫啦啦,
+        Aras'ın Dünyası,
+        Kidz Coloring Joy,
+        Kids Diana Play,
+        GameHunter,
+        • HİLECİ GENÇ •,
+        NGAIZ TV,
+        Billy B,
+        Clayman G Info,
+        Prenses Melisam,
+        J Art,
+        sha niz channel,
+        Gamer Musabbir,
+        Random Generation Gaming,
+        Odhora Media,
+        Mahira Urdu Story,
+        Thor Reavenger,
+        MEHRİBAN İBRAHİMLİ,
+        Recipes By AV,
+        Jiban Teknikal,
+        GeumSung entertainment 가수금성TV,
+        rai rai bvlog,
+        Arlene Arcebal CHANNEL,
+
+        --VB Fitness
+        --CoryJT,
+        --Lunartic Wolf,
+        --kids Diana show 2,
+        --Kids Damla Show,
+        --Retro Toys and Cartoons,
+        --Miss Gam Survives,
+        --Brods Gaming,
+        --NishaPandaBEAST,
+        --boywiththehat,
+        --Gaming University Conference,
+     */
     /*
      --https://www.youtube.com/channel/UCsmcy2P_3tvuCX53do_w6uw //too many views
      --https://www.youtube.com/channel/UCtdowDqHNtzfJvN7Vw33dHw //too many views
@@ -147,10 +190,10 @@ namespace YoutubeSubscriberManager
             "GomsoonTV 곰순TV".ToLower(),
             "依然对你说".ToLower(),
             "Zhiri Abdo".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Viajero Andres".ToLower(),
+            "톡스-마을ZOOM".ToLower(),
+            "CẢNH ĐẸP QUÊ TÔI MIỀN TÂY".ToLower(),
+            "ちづ美チャンネル".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -212,7 +255,7 @@ namespace YoutubeSubscriberManager
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Tt TV OKE".ToLower(),//think he is full
             "Rolling Pony".ToLower(),//2 views across 11 minutes
-            "Damla".ToLower(),
+            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -406,26 +449,56 @@ namespace YoutubeSubscriberManager
             }
 
             var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            //foreach (var comment in comments)
-            //{
-            //    if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
-            //    {
-            //        var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
-            //        var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
-            //        if (commenter != null)
-            //        {
-            //            var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
-            //            foreach (var acceptableWatchTime in acceptableWatchTimes)
-            //            {
-            //                if (watchTime.Contains(acceptableWatchTime))
-            //                {
-            //                    commenter.CommentedLately = true;
-            //                    break;
-            //                }
-            //            }
-            //        }
-            //    }
-            //}
+            foreach (var comment in comments)
+            {
+                if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
+                {
+                    var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
+                    var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
+                    if (commenter != null)
+                    {
+                        var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
+                        foreach (var acceptableWatchTime in acceptableWatchTimes)
+                        {
+                            if (watchTime.Contains(acceptableWatchTime))
+                            {
+                                commenter.CommentedLately = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            var commentedLately = string.Join(",", subscribers.Where(l => !l.CommentedLately).Select(l => l.Name));
+
+            //active
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            var currentElement = 0;
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                if (subscriber != null)
+                {
+                    if (subscriber.CommentedLately)
+                    {
+                        RemoveElement(driver, currentElement);
+                    }
+                    else
+                    {
+                        StampElement(driver, subscriberName, currentElement);
+                        currentElement++;
+                    }
+                }
+            }
 
             //higher views
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
@@ -436,7 +509,7 @@ namespace YoutubeSubscriberManager
             }
 
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
-            var currentElement = 0;
+            currentElement = 0;
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
