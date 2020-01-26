@@ -63,6 +63,9 @@
     <Compile Include="Slack\SlackClientTest.cs" />
     <Compile Include="Subscriber\SubscriberInfo.cs" />
     <Compile Include="Subscriber\SubscriberNameRepo.cs" />
+    <Compile Include="TimeHolder.cs" />
+    <Compile Include="TimeWatched.cs" />
+    <Compile Include="Videos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
