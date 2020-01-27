@@ -195,7 +195,7 @@ namespace YoutubeSubscriberManager
             "톡스-마을ZOOM".ToLower(),
             "CẢNH ĐẸP QUÊ TÔI MIỀN TÂY".ToLower(),
             "ちづ美チャンネル".ToLower(),
-            "Orjane".ToLower(),
+            "Shobana kitchen".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -223,7 +223,6 @@ namespace YoutubeSubscriberManager
             "Billy B".ToLower(), //waiting
             "Terrill".ToLower(), //think she watched full. not sure split naomi
             "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
-            "GAMER FAV".ToLower(), //waiting
             "badboy3420".ToLower(), //waiting
             "GeumSung entertainment".ToLower(),//waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
@@ -241,12 +240,12 @@ namespace YoutubeSubscriberManager
             "Unplugged Gaming".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
+            "MultiVerse Studio".ToLower(),//full other waiting
+            "Rafał Szymski".ToLower(),//full other waiting
+            "SurxanGames".ToLower(),//full other waiting
+            "Hykli".ToLower(),//full other waiting
+            "شمس الدين DZ".ToLower(),//full other waiting
+            "Giant Saint".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
@@ -257,8 +256,8 @@ namespace YoutubeSubscriberManager
             "Tt TV OKE".ToLower(),//think he is full
             "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Ades - Anak Desa Channel".ToLower(),//pretty sure full
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "House Zarn Gaming".ToLower(), //Think full but need to validate
+            "Kashan Hussain".ToLower(),//Think full but need to validate
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -343,7 +342,8 @@ namespace YoutubeSubscriberManager
             "SPECTREBOSS GAMES".ToLower(),//full other waiting
             "Slendecs".ToLower(),//full other waiting
             "ปันยาอ่อน channel".ToLower(),
-            "Salus".ToLower(),
+            "GAMER FAV".ToLower(),
+            "Cristi Nicola".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -413,10 +413,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -453,7 +453,7 @@ namespace YoutubeSubscriberManager
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
 
-                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12) : subscriber.Name;
+                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12).ToLower() : subscriber.Name.ToLower();
                     if (whitelist.Contains(partialName))
                     {
                         subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
@@ -487,7 +487,7 @@ namespace YoutubeSubscriberManager
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
 
-                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12) : subscriber.Name;
+                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12).ToLower() : subscriber.Name.ToLower();
                     if (whitelist.Contains(partialName))
                     {
                         subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
@@ -560,7 +560,7 @@ namespace YoutubeSubscriberManager
             var currentElement = 0;
             var subscriberNameRepo = new SubscriberNameRepo();
             var viewedSubscribers = new List<Subscriber.Subscriber>();
-            var subscriberNameString = subscriberNameRepo.GetSubscribers();
+            var subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
@@ -568,8 +568,8 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName : subscriberName.Substring(0, 12);
-                    if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                    if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
                     {
                         RemoveElement(driver, currentElement);
                     }
@@ -597,7 +597,7 @@ namespace YoutubeSubscriberManager
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
             viewedSubscribers = new List<Subscriber.Subscriber>();
-            subscriberNameString = subscriberNameRepo.GetSubscribers();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
@@ -605,7 +605,7 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName : subscriberName.Substring(0, 12);
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
                     if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                     {
                         RemoveElement(driver, currentElement);
@@ -635,7 +635,7 @@ namespace YoutubeSubscriberManager
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
             viewedSubscribers = new List<Subscriber.Subscriber>();
-            subscriberNameString = subscriberNameRepo.GetSubscribers();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
@@ -643,7 +643,7 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName : subscriberName.Substring(0, 12);
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
                     if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower())
                         || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                     {
@@ -674,7 +674,7 @@ namespace YoutubeSubscriberManager
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
             viewedSubscribers = new List<Subscriber.Subscriber>();
-            subscriberNameString = subscriberNameRepo.GetSubscribers();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
@@ -682,7 +682,7 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName : subscriberName.Substring(0, 12);
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
                     if (!blacklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                     {
                         RemoveElement(driver, currentElement);
