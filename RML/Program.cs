@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading;
 using OpenQA.Selenium;
@@ -341,7 +342,7 @@ namespace YoutubeSubscriberManager
             "Baczek Stream".ToLower(),//full other waiting
             "SPECTREBOSS GAMES".ToLower(),//full other waiting
             "Slendecs".ToLower(),//full other waiting
-            "Salus".ToLower(),
+            "ปันยาอ่อน channel".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -358,7 +359,7 @@ namespace YoutubeSubscriberManager
 
         };
 
-        List<TimeHolder> TimeHolders = new List<TimeHolder>
+        static List<TimeHolder> TimeHolders = new List<TimeHolder>
         {
             new TimeHolder{TimeElement = 0, WatchMinutes = 0, ViewCount = 0},
             new TimeHolder{TimeElement = 1, WatchMinutes = 0, ViewCount = 0},
@@ -403,6 +404,12 @@ namespace YoutubeSubscriberManager
                 "2 weeks",
                 "3 weeks"
             };
+
+            var acceptableWatchTimesForCalculation = new List<string>
+            {
+                "minutes",
+                "hours"
+            };
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
@@ -445,7 +452,25 @@ namespace YoutubeSubscriberManager
                         subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
-                    
+
+                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12) : subscriber.Name;
+                    if (whitelist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
+                    }
+                    else if (yellowlist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Yellow;
+                    }
+                    else if (blacklist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Black;
+                    }
+                    else
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Other;
+                    }
+
                     subscribers.Add(subscriber);
                 }
                 else
@@ -478,42 +503,25 @@ namespace YoutubeSubscriberManager
             }
 
             var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            foreach (var comment in comments)
+            var timeCalculator = new TimeCalculator(TimeHolders);
+            ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+
+            driver.NavigateToUrl("https://studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/spam?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
+            Thread.Sleep(3000);
+            ScrollToBottom(driver);
+            Thread.Sleep(3000);
+
+            comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
+            ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+            
+
+            foreach (var watcher in watchers)
             {
-                if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
-                {
-                    var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
-                    var watcher = new Watchers();
-                    watcher.Name = commenterName;
-                    //watcher.Video
-                    //watcher.Comment
-                    //watcher.HoursBack
-                    //watcher.TimeHolder
+                //watcher.GuessedWatchTime
+                //watcher.AverageWatchTime
+                //watcher.MaxWatchTime
 
-                    //watcher.GuessedWatchTime
-                    //watcher.AverageWatchTime
-                    //watcher.MaxWatchTime
-
-
-
-
-
-
-
-                    var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
-                    if (commenter != null)
-                    {
-                        var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
-                        foreach (var acceptableWatchTime in acceptableWatchTimes)
-                        {
-                            if (watchTime.Contains(acceptableWatchTime))
-                            {
-                                commenter.CommentedLately = true;
-                                break;
-                            }
-                        }
-                    }
-                }
+                timeCalculator.CalculateTimeInfo(watcher, watchers);
             }
 
             //var commentedLately = string.Join(",", subscribers.Where(l => !l.CommentedLately).Select(l => l.Name));
@@ -740,7 +748,7 @@ namespace YoutubeSubscriberManager
                 }
             }
 
-            //var subscriberRepo = new SubscriberNameRepo();
+            var subscriberRepo = new SubscriberNameRepo();
             //subscriberRepo.RefreshSubscribers(subscribers);
 
             //current watch list
@@ -991,6 +999,56 @@ namespace YoutubeSubscriberManager
             }
 
             var x = 1;
+        }
+
+        private static void ProcessComments(ReadOnlyCollection<IWebElement> comments, List<Subscriber.Subscriber> subscribers, List<string> acceptableWatchTimesForCalculation, List<Watchers> watchers, TimeCalculator timeCalculator)
+        {
+            foreach (var comment in comments)
+            {
+                if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
+                {
+                    var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
+                    var watcher = new Watchers();
+                    watcher.Subscriber = subscribers.SingleOrDefault(s => s.Name == commenterName);
+
+                    var videoName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//div//ytcp-comment-video-thumbnail//a//yt-formatted-string")).Text;
+                    var shrunkVideoName = videoName.Length > 12 ? videoName.Substring(0, 12) : videoName;
+
+                    watcher.Video = Videos.MyVideos.Single(v => v.Name.Contains(shrunkVideoName));
+                    watcher.Comment = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//div//div[@id='content']//ytcp-comment-expander//div//yt-formatted-string")).Text;
+
+                    var watchTimeAmount = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
+                    if (watchTimeAmount.Contains("days") || watchTimeAmount.Contains("weeks"))
+                    {
+                        break;
+                    }
+
+                    foreach (var acceptableWatchTime in acceptableWatchTimesForCalculation)
+                    {
+                        if (watchTimeAmount.Contains(acceptableWatchTime))
+                        {
+                            watcher.TimeHolder = timeCalculator.GetHoursBackFromString(watchTimeAmount);
+                            watchers.Add(watcher);
+
+                            break;
+                        }
+                    }
+
+                    //var commenter = subscribers.SingleOrDefault(s => s.Name == commenterName);
+                    //if (commenter != null)
+                    //{
+                    //    var watchTime = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
+                    //    foreach (var acceptableWatchTime in acceptableWatchTimes)
+                    //    {
+                    //        if (watchTime.Contains(acceptableWatchTime))
+                    //        {
+                    //            commenter.CommentedLately = true;
+                    //            break;
+                    //        }
+                    //    }
+                    //}
+                }
+            }
         }
 
         private static void RemoveElement(ChromeDriver driver, int index)

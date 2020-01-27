@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Security.AccessControl;
+using System.Security.Policy;
 
 namespace YoutubeSubscriberManager.Subscriber
 {
@@ -19,5 +20,13 @@ namespace YoutubeSubscriberManager.Subscriber
         public int Videos { get; set; }
         public double AverageViewCount { get; set; }
         public List<double> ViewCounts { get; set; }
+        public ListTypeEnum ListType { get; set; }
+        public enum ListTypeEnum
+        {
+            White,
+            Black,
+            Yellow,
+            Other
+        }
     }
 }

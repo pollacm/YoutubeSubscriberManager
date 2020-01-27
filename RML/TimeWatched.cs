@@ -9,8 +9,8 @@ namespace YoutubeSubscriberManager
 {
     public class Watchers
     {
-        public string Name { get; set; }
-        public string Video { get; set; }
+        public Subscriber.Subscriber Subscriber { get; set; }
+        public Video Video { get; set; }
         public string Comment { get; set; }
         public int HoursBack { get; set; }
         public decimal GuessedWatchTime { get; set; }
