@@ -486,6 +486,24 @@ namespace YoutubeSubscriberManager
                         subscriber.ViewCounts.Add(GetIntegerViews(currentViewCount));
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
+
+                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12) : subscriber.Name;
+                    if (whitelist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
+                    }
+                    else if (yellowlist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Yellow;
+                    }
+                    else if (blacklist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Black;
+                    }
+                    else
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Other;
+                    }
                 }
             }
 
@@ -504,7 +522,7 @@ namespace YoutubeSubscriberManager
 
             var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
             var timeCalculator = new TimeCalculator(TimeHolders);
-            ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+            //ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
 
             driver.NavigateToUrl("https://studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/spam?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
             Thread.Sleep(3000);
@@ -512,17 +530,17 @@ namespace YoutubeSubscriberManager
             Thread.Sleep(3000);
 
             comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+            //ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
             
 
-            foreach (var watcher in watchers)
-            {
-                //watcher.GuessedWatchTime
-                //watcher.AverageWatchTime
-                //watcher.MaxWatchTime
+            //foreach (var watcher in watchers)
+            //{
+            //    //watcher.GuessedWatchTime
+            //    //watcher.AverageWatchTime
+            //    //watcher.MaxWatchTime
 
-                timeCalculator.CalculateTimeInfo(watcher, watchers);
-            }
+            //    timeCalculator.CalculateTimeInfo(watcher, watchers);
+            //}
 
             //var commentedLately = string.Join(",", subscribers.Where(l => !l.CommentedLately).Select(l => l.Name));
 
