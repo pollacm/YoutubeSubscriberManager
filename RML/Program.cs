@@ -277,7 +277,6 @@ namespace YoutubeSubscriberManager
             "شمس الدين DZ".ToLower(),//full other waiting
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
-            "Kashan Hussain".ToLower(),//Think full but need to validate
         };
 
         //"Game Boys".ToLower(), //8/32
@@ -360,6 +359,7 @@ namespace YoutubeSubscriberManager
             "ImEdwin_".ToLower(), //pretty sure full
             "英國短毛貓".ToLower(),
             "G V Balajee".ToLower(),
+            "Kashan Hussain".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
