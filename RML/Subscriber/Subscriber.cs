@@ -26,6 +26,7 @@ namespace YoutubeSubscriberManager.Subscriber
             White,
             Black,
             Yellow,
+            Orange,
             Other
         }
     }

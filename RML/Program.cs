@@ -196,6 +196,14 @@ namespace YoutubeSubscriberManager
             "CẢNH ĐẸP QUÊ TÔI MIỀN TÂY".ToLower(),
             "ちづ美チャンネル".ToLower(),
             "Shobana kitchen".ToLower(),
+            "Matamu menikmati".ToLower(),
+            "Canal Amor a Poesia Oficial".ToLower(),
+            "ESSEN TV".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -204,7 +212,6 @@ namespace YoutubeSubscriberManager
         private static List<string> yellowlist = new List<string>
         {
             "Damla Abulfazli".ToLower(),
-            "Abdul's Media".ToLower(),//2/2
             "viajes lauchas".ToLower(),
             "UnspecGamer".ToLower(),
             "Big Keys".ToLower(),
@@ -214,15 +221,12 @@ namespace YoutubeSubscriberManager
             "NnT Daily Game".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
-            "Ecen's Channel".ToLower(),//8/8 between 2
             "Thor Reavenger".ToLower(),//8/8 between 2
             "fia sonarean".ToLower(),//possible full between mult
             "Diah 082134778877wa".ToLower(), //4.4/8 split
             "Correteando la Cheve".ToLower(),//4.4/8 split
             "Gökhan Berber".ToLower(), //think short watch. Need to confirm
             "Billy B".ToLower(), //waiting
-            "Terrill".ToLower(), //think she watched full. not sure split naomi
-            "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
             "badboy3420".ToLower(), //waiting
             "GeumSung entertainment".ToLower(),//waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
@@ -232,32 +236,12 @@ namespace YoutubeSubscriberManager
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
             "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
-            "EA Cubing".ToLower(),//full other waiting
-            "RedShadow".ToLower(),//full other waiting
-            "Crazy Gamer".ToLower(),//full other waiting
-            "Cooking with Lisa".ToLower(),//full other waiting
-            "다락귀신[ V ]".ToLower(),//full other waiting
-            "Unplugged Gaming".ToLower(),//full other waiting
-            "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
-            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
-            "MultiVerse Studio".ToLower(),//full other waiting
-            "Rafał Szymski".ToLower(),//full other waiting
-            "SurxanGames".ToLower(),//full other waiting
-            "Hykli".ToLower(),//full other waiting
-            "شمس الدين DZ".ToLower(),//full other waiting
-            "Giant Saint".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
-            "ENKI'S FUN TECHNO STUFF".ToLower(),//2 watched 15 minutes (out of 10)
-            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
-            "Tt TV OKE".ToLower(),//think he is full
             "Rolling Pony".ToLower(),//2 views across 11 minutes
-            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
-            "House Zarn Gaming".ToLower(), //Think full but need to validate
-            "Kashan Hussain".ToLower(),//Think full but need to validate
             "Jafmasterflash 7".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -266,6 +250,34 @@ namespace YoutubeSubscriberManager
             "Damla".ToLower(),
             "Damla".ToLower(),
 
+        };
+
+        //I think full
+        static List<string> orangelist = new List<string>
+        {
+            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
+            "Tt TV OKE".ToLower(),//think he is full
+            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)
+            "다락귀신[ V ]".ToLower(),//full other waiting
+            "Unplugged Gaming".ToLower(),//full other waiting
+            "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
+            "MultiVerse Studio".ToLower(),//full other waiting
+            "Rafał Szymski".ToLower(),//full other waiting
+            "Hykli".ToLower(),//full other waiting
+            "EA Cubing".ToLower(),//full other waiting
+            "RedShadow".ToLower(),//full other waiting
+            "Crazy Gamer".ToLower(),//full other waiting
+            "Cooking with Lisa".ToLower(),//full other waiting
+            "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
+            "Abdul's Media".ToLower(),//2/2
+            "Ecen's Channel".ToLower(),//8/8 between 2
+            "Terrill".ToLower(), //think she watched full. not sure split naomi
+            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
+            "SurxanGames".ToLower(),//full other waiting
+            "شمس الدين DZ".ToLower(),//full other waiting
+            "Giant Saint".ToLower(),//full other waiting
+            "House Zarn Gaming".ToLower(), //Think full but need to validate
+            "Kashan Hussain".ToLower(),//Think full but need to validate
         };
 
         //"Game Boys".ToLower(), //8/32
@@ -346,8 +358,8 @@ namespace YoutubeSubscriberManager
             "Cristi Nicola".ToLower(),
             "Blue British shorthair cat".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "英國短毛貓".ToLower(),
+            "G V Balajee".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -458,6 +470,10 @@ namespace YoutubeSubscriberManager
                     {
                         subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
                     }
+                    if (orangelist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Orange;
+                    }
                     else if (yellowlist.Contains(partialName))
                     {
                         subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Yellow;
@@ -491,6 +507,10 @@ namespace YoutubeSubscriberManager
                     if (whitelist.Contains(partialName))
                     {
                         subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
+                    }
+                    if (orangelist.Contains(partialName))
+                    {
+                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Orange;
                     }
                     else if (yellowlist.Contains(partialName))
                     {
@@ -585,6 +605,48 @@ namespace YoutubeSubscriberManager
             }
             subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
 
+
+
+            //orange list single vid
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            currentElement = 0;
+            subscriberNameRepo = new SubscriberNameRepo();
+            viewedSubscribers = new List<Subscriber.Subscriber>();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
+
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                if (subscriber != null)
+                {
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                    if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                    {
+                        RemoveElement(driver, currentElement);
+                    }
+                    else
+                    {
+                        StampElement(driver, subscriberName, currentElement);
+                        viewedSubscribers.Add(subscriber);
+                        subscriberNameString += $",{subscriberName}";
+
+                        currentElement++;
+                    }
+                }
+            }
+            subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
+
+
+
+
             //yellow list single vid
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
@@ -644,7 +706,7 @@ namespace YoutubeSubscriberManager
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower())
+                    if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower()) || orangelist.Contains(subscriberName.ToLower())
                         || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                     {
                         RemoveElement(driver, currentElement);
@@ -792,7 +854,7 @@ namespace YoutubeSubscriberManager
                 }
             }
 
-            //white/yellow list/over 50 views
+            //white/orange list/over 50 views
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
             {
@@ -808,7 +870,7 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    if ((!whitelist.Contains(subscriberName.ToLower()) && !yellowlist.Contains(subscriberName.ToLower())) || subscriber.AverageViewCount < 50)
+                    if ((!whitelist.Contains(subscriberName.ToLower()) && !orangelist.Contains(subscriberName.ToLower())) || subscriber.AverageViewCount < 50)
                     {
                         RemoveElement(driver, currentElement);
                     }
@@ -820,7 +882,7 @@ namespace YoutubeSubscriberManager
                 }
             }
 
-            //white/yellow list
+            //white/orange list
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
             {
@@ -836,7 +898,7 @@ namespace YoutubeSubscriberManager
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 if (subscriber != null)
                 {
-                    if (!whitelist.Contains(subscriberName.ToLower()) && !yellowlist.Contains(subscriberName.ToLower()))
+                    if (!whitelist.Contains(subscriberName.ToLower()) && !orangelist.Contains(subscriberName.ToLower()))
                     {
                         RemoveElement(driver, currentElement);
                     }
@@ -1083,6 +1145,8 @@ namespace YoutubeSubscriberManager
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid green\";");
+            if (whitelist.Contains(subscriberName.ToLower()))
+                jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid orange\";");
             if (yellowlist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid yellow\";");
         }
