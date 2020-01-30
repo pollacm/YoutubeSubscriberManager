@@ -198,7 +198,17 @@ namespace YoutubeSubscriberManager
             "Shobana kitchen".ToLower(),
             "Matamu menikmati".ToLower(),
             "Canal Amor a Poesia Oficial".ToLower(),
+            "Rafał Szymski".ToLower(),//lied on full watch. .39/12
             "ESSEN TV".ToLower(),
+            "DS. Kim".ToLower(),
+            "Sanchez YT".ToLower(),
+            "BOING".ToLower(),
+            "LoveSurfBunny".ToLower(),
+            "choub khem".ToLower(),
+            "Thomas Scott".ToLower(),
+            "Lorna Harpham".ToLower(),
+            "Princess Chenny".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -236,14 +246,14 @@ namespace YoutubeSubscriberManager
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
             "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
-            "Damla".ToLower(),//full other waiting
+            "KVZoneHD".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Jafmasterflash 7".ToLower(),
-            "Damla".ToLower(),
+            "VB Fitness".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -272,11 +282,29 @@ namespace YoutubeSubscriberManager
             "Abdul's Media".ToLower(),//2/2
             "Ecen's Channel".ToLower(),//8/8 between 2
             "Terrill".ToLower(), //think she watched full. not sure split naomi
-            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),//pretty sure full
+            
             "SurxanGames".ToLower(),//full other waiting
             "شمس الدين DZ".ToLower(),//full other waiting
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
+            "Surmila Rawat Uttarakhandi".ToLower(),//4 views 19 minutes
+            "Indian Youtuber Gurpreet".ToLower(),//4 views 19 minutes
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+        };
+
+        //2 -5 minute watches
+        private static List<string> pinklist = new List<string>
+        {
+            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(), //2.4/11.5
         };
 
         //"Game Boys".ToLower(), //8/32
@@ -291,6 +319,7 @@ namespace YoutubeSubscriberManager
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
+            "games KNRTdrinkz".ToLower(),
             "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
@@ -360,8 +389,8 @@ namespace YoutubeSubscriberManager
             "英國短毛貓".ToLower(),
             "G V Balajee".ToLower(),
             "Kashan Hussain".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "Wonder Videos".ToLower(),
+            "Bernald Tibia".ToLower(),//2.8/2.8
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -373,36 +402,36 @@ namespace YoutubeSubscriberManager
 
         static List<TimeHolder> TimeHolders = new List<TimeHolder>
         {
-            new TimeHolder{TimeElement = 0, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 1, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 2, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 3, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 4, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 5, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 6, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 7, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 8, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 9, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 10, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 11, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 12, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 13, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 14, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 15, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 16, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 17, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 18, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 19, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 20, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 21, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 22, WatchMinutes = 0, ViewCount = 0},
-            new TimeHolder{TimeElement = 23, WatchMinutes = 0, ViewCount = 0},
+            new TimeHolder{TimeElement = 0, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 1, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 2, WatchMinutes = 2.83m, ViewCount = 1},
+            new TimeHolder{TimeElement = 3, WatchMinutes = 0.12m, ViewCount = 1},
+            new TimeHolder{TimeElement = 4, WatchMinutes = .91m, ViewCount = 2},
+            new TimeHolder{TimeElement = 5, WatchMinutes = 10.78m, ViewCount = 3},
+            new TimeHolder{TimeElement = 6, WatchMinutes = 1.02m, ViewCount = 2},
+            new TimeHolder{TimeElement = 7, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 8, WatchMinutes = .68m, ViewCount = 2},
+            new TimeHolder{TimeElement = 9, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 10, WatchMinutes = 0.04m, ViewCount = 1},
+            new TimeHolder{TimeElement = 11, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 12, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 13, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 14, WatchMinutes = 1.48m, ViewCount = 3},
+            new TimeHolder{TimeElement = 15, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 16, WatchMinutes = 33.79m, ViewCount = 2},
+            new TimeHolder{TimeElement = 17, WatchMinutes = 10.28m, ViewCount = 2},
+            new TimeHolder{TimeElement = 18, WatchMinutes = 23.02m, ViewCount = 2},
+            new TimeHolder{TimeElement = 19, WatchMinutes = 2.27m, ViewCount = 1},
+            new TimeHolder{TimeElement = 20, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 21, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 22, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 23, WatchMinutes = 0m, ViewCount = 0},
         };
         private static void Main(string[] args)
         {
 
             var appStartTime = DateTime.Now.Date;
-            var watchers = new List<Watchers>();
+            var watchers = new List<Watcher>();
 
             var acceptableWatchTimes = new List<string>
             {
@@ -419,22 +448,27 @@ namespace YoutubeSubscriberManager
 
             var acceptableWatchTimesForCalculation = new List<string>
             {
+                "minute",
                 "minutes",
+                "hour",
                 "hours"
             };
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
 
             var subscribers = new List<Subscriber.Subscriber>();
             ChromeDriver driver = new ChromeDriver(options);
+            
+            ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
+
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             Thread.Sleep(3000);
 
@@ -465,28 +499,7 @@ namespace YoutubeSubscriberManager
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
 
-                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12).ToLower() : subscriber.Name.ToLower();
-                    if (whitelist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
-                    }
-                    if (orangelist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Orange;
-                    }
-                    else if (yellowlist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Yellow;
-                    }
-                    else if (blacklist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Black;
-                    }
-                    else
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Other;
-                    }
-
+                    subscriber.ListType = GetSubscriberType(subscriber.Name);
                     subscribers.Add(subscriber);
                 }
                 else
@@ -503,64 +516,9 @@ namespace YoutubeSubscriberManager
                         subscriber.AverageViewCount = subscriber.ViewCounts.Sum(Convert.ToInt32) == 0 ? 0 : subscriber.ViewCounts.Sum(Convert.ToInt32) / subscriber.Videos;
                     }
 
-                    var partialName = subscriber.Name.Length > 12 ? subscriber.Name.Substring(0, 12).ToLower() : subscriber.Name.ToLower();
-                    if (whitelist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.White;
-                    }
-                    if (orangelist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Orange;
-                    }
-                    else if (yellowlist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Yellow;
-                    }
-                    else if (blacklist.Contains(partialName))
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Black;
-                    }
-                    else
-                    {
-                        subscriber.ListType = Subscriber.Subscriber.ListTypeEnum.Other;
-                    }
+                    subscriber.ListType = GetSubscriberType(subscriber.Name);
                 }
             }
-
-            driver.NavigateToUrl("https:/studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/inbox?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
-            SelectElement selectBox = new SelectElement(driver.FindElementByXPath("//ytcp-comments-filter[@id='filter-bar']//select[@class='tb-comment-filter-studio-select-auto-load tb-comment-filter-studio-select']"));
-            selectBox.SelectByText("100 results");
-            var button = driver.FindElementByXPath("//ytcp-comments-filter[@id='filter-bar']//button[@class='tb-btn tb-btn-grey tb-comment-filter-studio-go'][contains(text(),'Go')]");
-            button.Click();
-            Thread.Sleep(10000);
-
-            for (int i = 0; i < rowsToIncrementComments; i++)
-            {
-                ScrollToBottom(driver);
-                Thread.Sleep(3000);
-            }
-
-            var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            var timeCalculator = new TimeCalculator(TimeHolders);
-            //ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
-
-            driver.NavigateToUrl("https://studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/spam?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
-            Thread.Sleep(3000);
-            ScrollToBottom(driver);
-            Thread.Sleep(3000);
-
-            comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
-            //ProcessComments(comments, subscribers, acceptableWatchTimesForCalculation, watchers, timeCalculator);
-            
-
-            //foreach (var watcher in watchers)
-            //{
-            //    //watcher.GuessedWatchTime
-            //    //watcher.AverageWatchTime
-            //    //watcher.MaxWatchTime
-
-            //    timeCalculator.CalculateTimeInfo(watcher, watchers);
-            //}
 
             //var commentedLately = string.Join(",", subscribers.Where(l => !l.CommentedLately).Select(l => l.Name));
 
@@ -646,6 +604,43 @@ namespace YoutubeSubscriberManager
 
 
 
+            //pink list single vid
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            currentElement = 0;
+            subscriberNameRepo = new SubscriberNameRepo();
+            viewedSubscribers = new List<Subscriber.Subscriber>();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
+
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                if (subscriber != null)
+                {
+                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                    if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                    {
+                        RemoveElement(driver, currentElement);
+                    }
+                    else
+                    {
+                        StampElement(driver, subscriberName, currentElement);
+                        viewedSubscribers.Add(subscriber);
+                        subscriberNameString += $",{subscriberName}";
+
+                        currentElement++;
+                    }
+                }
+            }
+            subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
+
 
             //yellow list single vid
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
@@ -706,7 +701,7 @@ namespace YoutubeSubscriberManager
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower()) || orangelist.Contains(subscriberName.ToLower())
+                    if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower()) || orangelist.Contains(subscriberName.ToLower()) || pinklist.Contains(subscriberName.ToLower())
                         || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                     {
                         RemoveElement(driver, currentElement);
@@ -1081,21 +1076,92 @@ namespace YoutubeSubscriberManager
             var x = 1;
         }
 
-        private static void ProcessComments(ReadOnlyCollection<IWebElement> comments, List<Subscriber.Subscriber> subscribers, List<string> acceptableWatchTimesForCalculation, List<Watchers> watchers, TimeCalculator timeCalculator)
+        private static void ProcessWatchers(ChromeDriver driver, int rowsToIncrementComments, List<string> acceptableWatchTimesForCalculation, List<Watcher> watchers)
+        {
+            driver.NavigateToUrl("https:/studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/inbox?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
+            SelectElement selectBox = new SelectElement(driver.FindElementByXPath("//ytcp-comments-filter[@id='filter-bar']//select[@class='tb-comment-filter-studio-select-auto-load tb-comment-filter-studio-select']"));
+            selectBox.SelectByText("100 results");
+            var button = driver.FindElementByXPath("//ytcp-comments-filter[@id='filter-bar']//button[@class='tb-btn tb-btn-grey tb-comment-filter-studio-go'][contains(text(),'Go')]");
+            button.Click();
+            Thread.Sleep(10000);
+
+            for (int i = 0; i < rowsToIncrementComments; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            var comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
+            var timeCalculator = new TimeCalculator(TimeHolders);
+            ProcessComments(comments, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+
+            driver.NavigateToUrl("https://studio.youtube.com/channel/UCUDTfpBksfE4KqLYjG9u00g/comments/spam?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Fcomments&filter=%5B%5D");
+            Thread.Sleep(3000);
+            ScrollToBottom(driver);
+            Thread.Sleep(3000);
+
+            comments = driver.FindElementsByXPath("//body//ytcp-comment-thread");
+            ProcessComments(comments, acceptableWatchTimesForCalculation, watchers, timeCalculator);
+
+            foreach (var watcher in watchers)
+            {
+                //watcher.GuessedWatchTime
+                //watcher.AverageWatchTime
+                //watcher.MaxWatchTime
+
+                timeCalculator.CalculateTimeInfo(watcher, watchers);
+            }
+        }
+
+        private static Subscriber.Subscriber.ListTypeEnum GetSubscriberType(string name)
+        {
+            var partialName = name.Length > 12 ? name.Substring(0, 12).ToLower() : name.ToLower();
+            Subscriber.Subscriber.ListTypeEnum subscriberType;
+            if (whitelist.Any(l => l.Contains(partialName)))
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.White;
+            }
+            else if (orangelist.Any(l => l.Contains(partialName)))
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.Orange;
+            }
+            else if (yellowlist.Any(l => l.Contains(partialName)))
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.Yellow;
+            }
+            else if (blacklist.Any(l => l.Contains(partialName)))
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.Black;
+            }
+            else if (pinklist.Any(l => l.Contains(partialName)))
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.Pink;
+            }
+            else
+            {
+                subscriberType = Subscriber.Subscriber.ListTypeEnum.Other;
+            }
+
+            return subscriberType;
+        }
+
+        private static void ProcessComments(ReadOnlyCollection<IWebElement> comments, List<string> acceptableWatchTimesForCalculation, List<Watcher> watchers, TimeCalculator timeCalculator)
         {
             foreach (var comment in comments)
             {
                 if (comment.FindElements(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Count == 1)
                 {
                     var commenterName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//yt-formatted-string[@class='author-text style-scope ytcp-comment']")).Text;
-                    var watcher = new Watchers();
-                    watcher.Subscriber = subscribers.SingleOrDefault(s => s.Name == commenterName);
+                    var watcher = new Watcher();
+                    watcher.WatcherName = commenterName;
 
                     var videoName = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//div//ytcp-comment-video-thumbnail//a//yt-formatted-string")).Text;
                     var shrunkVideoName = videoName.Length > 12 ? videoName.Substring(0, 12) : videoName;
 
                     watcher.Video = Videos.MyVideos.Single(v => v.Name.Contains(shrunkVideoName));
+                    watcher.VideoName = videoName;
                     watcher.Comment = comment.FindElement(By.XPath("./ytcp-comment[@id='comment']//div//div[@id='content']//ytcp-comment-expander//div//yt-formatted-string")).Text;
+                    watcher.ListType = GetSubscriberType(commenterName);
 
                     var watchTimeAmount = comment.FindElement(By.XPath("./ytcp-comment[1]/div[1]/div[1]/div[2]/div[1]/yt-formatted-string[1]")).Text;
                     if (watchTimeAmount.Contains("days") || watchTimeAmount.Contains("weeks"))
@@ -1107,7 +1173,19 @@ namespace YoutubeSubscriberManager
                     {
                         if (watchTimeAmount.Contains(acceptableWatchTime))
                         {
-                            watcher.TimeHolder = timeCalculator.GetHoursBackFromString(watchTimeAmount);
+                            watcher.TimeHolder = timeCalculator.GetTimeHolderFromString(watchTimeAmount);
+                            watcher.TimeHolderNumber = watcher.TimeHolder.TimeElement; 
+                            watcher.TimeHolderMaxWatchMinutes = watcher.TimeHolder.WatchMinutes;
+                            watcher.FirstWatchMinutes = watcher.TimeHolder.WatchMinutes;
+                            watcher.TimeHolderMaxViewCount = watcher.TimeHolder.ViewCount;
+                            watcher.FirstViewCount = watcher.TimeHolder.ViewCount;
+
+                            var nextTimeHolder = timeCalculator.GetNextTimeHolderFromString(watchTimeAmount);
+                            watcher.TimeHolderMaxWatchMinutes += nextTimeHolder.WatchMinutes;
+                            watcher.SecondWatchMinutes += nextTimeHolder.WatchMinutes;
+                            watcher.TimeHolderMaxViewCount += nextTimeHolder.ViewCount;
+                            watcher.SecondViewCount += nextTimeHolder.ViewCount;
+
                             watchers.Add(watcher);
 
                             break;
@@ -1145,10 +1223,12 @@ namespace YoutubeSubscriberManager
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid green\";");
-            if (whitelist.Contains(subscriberName.ToLower()))
+            if (orangelist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid orange\";");
             if (yellowlist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid yellow\";");
+            if (pinklist.Contains(subscriberName.ToLower()))
+                jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid pink\";");
         }
 
         private static void ScrollToBottom(ChromeDriver driver)

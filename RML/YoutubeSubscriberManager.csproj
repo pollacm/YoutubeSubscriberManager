@@ -65,7 +65,7 @@
     <Compile Include="Subscriber\SubscriberNameRepo.cs" />
     <Compile Include="TimeCalculator.cs" />
     <Compile Include="TimeHolder.cs" />
-    <Compile Include="TimeWatched.cs" />
+    <Compile Include="Watcher.cs" />
     <Compile Include="Videos.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,7 @@ namespace YoutubeSubscriberManager
             new Video{Name = "CLENCHED THE GAME - Clenching Them Cheeks", Time = 7.13m},
             new Video{Name = "TV NIGHT GAME - We Shouldnt Be Here", Time = 9.00m},
             new Video{Name = "PARALYZIS HORROR GAME - Somebody Wake Me Up!", Time = 7.98m},
+            new Video{Name = "SANTA IS A CYBORG - Slay Bells | Gameplay [ENDING]", Time = 11.50m},
         };
     }
 
