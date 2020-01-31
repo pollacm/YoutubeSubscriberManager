@@ -304,8 +304,7 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Crazy Gamer".ToLower(),//full other waiting
-            "Cooking with Lisa".ToLower(),//full other waiting
-            "Shivani Devi s".ToLower(), //think she watched 6/8 not sure
+            "Cooking with Lisa".ToLower(),//full other waiting            
             "Abdul's Media".ToLower(),//2/2
             "Ecen's Channel".ToLower(),//8/8 between 2
             "Terrill".ToLower(), //think she watched full. not sure split naomi
@@ -417,6 +416,7 @@ namespace YoutubeSubscriberManager
             "Kashan Hussain".ToLower(),
             "Wonder Videos".ToLower(),
             "Bernald Tibia".ToLower(),//2.8/2.8
+            "Shivani Devi s".ToLower(), //4.7/12; think she watched 6/8 not sure
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
