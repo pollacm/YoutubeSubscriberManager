@@ -315,7 +315,6 @@ namespace YoutubeSubscriberManager
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
             "أكل بيتي مع ساميه".ToLower(),
-            "Paulo 74 Rio".ToLower(),//full other waiting
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -395,7 +394,7 @@ namespace YoutubeSubscriberManager
             "Game Zone World".ToLower(),//full other waiting
             "BloodyMany".ToLower(),//full other waiting
             "gamingwithaji".ToLower(),//full other waiting
-            "The Twins Day".ToLower(),//full other waiting
+            "The Twins Day".ToLower(),//full other waitingp
             "xspysquirrel Gaming".ToLower(),//full other waiting
             "VDM8".ToLower(), //think we watched 6/8 but not sure
             "FredoriaGaming".ToLower(),//waiting
