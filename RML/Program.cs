@@ -92,28 +92,28 @@ namespace YoutubeSubscriberManager
         {
             new TimeHolder{TimeElement = 0, WatchMinutes = 0m, ViewCount = 0},//7PM
             new TimeHolder{TimeElement = 1, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 2, WatchMinutes = 2.83m, ViewCount = 1},
-            new TimeHolder{TimeElement = 3, WatchMinutes = 0.12m, ViewCount = 1},
-            new TimeHolder{TimeElement = 4, WatchMinutes = .91m, ViewCount = 2},
-            new TimeHolder{TimeElement = 5, WatchMinutes = 10.78m, ViewCount = 3},
-            new TimeHolder{TimeElement = 6, WatchMinutes = 1.02m, ViewCount = 2},
-            new TimeHolder{TimeElement = 7, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 8, WatchMinutes = .68m, ViewCount = 2},
-            new TimeHolder{TimeElement = 9, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 10, WatchMinutes = 0.04m, ViewCount = 1},
-            new TimeHolder{TimeElement = 11, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 12, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 13, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 14, WatchMinutes = 1.48m, ViewCount = 3},
-            new TimeHolder{TimeElement = 15, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 16, WatchMinutes = 33.79m, ViewCount = 2},
-            new TimeHolder{TimeElement = 17, WatchMinutes = 10.28m, ViewCount = 2},
-            new TimeHolder{TimeElement = 18, WatchMinutes = 23.02m, ViewCount = 2},
-            new TimeHolder{TimeElement = 19, WatchMinutes = 2.27m, ViewCount = 1},
-            new TimeHolder{TimeElement = 20, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 21, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 22, WatchMinutes = 0m, ViewCount = 0},
-            new TimeHolder{TimeElement = 23, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 2, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 3, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 4, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 5, WatchMinutes = .11m, ViewCount = 0},
+            new TimeHolder{TimeElement = 6, WatchMinutes =  14.15m, ViewCount = 1},
+            new TimeHolder{TimeElement = 7, WatchMinutes = 1.85m, ViewCount = 4},
+            new TimeHolder{TimeElement = 8, WatchMinutes = .68m, ViewCount = 1},
+            new TimeHolder{TimeElement = 9, WatchMinutes = .16m, ViewCount = 1},
+            new TimeHolder{TimeElement = 10, WatchMinutes = 0.59m, ViewCount = 4},
+            new TimeHolder{TimeElement = 11, WatchMinutes = 19.43m, ViewCount = 4},
+            new TimeHolder{TimeElement = 12, WatchMinutes = 4.51m, ViewCount = 1},
+            new TimeHolder{TimeElement = 13, WatchMinutes = 32.98m, ViewCount = 3},
+            new TimeHolder{TimeElement = 14, WatchMinutes = 34.54m, ViewCount = 1},
+            new TimeHolder{TimeElement = 15, WatchMinutes = 23.5m, ViewCount = 2},
+            new TimeHolder{TimeElement = 16, WatchMinutes = 7.41m, ViewCount = 3},
+            new TimeHolder{TimeElement = 17, WatchMinutes = 6.27m, ViewCount = 2},
+            new TimeHolder{TimeElement = 18, WatchMinutes = 0m, ViewCount = 0},
+            new TimeHolder{TimeElement = 19, WatchMinutes = .79m, ViewCount = 2},
+            new TimeHolder{TimeElement = 20, WatchMinutes = 2.83m, ViewCount = 1},
+            new TimeHolder{TimeElement = 21, WatchMinutes = 0.12m, ViewCount = 1},
+            new TimeHolder{TimeElement = 22, WatchMinutes = 0.91m, ViewCount = 2},
+            new TimeHolder{TimeElement = 23, WatchMinutes = 10.78m, ViewCount = 3},
         };
         //less than a minute watches
         static List<string> blacklist = new List<string>
@@ -235,11 +235,13 @@ namespace YoutubeSubscriberManager
             "Thomas Scott".ToLower(),
             "Lorna Harpham".ToLower(),
             "Princess Chenny".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Tasleem Vlogs".ToLower(),
+            "Rupam Datta".ToLower(),
+            "다락귀신[ V ]".ToLower(),
+            "Village Food Desi".ToLower(),
+            "Blue British shorthair cat".ToLower(), //32/32; under 1".ToLower(),
+            "英國短毛貓".ToLower(),
+            "HRV-Strijelac".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -281,7 +283,9 @@ namespace YoutubeSubscriberManager
             "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Jafmasterflash 7".ToLower(),
             "VB Fitness".ToLower(),
-            "Damla".ToLower(),
+            "WickedGoodEverything".ToLower(),//1 view 2 comments
+            "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
+            "Terrill".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -304,19 +308,14 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Crazy Gamer".ToLower(),//full other waiting
-            "Cooking with Lisa".ToLower(),//full other waiting            
             "Abdul's Media".ToLower(),//2/2
             "Ecen's Channel".ToLower(),//8/8 between 2
-            "Terrill".ToLower(), //think she watched full. not sure split naomi
             "SurxanGames".ToLower(),//full other waiting
             "شمس الدين DZ".ToLower(),//full other waiting
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
-            "Surmila Rawat Uttarakhandi".ToLower(),//4 views 19 minutes
-            "Indian Youtuber Gurpreet".ToLower(),//4 views 19 minutes
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "أكل بيتي مع ساميه".ToLower(),
+            "Paulo 74 Rio".ToLower(),//full other waiting
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -376,7 +375,6 @@ namespace YoutubeSubscriberManager
             "Supportive Gamers Community".ToLower(), //2.7/2.7; 10/10
             "kenken TV Quang Thanh".ToLower(),//4.7/8
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
-            "Blue British shorthair cat".ToLower(), //32/32
             "FTR Motivated Gaming".ToLower(),
             "Bits of Real Panther".ToLower(),
             "Arlene Arcebal CHANNEL".ToLower(),//7/32
@@ -411,15 +409,15 @@ namespace YoutubeSubscriberManager
             "Cristi Nicola".ToLower(),
             "Blue British shorthair cat".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
-            "英國短毛貓".ToLower(),
             "G V Balajee".ToLower(),
             "Kashan Hussain".ToLower(),
             "Wonder Videos".ToLower(),
             "Bernald Tibia".ToLower(),//2.8/2.8
             "Shivani Devi s".ToLower(), //4.7/12; think she watched 6/8 not sure
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "Zoom Gameplay".ToLower(),
+            "Unsab Man".ToLower(),
+            "Cooking with Lisa".ToLower(),//full other waiting            
+            "WickedGoodEverything".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -455,10 +453,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -466,7 +464,7 @@ namespace YoutubeSubscriberManager
             var subscribers = new List<Subscriber.Subscriber>();
             ChromeDriver driver = new ChromeDriver(options);
             
-            //ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
+            ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
             LoadSubscribers(driver, rowsToIncrementOnSubPage, subscribers);
             RunSingleVideoLookups(driver, rowsToIncrementOnSubPage, subscribers);
             MultiVideoLookup(driver, rowsToIncrementOnSubPage, subscribers);
