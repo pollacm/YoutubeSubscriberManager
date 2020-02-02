@@ -244,6 +244,7 @@ namespace YoutubeSubscriberManager
             "HRV-Strijelac".ToLower(),
             "Xkprogamer 123".ToLower(),
             "Lunartic Wolf".ToLower(),
+            "VB Fitness".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -287,7 +288,6 @@ namespace YoutubeSubscriberManager
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Jafmasterflash 7".ToLower(),
-            "VB Fitness".ToLower(),
             "WickedGoodEverything".ToLower(),//1 view 2 comments
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "Terrill".ToLower(),
