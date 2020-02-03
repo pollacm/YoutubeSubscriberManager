@@ -345,14 +345,25 @@ namespace YoutubeSubscriberManager
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
             "أكل بيتي مع ساميه".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "r3voo".ToLower(),
+            "EN gaming channel".ToLower(), //waiting
+            "Ron's DigiDiary".ToLower(),//waiting
+            "Parker2417".ToLower(),//waiting
+            "GetAwesome Gaming".ToLower(),//waiting
+            "Ys Gaming Dark".ToLower(),//waiting
+            "Pelo Gaming".ToLower(),//waiting
+            "Flippettirob".ToLower(),//waiting
+            "E_ finish the limit".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "NDZ Gaming".ToLower(),
+            "C.P.S Gaming".ToLower(),
+            "PSHT Karawang Channel".ToLower(),
+            "KASAKU".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -377,7 +388,8 @@ namespace YoutubeSubscriberManager
         static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
-            "Runningwolf World of TanksAam".ToLower(),//FW
+            "Runningwolf World of Tanks".ToLower(),//FW
+            "Sir Runningwolf".ToLower(),//FW
             "spanked bob".ToLower(),//FW
             "DHV VLOG".ToLower(),//FW
             "Food Idea by Tuhin".ToLower(), //4.5/32
@@ -522,7 +534,7 @@ namespace YoutubeSubscriberManager
             var subscribers = new List<Subscriber.Subscriber>();
             ChromeDriver driver = new ChromeDriver(options);
             
-            ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
+            //ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
             LoadSubscribers(driver, rowsToIncrementOnSubPage, subscribers);
             RunSingleVideoLookups(driver, rowsToIncrementOnSubPage, subscribers);
             MultiVideoLookup(driver, rowsToIncrementOnSubPage, subscribers);
@@ -914,6 +926,7 @@ namespace YoutubeSubscriberManager
             var viewedSubscribers = new List<Subscriber.Subscriber>();
             var subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
+            int index = 0;
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
@@ -934,6 +947,12 @@ namespace YoutubeSubscriberManager
                         currentElement++;
                     }
                 }
+                else
+                {
+                    RemoveElement(driver, currentElement);
+                }
+
+                index++;
             }
 
             subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
@@ -971,6 +990,10 @@ namespace YoutubeSubscriberManager
 
                         currentElement++;
                     }
+                }
+                else
+                {
+                    RemoveElement(driver, currentElement);
                 }
             }
 
@@ -1010,6 +1033,10 @@ namespace YoutubeSubscriberManager
                         currentElement++;
                     }
                 }
+                else
+                {
+                    RemoveElement(driver, currentElement);
+                }
             }
 
             subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
@@ -1047,6 +1074,10 @@ namespace YoutubeSubscriberManager
 
                         currentElement++;
                     }
+                }
+                else
+                {
+                    RemoveElement(driver, currentElement);
                 }
             }
 
@@ -1088,6 +1119,10 @@ namespace YoutubeSubscriberManager
                         currentElement++;
                     }
                 }
+                else
+                {
+                    RemoveElement(driver, currentElement);
+                }
             }
 
             subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
@@ -1125,6 +1160,10 @@ namespace YoutubeSubscriberManager
 
                         currentElement++;
                     }
+                }
+                else
+                {
+                    RemoveElement(driver, currentElement); 
                 }
             }
 
