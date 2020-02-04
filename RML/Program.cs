@@ -246,9 +246,9 @@ namespace YoutubeSubscriberManager
             "Lunartic Wolf".ToLower(),
             "VB Fitness".ToLower(),
             "Dadang,Lena channel".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "PSHT Karawang Channel".ToLower(),
+            "Kev Gaming XP".ToLower(),
+            "EN gaming channel".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -346,7 +346,6 @@ namespace YoutubeSubscriberManager
             "House Zarn Gaming".ToLower(), //Think full but need to validate
             "أكل بيتي مع ساميه".ToLower(),
             "r3voo".ToLower(),
-            "EN gaming channel".ToLower(), //waiting
             "Ron's DigiDiary".ToLower(),//waiting
             "Parker2417".ToLower(),//waiting
             "GetAwesome Gaming".ToLower(),//waiting
@@ -362,7 +361,6 @@ namespace YoutubeSubscriberManager
             "fasdfsdafsadfsad".ToLower(),//waiting
             "NDZ Gaming".ToLower(),
             "C.P.S Gaming".ToLower(),
-            "PSHT Karawang Channel".ToLower(),
             "KASAKU".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
