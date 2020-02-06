@@ -249,6 +249,15 @@ namespace YoutubeSubscriberManager
             "PSHT Karawang Channel".ToLower(),
             "Kev Gaming XP".ToLower(),
             "EN gaming channel".ToLower(),
+            "Bloxy Village".ToLower(),
+            "ロバ次郎チャンネル".ToLower(),
+            "Thyber Gaming".ToLower(),
+            "Vlog Kita".ToLower(),
+            "CrazyPicklersgaming".ToLower(),
+            "Generasi hebat".ToLower(),
+            "다 빛나사랑TV".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -360,10 +369,9 @@ namespace YoutubeSubscriberManager
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "NDZ Gaming".ToLower(),
-            "C.P.S Gaming".ToLower(),
             "KASAKU".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "معلش M3lsh".ToLower(),
+            "Bonjour Toujour".ToLower(),//not sure.. grouped with other watches
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -379,7 +387,34 @@ namespace YoutubeSubscriberManager
         //2 -5 minute watches
         private static List<string> pinklist = new List<string>
         {
-            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(), //2.4/11.5
+            "Rizky Gaming Tube".ToLower(),//1.93/12
+            "Saiful Almalasyi".ToLower(),
+            "Vendetta Gaming Plus More".ToLower(),
+            "다 빛나사랑TV".ToLower(),
+            "Our Kitchen".ToLower(),//2.5/12
+            "Lujan Gaming".ToLower(),//3/12
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
         };
 
         //"Game Boys".ToLower(), //8/32
@@ -415,7 +450,6 @@ namespace YoutubeSubscriberManager
             "Retro Toys and Cartoons".ToLower(),//2.8/2.8
             "Terese Benge".ToLower(),//9.5/9.5
             "ŞAHİN TAKIMI".ToLower(),
-            "Our Kitchen".ToLower(),//6.7/8
             "GAME WFK".ToLower(),//8/8
             "Zhang萌萌的咪儿".ToLower(),//4/8
             "Phynoxtv".ToLower(),
@@ -470,6 +504,8 @@ namespace YoutubeSubscriberManager
             "Unsab Man".ToLower(),
             "Cooking with Lisa".ToLower(),//full other waiting            
             "WickedGoodEverything".ToLower(),
+            "BigHairyKev".ToLower(),
+            "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
