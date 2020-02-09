@@ -253,16 +253,15 @@ namespace YoutubeSubscriberManager
             "ロバ次郎チャンネル".ToLower(),
             "Thyber Gaming".ToLower(),
             "Vlog Kita".ToLower(),
-            "CrazyPicklersgaming".ToLower(),
             "Generasi hebat".ToLower(),
             "다 빛나사랑TV".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Bonjour Toujour".ToLower(),//not sure.. grouped with other watches
+            "Maktan Gaming".ToLower(),
+            "영프로cook".ToLower(),
+            "Travel And Cook With Ritu’s Lifestyle".ToLower(),
+            "TONYMAX HD".ToLower(),
+            "Ng Khâm Official".ToLower(),
+            "أ-40- Beats".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -294,7 +293,6 @@ namespace YoutubeSubscriberManager
             "GeumSung entertainment".ToLower(),//waiting
             "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
             "Sudda production සුද්දා".ToLower(),//split but think its red
-            "EA TRUL DAK LAK QUE TOI".ToLower(), //split but full I think
             "THÙY TV".ToLower(),//split but red I think            
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
@@ -337,7 +335,6 @@ namespace YoutubeSubscriberManager
         {
             "Ades - Anak Desa Channel".ToLower(),//pretty sure full
             "Tt TV OKE".ToLower(),//think he is full
-            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)
             "다락귀신[ V ]".ToLower(),//full other waiting
             "Unplugged Gaming".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
@@ -347,7 +344,6 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Crazy Gamer".ToLower(),//full other waiting
-            "Abdul's Media".ToLower(),//2/2
             "Ecen's Channel".ToLower(),//8/8 between 2
             "SurxanGames".ToLower(),//full other waiting
             "شمس الدين DZ".ToLower(),//full other waiting
@@ -371,9 +367,8 @@ namespace YoutubeSubscriberManager
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
             "معلش M3lsh".ToLower(),
-            "Bonjour Toujour".ToLower(),//not sure.. grouped with other watches
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "Me and My Kitchen".ToLower(),//split full between 2
+            "love and chic Diandra".ToLower(),//split full between 2
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -393,12 +388,13 @@ namespace YoutubeSubscriberManager
             "다 빛나사랑TV".ToLower(),
             "Our Kitchen".ToLower(),//2.5/12
             "Lujan Gaming".ToLower(),//3/12
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "prince tv".ToLower(),
+            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
+            "PRADO FAMILY".ToLower(),
+            "Fermayil Ahmedov".ToLower(),
+            "AJIW NZIDOU LKODDAM".ToLower(),
+            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
+            "MARIA JOSELYN AMBASSADOR OF GOD VLOG Rodriguez".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -506,6 +502,8 @@ namespace YoutubeSubscriberManager
             "WickedGoodEverything".ToLower(),
             "BigHairyKev".ToLower(),
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
+            "Abdul's Media".ToLower(),//2/2
+            "EA TRUL DAK LAK QUE TOI".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
