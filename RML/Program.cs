@@ -395,7 +395,7 @@ namespace YoutubeSubscriberManager
             "AJIW NZIDOU LKODDAM".ToLower(),
             "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "MARIA JOSELYN AMBASSADOR OF GOD VLOG Rodriguez".ToLower(),
-            "dfsdfsd".ToLower(),
+            "SKY TV".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
