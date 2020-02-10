@@ -262,7 +262,7 @@ namespace YoutubeSubscriberManager
             "TONYMAX HD".ToLower(),
             "Ng Khâm Official".ToLower(),
             "أ-40- Beats".ToLower(),
-            "Orjane".ToLower(),
+            "Paulo 74 Rio".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -307,7 +307,7 @@ namespace YoutubeSubscriberManager
             "WickedGoodEverything".ToLower(),//1 view 2 comments
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "Terrill".ToLower(),
-            "Damla".ToLower(),
+            "TheAmazingLSB".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -369,8 +369,8 @@ namespace YoutubeSubscriberManager
             "معلش M3lsh".ToLower(),
             "Me and My Kitchen".ToLower(),//split full between 2
             "love and chic Diandra".ToLower(),//split full between 2
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "WhiskeyBlue10".ToLower(),
+            "7orever".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -504,7 +504,7 @@ namespace YoutubeSubscriberManager
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
             "Abdul's Media".ToLower(),//2/2
             "EA TRUL DAK LAK QUE TOI".ToLower(),
-            "Salus".ToLower(),
+            "syamsolver channel".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
