@@ -308,9 +308,9 @@ namespace YoutubeSubscriberManager
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "Terrill".ToLower(),
             "TheAmazingLSB".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Lev Kris Coins".ToLower(),
+            "أنا وخويا Ana okhoya".ToLower(),
+            "Won't Grow Up".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -371,9 +371,9 @@ namespace YoutubeSubscriberManager
             "love and chic Diandra".ToLower(),//split full between 2
             "WhiskeyBlue10".ToLower(),
             "7orever".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "M3athead Gaming".ToLower(),
+            "Wheelassassin".ToLower(),
+            "PS5 Gamer".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -555,10 +555,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -945,12 +945,12 @@ namespace YoutubeSubscriberManager
         {
             ReadOnlyCollection<IWebElement> videos;
 //white list single vid
-            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
-            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
-            {
-                ScrollToBottom(driver);
-                Thread.Sleep(3000);
-            }
+            //driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            //for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            //{
+            //    ScrollToBottom(driver);
+            //    Thread.Sleep(3000);
+            //}
 
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             var currentElement = 0;
