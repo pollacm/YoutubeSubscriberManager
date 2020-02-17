@@ -284,7 +284,7 @@ namespace YoutubeSubscriberManager
             "Spirit Dude Gamer".ToLower(),
             "sunitha simple rangoli".ToLower(),
             "Anwar.s. M".ToLower(),
-            "Orjane".ToLower(),
+            "navigatorseas sailor".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -388,7 +388,7 @@ namespace YoutubeSubscriberManager
             "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//waiting
             "SaiyanStreamz".ToLower(),//waiting
             "Unity Kitchen".ToLower(),//waiting
-            "Serg Unleashed YT".ToLower(),//waiting
+            //"Serg Unleashed YT".ToLower(),//waiting
             "ConGames007".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
