@@ -263,6 +263,33 @@ namespace YoutubeSubscriberManager
             "Ng Khâm Official".ToLower(),
             "أ-40- Beats".ToLower(),
             "Paulo 74 Rio".ToLower(),
+            "Black Zone".ToLower(),
+            "MiCHAEL AT WORK".ToLower(),
+            "FAJAR STICKER MTP".ToLower(),
+            "MoanTV".ToLower(),
+            "Daisuke Un Visual Gamer UwU".ToLower(),//super inconsistent, sometimes full, sometimes 20 seconds
+            "Deasy".ToLower(),
+            "HELMAR ASMR".ToLower(),
+            "Z9ZGAMES".ToLower(),
+            "Murder Motion TV".ToLower(),
+            "SilverStream".ToLower(),
+            "PlayKitschi".ToLower(),
+            "भजनों की माला".ToLower(),
+            "Thanh Huyền Chu".ToLower(),
+            "Mahii 786".ToLower(),
+            "Kashan Hussain".ToLower(),
+            "Icyyy".ToLower(),
+            "Force Hammer Gaming".ToLower(),
+            "Ron's DigiDiary".ToLower(),
+            "Spirit Dude Gamer".ToLower(),
+            "sunitha simple rangoli".ToLower(),
+            "Anwar.s. M".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -340,7 +367,6 @@ namespace YoutubeSubscriberManager
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
             "MultiVerse Studio".ToLower(),//full other waiting
             "Rafał Szymski".ToLower(),//full other waiting
-            "Hykli".ToLower(),//full other waiting
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Crazy Gamer".ToLower(),//full other waiting
@@ -358,12 +384,30 @@ namespace YoutubeSubscriberManager
             "Pelo Gaming".ToLower(),//waiting
             "Flippettirob".ToLower(),//waiting
             "E_ finish the limit".ToLower(),//waiting
+            "LONE WOLF GAMING".ToLower(),//waiting
+            "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//waiting
+            "SaiyanStreamz".ToLower(),//waiting
+            "Unity Kitchen".ToLower(),//waiting
+            "Serg Unleashed YT".ToLower(),//waiting
+            "ConGames007".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            //---new subs and haven't verified
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
             "معلش M3lsh".ToLower(),
@@ -374,6 +418,19 @@ namespace YoutubeSubscriberManager
             "M3athead Gaming".ToLower(),
             "Wheelassassin".ToLower(),
             "PS5 Gamer".ToLower(),
+            "Syafitrie Chanel".ToLower(),
+            "BlackWolf Studio".ToLower(),
+            "ALI PENJAGA ARJUNA GYM".ToLower(),
+            "VS DA ZL".ToLower(),
+            "CrazyGamer23".ToLower(),
+            "Levie's Trip".ToLower(),
+            "ShadowZ YT".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
+            "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -393,11 +450,10 @@ namespace YoutubeSubscriberManager
             "PRADO FAMILY".ToLower(),
             "Fermayil Ahmedov".ToLower(),
             "AJIW NZIDOU LKODDAM".ToLower(),
-            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "MARIA JOSELYN AMBASSADOR OF GOD VLOG Rodriguez".ToLower(),
             "SKY TV".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Shambhavi Jha".ToLower(),
+            "GATOTORO".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -473,7 +529,6 @@ namespace YoutubeSubscriberManager
             "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
             "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
             "marvelous sweet411".ToLower(),//full other waiting
-            "Daisuke Un Visual Gamer UwU".ToLower(),//full other waiting
             "Game Zone World".ToLower(),//full other waiting
             "BloodyMany".ToLower(),//full other waiting
             "gamingwithaji".ToLower(),//full other waiting
@@ -492,7 +547,6 @@ namespace YoutubeSubscriberManager
             "Blue British shorthair cat".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
             "G V Balajee".ToLower(),
-            "Kashan Hussain".ToLower(),
             "Wonder Videos".ToLower(),
             "Bernald Tibia".ToLower(),//2.8/2.8
             "Shivani Devi s".ToLower(), //4.7/12; think she watched 6/8 not sure
@@ -505,11 +559,15 @@ namespace YoutubeSubscriberManager
             "Abdul's Media".ToLower(),//2/2
             "EA TRUL DAK LAK QUE TOI".ToLower(),
             "syamsolver channel".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "MegaGamerDude".ToLower(),
+            "TurboJoe -Old School Gaming".ToLower(),
+            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
+            "Unity Kitchen".ToLower(),
+            "Hykli".ToLower(),//full other waitings
+            "DE channel".ToLower(),
+            "Hagru Draw".ToLower(),
+            "RedNitrate".ToLower(),
+            "ceagre manuel".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
