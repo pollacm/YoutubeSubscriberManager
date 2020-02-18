@@ -275,7 +275,6 @@ namespace YoutubeSubscriberManager
             "SilverStream".ToLower(),
             "PlayKitschi".ToLower(),
             "भजनों की माला".ToLower(),
-            "Thanh Huyền Chu".ToLower(),
             "Mahii 786".ToLower(),
             "Kashan Hussain".ToLower(),
             "Icyyy".ToLower(),
@@ -285,9 +284,10 @@ namespace YoutubeSubscriberManager
             "sunitha simple rangoli".ToLower(),
             "Anwar.s. M".ToLower(),
             "navigatorseas sailor".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "EA TRUL DAK LAK QUE TOI".ToLower(),
+            "mas kaka".ToLower(),
+            "Jhulie Anne".ToLower(),
+            "alvin traveler".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -389,7 +389,6 @@ namespace YoutubeSubscriberManager
             "SaiyanStreamz".ToLower(),//waiting
             "Unity Kitchen".ToLower(),//waiting
             //"Serg Unleashed YT".ToLower(),//waiting
-            "ConGames007".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -425,8 +424,8 @@ namespace YoutubeSubscriberManager
             "CrazyGamer23".ToLower(),
             "Levie's Trip".ToLower(),
             "ShadowZ YT".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "A Game's top5".ToLower(),
+            "OSCAR GOMEZ DE LA TORRE".ToLower(),//one full split between 2
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -453,6 +452,7 @@ namespace YoutubeSubscriberManager
             "MARIA JOSELYN AMBASSADOR OF GOD VLOG Rodriguez".ToLower(),
             "SKY TV".ToLower(),
             "Shambhavi Jha".ToLower(),
+            "Thanh Huyền Chu".ToLower(),
             "GATOTORO".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -557,7 +557,6 @@ namespace YoutubeSubscriberManager
             "BigHairyKev".ToLower(),
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
             "Abdul's Media".ToLower(),//2/2
-            "EA TRUL DAK LAK QUE TOI".ToLower(),
             "syamsolver channel".ToLower(),
             "MegaGamerDude".ToLower(),
             "TurboJoe -Old School Gaming".ToLower(),
@@ -568,7 +567,8 @@ namespace YoutubeSubscriberManager
             "Hagru Draw".ToLower(),
             "RedNitrate".ToLower(),
             "ceagre manuel".ToLower(),
-            "Salus".ToLower(),
+            "WhizkySaiyanGamin".ToLower(),
+            "ConGames007".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
