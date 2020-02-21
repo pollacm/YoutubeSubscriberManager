@@ -1418,9 +1418,10 @@ namespace YoutubeSubscriberManager
         private static void StampElement(ChromeDriver driver, string subscriberName, int index, string commentString)
         {
             var jse = (IJavaScriptExecutor)driver;
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].appendChild(document.createTextNode('{commentString}))");
 
             //ytd-grid-video-renderer/div/div[@id='details']
-
+            //document.getElementsByTagName('ytd-grid-video-renderer')[1].getElementsByClassName('dismissible')
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))
