@@ -28,9 +28,8 @@ namespace YoutubeSubscriberManager.Comment
                     comments.Add(incomingComment);
                 }
             }
-            comments.AddRange(incomingComments);
             comments.RemoveAll(c => c.StartingTimeSlot < DateTime.Now.AddDays(-90));
-            comments = comments.OrderByDescending(c => c.Time).ToList();
+            comments = comments.OrderByDescending(c => c.StartingTimeSlot).ThenByDescending(c => c.Time).ToList();
 
             var json = JsonConvert.SerializeObject(comments);
             using (StreamWriter file = new StreamWriter(jsonFile))

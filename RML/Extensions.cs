@@ -40,7 +40,7 @@ namespace TubeBuddyScraper
 
         public static string WriteComment(this Comment comment)
         {
-            return $"{comment.MessengerName}; {(comment.Time != null ? $"*Time:* {comment.Time}; " : $"{comment.StartingTimeSlot} - {comment.EndingTimeSlot}")}; *Video:* {comment.VideoName}; *List:* {comment.ListType.ToString()}; " +
+            return $"*{comment.MessengerName}*; {(comment.Time != null ? $"*Time:* {comment.Time}; " : $"{comment.StartingTimeSlot} - {comment.EndingTimeSlot}")}; *Video:* {comment.VideoName}; *List:* {comment.ListType.ToString()}; " +
                    $"{(!string.IsNullOrEmpty(comment.AdditionalMessengersForTimeSlot) ? $"*Additional Messengers:* {comment.AdditionalMessengersForTimeSlot}; " : "")}" +
                    $"*Comment:* {comment.Message}" + "\n";
         }
