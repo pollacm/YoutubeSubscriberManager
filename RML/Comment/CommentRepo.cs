@@ -16,10 +16,8 @@ namespace YoutubeSubscriberManager.Comment
             foreach (var incomingComment in incomingComments)
             {
                 var matchingComment = comments.FirstOrDefault(c => c.MessengerName == incomingComment.MessengerName &&
-                                                                   c.Message == incomingComment.MessengerName &&
-                                                                   c.VideoName == incomingComment.VideoName &&
-                                                                   c.StartingTimeSlot == incomingComment.StartingTimeSlot &&
-                                                                   c.EndingTimeSlot == incomingComment.EndingTimeSlot);
+                                                                   c.Message == incomingComment.Message &&
+                                                                   c.VideoName == incomingComment.VideoName);
                 if (matchingComment != null/* && matchingComment.AdditionalMessengersForTimeSlot == string.Empty*/)
                 {
                     matchingComment.AdditionalMessengersForTimeSlot = incomingComment.AdditionalMessengersForTimeSlot;
@@ -31,12 +29,13 @@ namespace YoutubeSubscriberManager.Comment
                 }
             }
             comments.AddRange(incomingComments);
-            comments.RemoveAll(c => c.Time < DateTime.Now.AddDays(-90));
+            comments.RemoveAll(c => c.StartingTimeSlot < DateTime.Now.AddDays(-90));
             comments = comments.OrderByDescending(c => c.Time).ToList();
 
+            var json = JsonConvert.SerializeObject(comments);
             using (StreamWriter file = new StreamWriter(jsonFile))
             {
-                file.Write(comments);
+                file.Write(json);
             }
         }
         public List<Comment> GetComments()
@@ -57,17 +56,20 @@ namespace YoutubeSubscriberManager.Comment
             //var comment = GetLastCommentToSetTimeSlots(comments, commenterName);
             var commentList = string.Empty;
 
-            if (comment != null && comment.AdditionalMessengersForTimeSlot == string.Empty)
+            if (comment != null)
             {
-                var commentsInSameTimeSlot = comments.Where(c => c.StartingTimeSlot == comment.StartingTimeSlot && c.EndingTimeSlot == comment.EndingTimeSlot &&
-                                                                 c.MessengerName != comment.MessengerName);
 
+                var commentsInSameTimeSlot = comments.Where(c => c.StartingTimeSlot == comment.StartingTimeSlot && c.EndingTimeSlot == comment.EndingTimeSlot &&
+                                                                 c.MessengerName != comment.MessengerName && 
+                                                                 c.AdditionalMessengersForTimeSlot != comment.AdditionalMessengersForTimeSlot);
+                
                 foreach (var commentInSameTimeSlot in commentsInSameTimeSlot)
                 {
                     commentList += $"{commentInSameTimeSlot.MessengerName} ({commentInSameTimeSlot.ListType.ToString()}); ";
                 }
 
-                comment.AdditionalMessengersForTimeSlot = commentList;
+                if(string.IsNullOrEmpty(comment.AdditionalMessengersForTimeSlot))
+                    comment.AdditionalMessengersForTimeSlot = commentList;
             }
         }
 
