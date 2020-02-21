@@ -20,7 +20,7 @@ namespace YoutubeSubscriberManager.Comment
                                                                    c.VideoName == incomingComment.VideoName &&
                                                                    c.StartingTimeSlot == incomingComment.StartingTimeSlot &&
                                                                    c.EndingTimeSlot == incomingComment.EndingTimeSlot);
-                if (matchingComment != null && matchingComment.AdditionalMessengersForTimeSlot == string.Empty)
+                if (matchingComment != null/* && matchingComment.AdditionalMessengersForTimeSlot == string.Empty*/)
                 {
                     matchingComment.AdditionalMessengersForTimeSlot = incomingComment.AdditionalMessengersForTimeSlot;
                 }
