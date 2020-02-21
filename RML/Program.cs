@@ -86,7 +86,7 @@ namespace YoutubeSubscriberManager
     https://www.youtube.com/channel/UCXM7C1JQtmUoN6tiZL_S-kg/videos
 
     */
-    internal class Program
+    public class Program
     {
         static List<TimeHolder> TimeHolders = new List<TimeHolder>
         {
@@ -116,7 +116,7 @@ namespace YoutubeSubscriberManager
             new TimeHolder{TimeElement = 23, WatchMinutes = 10.78m, ViewCount = 3},
         };
         //less than a minute watches
-        static List<string> blacklist = new List<string>
+        public static List<string> blacklist = new List<string>
         {
             // = 30 second watch
             //* = need to watch a vid and see if they respond
@@ -168,7 +168,6 @@ namespace YoutubeSubscriberManager
             "XScaleton Gaming".ToLower(),
             "Game Boys".ToLower(),
             "嘎嘎巫啦啦".ToLower(),
-            "的的Vinky".ToLower(),
             "kids tv".ToLower(),
             "Machina Hattab".ToLower(),
             "Gökhan Berber".ToLower(),//short watch
@@ -263,7 +262,7 @@ namespace YoutubeSubscriberManager
             "Ng Khâm Official".ToLower(),
             "أ-40- Beats".ToLower(),
             "Paulo 74 Rio".ToLower(),
-            "Orjane".ToLower(),
+            "PESMOBILE FANATIX".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -271,7 +270,7 @@ namespace YoutubeSubscriberManager
             "Orjane".ToLower(),
         };
 
-        private static List<string> yellowlist = new List<string>
+        public  static List<string> yellowlist = new List<string>
         {
             "Damla Abulfazli".ToLower(),
             "viajes lauchas".ToLower(),
@@ -331,7 +330,7 @@ namespace YoutubeSubscriberManager
         };
 
         //I think full
-        static List<string> orangelist = new List<string>
+        public static List<string> orangelist = new List<string>
         {
             "Ades - Anak Desa Channel".ToLower(),//pretty sure full
             "Tt TV OKE".ToLower(),//think he is full
@@ -343,7 +342,6 @@ namespace YoutubeSubscriberManager
             "Hykli".ToLower(),//full other waiting
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
-            "Crazy Gamer".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
             "SurxanGames".ToLower(),//full other waiting
             "شمس الدين DZ".ToLower(),//full other waiting
@@ -380,7 +378,7 @@ namespace YoutubeSubscriberManager
         };
 
         //2 -5 minute watches
-        private static List<string> pinklist = new List<string>
+        public static List<string> pinklist = new List<string>
         {
             "Rizky Gaming Tube".ToLower(),//1.93/12
             "Saiful Almalasyi".ToLower(),
@@ -395,6 +393,7 @@ namespace YoutubeSubscriberManager
             "AJIW NZIDOU LKODDAM".ToLower(),
             "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "MARIA JOSELYN AMBASSADOR OF GOD VLOG Rodriguez".ToLower(),
+            "的的Vinky".ToLower(), //think she's pink now
             "SKY TV".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -414,7 +413,7 @@ namespace YoutubeSubscriberManager
         };
 
         //"Game Boys".ToLower(), //8/32
-        static List<string> whitelist = new List<string>
+        public static List<string> whitelist = new List<string>
         {
             "milada มิลา".ToLower(), //FW
             "Runningwolf World of Tanks".ToLower(),//FW
@@ -505,7 +504,8 @@ namespace YoutubeSubscriberManager
             "Abdul's Media".ToLower(),//2/2
             "EA TRUL DAK LAK QUE TOI".ToLower(),
             "syamsolver channel".ToLower(),
-            "Salus".ToLower(),
+            "ENKI'S FUN TECHNO STUFF".ToLower(),//think he started watching full
+            "Crazy Gamer".ToLower(),//full other waiting
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
