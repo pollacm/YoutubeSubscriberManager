@@ -452,7 +452,7 @@ namespace YoutubeSubscriberManager
             "Shambhavi Jha".ToLower(),
             "Thanh Huyền Chu".ToLower(),
             "GATOTORO".ToLower(),
-            "dfsdfsd".ToLower(),
+            "TYS worldTV".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
