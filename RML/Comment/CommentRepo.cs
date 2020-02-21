@@ -45,6 +45,11 @@ namespace YoutubeSubscriberManager.Comment
             }
         }
 
+        public string GetLastComments(List<Comment> comments, string commenterName, int numberOfComments)
+        {
+            return string.Join(" ||| ", comments.Where(c => c.MessengerName == commenterName).Take(numberOfComments));
+        }
+
         public List<Comment> GetEligableVideosUpdateOfMessengers()
         {
             return GetComments().Where(c => c.StartingTimeSlot > DateTime.Now.AddHours(-5)).ToList();

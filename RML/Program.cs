@@ -7,6 +7,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using TubeBuddyScraper;
+using YoutubeSubscriberManager.Comment;
 using YoutubeSubscriberManager.Subscriber;
 
 namespace YoutubeSubscriberManager
@@ -1026,12 +1027,16 @@ namespace YoutubeSubscriberManager
             var subscriberNameRepo = new SubscriberNameRepo();
             var viewedSubscribers = new List<Subscriber.Subscriber>();
             var subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
+            var commentRepo = new CommentRepo();
+            var comments = commentRepo.GetComments();
 
             int index = 0;
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1041,7 +1046,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1410,11 +1415,13 @@ namespace YoutubeSubscriberManager
             jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].remove();");
         }
 
-        private static void StampElement(ChromeDriver driver, string subscriberName, int index)
+        private static void StampElement(ChromeDriver driver, string subscriberName, int index, string commentString)
         {
             var jse = (IJavaScriptExecutor)driver;
 
-            if(blacklist.Contains(subscriberName.ToLower()))
+            //ytd-grid-video-renderer/div/div[@id='details']
+
+            if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid green\";");
