@@ -1452,7 +1452,7 @@ namespace YoutubeSubscriberManager
         private static void StampElement(ChromeDriver driver, string subscriberName, int index, string commentString)
         {
             var jse = (IJavaScriptExecutor)driver;
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
+            //jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
             jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString}</div>\"");
 
             if (blacklist.Contains(subscriberName.ToLower()))
