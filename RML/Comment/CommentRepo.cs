@@ -66,8 +66,7 @@ namespace YoutubeSubscriberManager.Comment
             {
 
                 var commentsInSameTimeSlot = comments.Where(c => c.StartingTimeSlot == comment.StartingTimeSlot && c.EndingTimeSlot == comment.EndingTimeSlot &&
-                                                                 c.MessengerName != comment.MessengerName && 
-                                                                 c.AdditionalMessengersForTimeSlot != comment.AdditionalMessengersForTimeSlot);
+                                                                 c.MessengerName != comment.MessengerName);
                 
                 foreach (var commentInSameTimeSlot in commentsInSameTimeSlot)
                 {
