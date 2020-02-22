@@ -656,10 +656,14 @@ namespace YoutubeSubscriberManager
 
             var videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             var currentElement = 0;
+            var commentRepo = new CommentRepo();
+            var comments = commentRepo.GetComments();
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (subscriber.CommentedLately)
@@ -668,7 +672,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -688,6 +692,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (subscriber.AverageViewCount < 75)
@@ -696,7 +702,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -714,6 +720,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (currentWatched.ToLower().Contains(subscriberName.ToLower()))
@@ -722,7 +730,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -742,6 +750,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if ((!whitelist.Contains(subscriberName.ToLower()) && !orangelist.Contains(subscriberName.ToLower())) || subscriber.AverageViewCount < 50)
@@ -750,7 +760,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -770,6 +780,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (!whitelist.Contains(subscriberName.ToLower()) && !orangelist.Contains(subscriberName.ToLower()))
@@ -778,7 +790,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -798,6 +810,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (subscriber.Watches > 0)
@@ -806,7 +820,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -826,6 +840,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (blacklist.Contains(subscriberName.ToLower()) || (!subscriber.CommentedLately || subscriber.Watches > 2))
@@ -834,7 +850,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -854,6 +870,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (!whitelist.Contains(subscriberName.ToLower()))
@@ -862,7 +880,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -882,6 +900,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (blacklist.Contains(subscriberName.ToLower()) || subscriber.Watches > 0)
@@ -890,7 +910,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -910,6 +930,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (subscriber.CommentedLately)
@@ -918,7 +940,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -938,6 +960,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     if (!blacklist.Contains(subscriberName.ToLower()))
@@ -946,7 +970,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         currentElement++;
                     }
                 }
@@ -1081,6 +1105,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1090,7 +1116,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1123,6 +1149,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1132,7 +1160,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1165,6 +1193,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1174,7 +1204,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1207,6 +1237,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1218,7 +1250,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1251,6 +1283,8 @@ namespace YoutubeSubscriberManager
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
                 var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
                 if (subscriber != null)
                 {
                     var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
@@ -1260,7 +1294,7 @@ namespace YoutubeSubscriberManager
                     }
                     else
                     {
-                        StampElement(driver, subscriberName, currentElement);
+                        StampElement(driver, subscriberName, currentElement, latestComments);
                         viewedSubscribers.Add(subscriber);
                         subscriberNameString += $",{subscriberName}";
 
@@ -1418,10 +1452,9 @@ namespace YoutubeSubscriberManager
         private static void StampElement(ChromeDriver driver, string subscriberName, int index, string commentString)
         {
             var jse = (IJavaScriptExecutor)driver;
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].appendChild(document.createTextNode('{commentString}))");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString}</div>\"");
 
-            //ytd-grid-video-renderer/div/div[@id='details']
-            //document.getElementsByTagName('ytd-grid-video-renderer')[1].getElementsByClassName('dismissible')
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
             if (whitelist.Contains(subscriberName.ToLower()))

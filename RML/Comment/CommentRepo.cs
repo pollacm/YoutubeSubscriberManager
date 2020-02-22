@@ -38,8 +38,9 @@ namespace YoutubeSubscriberManager.Comment
             }
         }
         public List<Comment> GetComments()
-        {   
-            using (StreamReader file = new StreamReader(jsonFile))
+        {
+            var jsonPath = jsonFile;
+            using (StreamReader file = new StreamReader(jsonPath))
             {
                 return JsonConvert.DeserializeObject<List<Comment>>(file.ReadToEnd());
             }
@@ -47,7 +48,8 @@ namespace YoutubeSubscriberManager.Comment
 
         public string GetLastComments(List<Comment> comments, string commenterName, int numberOfComments)
         {
-            return string.Join(" ||| ", comments.Where(c => c.MessengerName == commenterName).Take(numberOfComments));
+            var latestComments = comments.Where(c => c.MessengerName == commenterName).Select(c => c.Message).Take(numberOfComments).ToList();
+            return latestComments.Count > 0 ? string.Join(" ||| ", latestComments) : string.Empty;
         }
 
         public List<Comment> GetEligableVideosUpdateOfMessengers()
