@@ -289,7 +289,7 @@ namespace YoutubeSubscriberManager
             "alvin traveler".ToLower(),
             "HFX GAMING".ToLower(),
             "TYS worldTV".ToLower(),
-            "Orjane".ToLower(),
+            "༒•TUAMA SANGAYA•༒".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
