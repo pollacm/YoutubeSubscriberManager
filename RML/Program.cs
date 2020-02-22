@@ -393,7 +393,6 @@ namespace YoutubeSubscriberManager
             "SaiyanStreamz".ToLower(),//waiting
             "Unity Kitchen".ToLower(),//waiting
             //"Serg Unleashed YT".ToLower(),//waiting
-            "Vichaal Kahn".ToLower(),//waiting
             "Mr. Biggler Gaming".ToLower(),//waiting
             "TheGoodPlaceForGames".ToLower(),//waiting
             "Unknown Sith".ToLower(),//waiting
@@ -578,6 +577,7 @@ namespace YoutubeSubscriberManager
             "Crazy Gamer".ToLower(),//full other waiting
             "discoverandplay".ToLower(),
             "Pixel P".ToLower(),
+            "Vichaal Kahn".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
