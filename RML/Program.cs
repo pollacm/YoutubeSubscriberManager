@@ -283,12 +283,12 @@ namespace YoutubeSubscriberManager
             "Spirit Dude Gamer".ToLower(),
             "sunitha simple rangoli".ToLower(),
             "Anwar.s. M".ToLower(),
-            "navigatorseas sailor".ToLower(),
             "EA TRUL DAK LAK QUE TOI".ToLower(),
             "mas kaka".ToLower(),
             "Jhulie Anne".ToLower(),
             "alvin traveler".ToLower(),
             "HFX GAMING".ToLower(),
+            "TYS worldTV".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -393,10 +393,10 @@ namespace YoutubeSubscriberManager
             "SaiyanStreamz".ToLower(),//waiting
             "Unity Kitchen".ToLower(),//waiting
             //"Serg Unleashed YT".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "Vichaal Kahn".ToLower(),//waiting
+            "Mr. Biggler Gaming".ToLower(),//waiting
+            "TheGoodPlaceForGames".ToLower(),//waiting
+            "Unknown Sith".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -459,8 +459,8 @@ namespace YoutubeSubscriberManager
             "Shambhavi Jha".ToLower(),
             "Thanh Huyền Chu".ToLower(),
             "GATOTORO".ToLower(),
-            "TYS worldTV".ToLower(),
-            "dfsdfsd".ToLower(),
+            "navigatorseas sailor".ToLower(),
+            "Jamaica L.".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -576,8 +576,8 @@ namespace YoutubeSubscriberManager
             "ConGames007".ToLower(),
             "ENKI'S FUN TECHNO STUFF".ToLower(),//think he started watching full
             "Crazy Gamer".ToLower(),//full other waiting
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "discoverandplay".ToLower(),
+            "Pixel P".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
