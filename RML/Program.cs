@@ -290,11 +290,11 @@ namespace YoutubeSubscriberManager
             "HFX GAMING".ToLower(),
             "TYS worldTV".ToLower(),
             "༒•TUAMA SANGAYA•༒".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "絵こrさりおEl Corsario".ToLower(),
+            "Lynz bisly".ToLower(),
+            "Yolacz Tv".ToLower(),
+            "Mekrami mekrami".ToLower(),
+            "Bro 117K".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -394,8 +394,6 @@ namespace YoutubeSubscriberManager
             "Unity Kitchen".ToLower(),//waiting
             //"Serg Unleashed YT".ToLower(),//waiting
             "Mr. Biggler Gaming".ToLower(),//waiting
-            "TheGoodPlaceForGames".ToLower(),//waiting
-            "Unknown Sith".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -460,8 +458,9 @@ namespace YoutubeSubscriberManager
             "GATOTORO".ToLower(),
             "navigatorseas sailor".ToLower(),
             "Jamaica L.".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Unknown Sith".ToLower(),
+            "Pinky and Lhian vlog".ToLower(),
+            "TheGoodPlaceForGames".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
