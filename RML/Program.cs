@@ -295,7 +295,7 @@ namespace YoutubeSubscriberManager
             "Yolacz Tv".ToLower(),
             "Mekrami mekrami".ToLower(),
             "Bro 117K".ToLower(),
-            "Orjane".ToLower(),
+            "Restart".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
