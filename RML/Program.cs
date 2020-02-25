@@ -296,6 +296,19 @@ namespace YoutubeSubscriberManager
             "Mekrami mekrami".ToLower(),
             "Bro 117K".ToLower(),
             "Restart".ToLower(),
+            "Dzakira Zahra".ToLower(),
+            "DotSlashFrag".ToLower(),
+            "Hoki horas TV".ToLower(),
+            "VnMusic".ToLower(),
+            "Rahmat Matondang TV".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -343,11 +356,34 @@ namespace YoutubeSubscriberManager
             "Lev Kris Coins".ToLower(),
             "أنا وخويا Ana okhoya".ToLower(),
             "Won't Grow Up".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+
+
+            //---new subs and haven't verified
+            "NDZ Gaming".ToLower(),
+            "KASAKU".ToLower(),
+            "معلش M3lsh".ToLower(),
+            "Me and My Kitchen".ToLower(),//split full between 2
+            "love and chic Diandra".ToLower(),//split full between 2
+            "WhiskeyBlue10".ToLower(),
+            "7orever".ToLower(),
+            "Wheelassassin".ToLower(),
+            "PS5 Gamer".ToLower(),
+            "Syafitrie Chanel".ToLower(),
+            "BlackWolf Studio".ToLower(),
+            "ALI PENJAGA ARJUNA GYM".ToLower(),
+            "VS DA ZL".ToLower(),
+            "CrazyGamer23".ToLower(),
+            "Levie's Trip".ToLower(),
+            "ShadowZ YT".ToLower(),
+            "A Game's top5".ToLower(),
+            "OSCAR GOMEZ DE LA TORRE".ToLower(),//one full split between 2
+            "Miki".ToLower(),
+            "Fun Mary".ToLower(),//dont know about these. new subscribers
+            "고양이아빠TV".ToLower(),
+            "Hoang Vu's Journey".ToLower(),
+            "Dragonson".ToLower(),
+            "JUANA BULAKENYA".ToLower(),//think red
+            "My world Of cooking".ToLower(),//think red
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -375,7 +411,6 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
-            "SurxanGames".ToLower(),//full other waiting
             "شمس الدين DZ".ToLower(),//full other waiting
             "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate
@@ -391,9 +426,9 @@ namespace YoutubeSubscriberManager
             "LONE WOLF GAMING".ToLower(),//waiting
             "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//waiting
             "SaiyanStreamz".ToLower(),//waiting
-            "Unity Kitchen".ToLower(),//waiting
             //"Serg Unleashed YT".ToLower(),//waiting
             "Mr. Biggler Gaming".ToLower(),//waiting
+            "Maryo1stt Gaming".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -406,30 +441,6 @@ namespace YoutubeSubscriberManager
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            //---new subs and haven't verified
-            "NDZ Gaming".ToLower(),
-            "KASAKU".ToLower(),
-            "معلش M3lsh".ToLower(),
-            "Me and My Kitchen".ToLower(),//split full between 2
-            "love and chic Diandra".ToLower(),//split full between 2
-            "WhiskeyBlue10".ToLower(),
-            "7orever".ToLower(),
-            "M3athead Gaming".ToLower(),
-            "Wheelassassin".ToLower(),
-            "PS5 Gamer".ToLower(),
-            "Syafitrie Chanel".ToLower(),
-            "BlackWolf Studio".ToLower(),
-            "ALI PENJAGA ARJUNA GYM".ToLower(),
-            "VS DA ZL".ToLower(),
-            "CrazyGamer23".ToLower(),
-            "Levie's Trip".ToLower(),
-            "ShadowZ YT".ToLower(),
-            "A Game's top5".ToLower(),
-            "OSCAR GOMEZ DE LA TORRE".ToLower(),//one full split between 2
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -459,8 +470,8 @@ namespace YoutubeSubscriberManager
             "navigatorseas sailor".ToLower(),
             "Jamaica L.".ToLower(),
             "Unknown Sith".ToLower(),
-            "Pinky and Lhian vlog".ToLower(),
             "TheGoodPlaceForGames".ToLower(),
+            "SurxanGames".ToLower(),//full other waiting
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -577,6 +588,9 @@ namespace YoutubeSubscriberManager
             "discoverandplay".ToLower(),
             "Pixel P".ToLower(),
             "Vichaal Kahn".ToLower(),
+            "Pinky and Lhian vlog".ToLower(),
+            "Unity Kitchen".ToLower(),
+            "M3athead Gaming".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -624,10 +638,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -636,8 +650,8 @@ namespace YoutubeSubscriberManager
             ChromeDriver driver = new ChromeDriver(options);
             
             //ProcessWatchers(driver, rowsToIncrementComments, acceptableWatchTimesForCalculation, watchers);
-            LoadSubscribers(driver, rowsToIncrementOnSubPage, subscribers);
-            RunSingleVideoLookups(driver, rowsToIncrementOnSubPage, subscribers);
+            //LoadSubscribers(driver, rowsToIncrementOnSubPage, subscribers);
+            RunSingleVideoLookups(driver, rowsToIncrementOnSubPage);
             MultiVideoLookup(driver, rowsToIncrementOnSubPage, subscribers);
 
             var x = 1;
@@ -1034,21 +1048,21 @@ namespace YoutubeSubscriberManager
             //var commentedLately = string.Join(",", subscribers.Where(l => !l.CommentedLately).Select(l => l.Name));
         }
 
-        private static void RunSingleVideoLookups(ChromeDriver driver, int rowsToIncrementOnSubPage, List<Subscriber.Subscriber> subscribers)
+        private static void RunSingleVideoLookups(ChromeDriver driver, int rowsToIncrementOnSubPage)
         {
             ReadOnlyCollection<IWebElement> videos;
-//white list single vid
-            //driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
-            //for (int i = 0; i < rowsToIncrementOnSubPage; i++)
-            //{
-            //    ScrollToBottom(driver);
-            //    Thread.Sleep(3000);
-            //}
+            //white list single vid
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
 
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             var currentElement = 0;
             var subscriberNameRepo = new SubscriberNameRepo();
-            var viewedSubscribers = new List<Subscriber.Subscriber>();
+            var viewedSubscribers = new List<string>();
             var subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
             var commentRepo = new CommentRepo();
             var comments = commentRepo.GetComments();
@@ -1057,28 +1071,20 @@ namespace YoutubeSubscriberManager
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement);
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
 
                 index++;
@@ -1097,34 +1103,26 @@ namespace YoutubeSubscriberManager
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<Subscriber.Subscriber>();
+            viewedSubscribers = new List<string>();
             subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement);
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
             }
 
@@ -1141,34 +1139,26 @@ namespace YoutubeSubscriberManager
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<Subscriber.Subscriber>();
+            viewedSubscribers = new List<string>();
             subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement);
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
             }
 
@@ -1185,34 +1175,26 @@ namespace YoutubeSubscriberManager
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<Subscriber.Subscriber>();
+            viewedSubscribers = new List<string>();
             subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement);
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
             }
 
@@ -1229,36 +1211,28 @@ namespace YoutubeSubscriberManager
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<Subscriber.Subscriber>();
+            viewedSubscribers = new List<string>();
             subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower()) || orangelist.Contains(subscriberName.ToLower()) ||
+                    pinklist.Contains(subscriberName.ToLower())
+                    || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (whitelist.Contains(subscriberName.ToLower()) || yellowlist.Contains(subscriberName.ToLower()) || blacklist.Contains(subscriberName.ToLower()) || orangelist.Contains(subscriberName.ToLower()) ||
-                        pinklist.Contains(subscriberName.ToLower())
-                        || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement);
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
             }
 
@@ -1275,34 +1249,26 @@ namespace YoutubeSubscriberManager
             videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
             currentElement = 0;
             subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<Subscriber.Subscriber>();
+            viewedSubscribers = new List<string>();
             subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
 
             foreach (var video in videos)
             {
                 var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var subscriber = subscribers.SingleOrDefault(s => s.Name == subscriberName);
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
-                if (subscriber != null)
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
+                if (!blacklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                 {
-                    var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                    if (!blacklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
-                    {
-                        RemoveElement(driver, currentElement);
-                    }
-                    else
-                    {
-                        StampElement(driver, subscriberName, currentElement, latestComments);
-                        viewedSubscribers.Add(subscriber);
-                        subscriberNameString += $",{subscriberName}";
-
-                        currentElement++;
-                    }
+                    RemoveElement(driver, currentElement);
                 }
                 else
                 {
-                    RemoveElement(driver, currentElement); 
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
                 }
             }
 
@@ -1452,7 +1418,7 @@ namespace YoutubeSubscriberManager
         {
             var jse = (IJavaScriptExecutor)driver;
             //jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString}</div>\"");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "")}</div>\"");
 
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");

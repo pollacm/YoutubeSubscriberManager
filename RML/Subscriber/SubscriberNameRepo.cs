@@ -11,9 +11,9 @@ namespace YoutubeSubscriberManager.Subscriber
     public class SubscriberNameRepo
     {
         private readonly string jsonFile = "../../SubscriberName.txt";
-        public void RefreshSubscribers(List<Subscriber> subscribers)
+        public void RefreshSubscribers(List<string> subscribers)
         {
-            var subscriberNames = GetSubscribers() + "," + string.Join(",", subscribers.Select(s => s.Name).Distinct());
+            var subscriberNames = GetSubscribers() + "," + string.Join(",", subscribers.Select(s => s).Distinct());
 
             using (StreamWriter file = new StreamWriter(jsonFile))
             {
