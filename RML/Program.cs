@@ -301,6 +301,7 @@ namespace YoutubeSubscriberManager
             "Hoki horas TV".ToLower(),
             "VnMusic".ToLower(),
             "Rahmat Matondang TV".ToLower(),
+            "r3voo".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -407,30 +408,25 @@ namespace YoutubeSubscriberManager
             "Unplugged Gaming".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
             "MultiVerse Studio".ToLower(),//full other waiting
-            "Rafał Szymski".ToLower(),//full other waiting
-            "EA Cubing".ToLower(),//full other waiting
             "RedShadow".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
             "شمس الدين DZ".ToLower(),//full other waiting
             "Giant Saint".ToLower(),//full other waiting
-            "House Zarn Gaming".ToLower(), //Think full but need to validate
+            "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "أكل بيتي مع ساميه".ToLower(),
-            "r3voo".ToLower(),
             "Ron's DigiDiary".ToLower(),//waiting
             "Parker2417".ToLower(),//waiting
             "GetAwesome Gaming".ToLower(),//waiting
             "Ys Gaming Dark".ToLower(),//waiting
             "Pelo Gaming".ToLower(),//waiting
             "Flippettirob".ToLower(),//waiting
-            "E_ finish the limit".ToLower(),//waiting
             "LONE WOLF GAMING".ToLower(),//waiting
             "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//waiting
             "SaiyanStreamz".ToLower(),//waiting
-            //"Serg Unleashed YT".ToLower(),//waiting
-            "Mr. Biggler Gaming".ToLower(),//waiting
+            "Serg Unleashed YT".ToLower(),//waiting; last shot
             "Maryo1stt Gaming".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
+            "江南的小厨房".ToLower(),//mixed up but think green
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -471,7 +467,8 @@ namespace YoutubeSubscriberManager
             "Jamaica L.".ToLower(),
             "Unknown Sith".ToLower(),
             "TheGoodPlaceForGames".ToLower(),
-            "SurxanGames".ToLower(),//full other waiting
+            "SurxanGames".ToLower(),
+            "Rafał Szymski".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -591,7 +588,10 @@ namespace YoutubeSubscriberManager
             "Pinky and Lhian vlog".ToLower(),
             "Unity Kitchen".ToLower(),
             "M3athead Gaming".ToLower(),
-            "Salus".ToLower(),
+            "Mr. Biggler Gaming".ToLower(),
+            "E_ finish the limit".ToLower(),
+            "it'sMs.Nomy's s".ToLower(),
+            "EA Cubing".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
