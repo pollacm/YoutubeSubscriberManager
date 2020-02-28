@@ -305,7 +305,7 @@ namespace YoutubeSubscriberManager
             "TNG Gaming".ToLower(),
             "Beauty of swat kpk".ToLower(),
             "Pahan Nethu".ToLower(),
-            "Orjane".ToLower(),
+            "Ifrit Overdrive".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -450,7 +450,6 @@ namespace YoutubeSubscriberManager
             "Vendetta Gaming Plus More".ToLower(),
             "다 빛나사랑TV".ToLower(),
             "Our Kitchen".ToLower(),//2.5/12
-            "Lujan Gaming".ToLower(),//3/12
             "prince tv".ToLower(),
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "PRADO FAMILY".ToLower(),
@@ -592,6 +591,7 @@ namespace YoutubeSubscriberManager
             "it'sMs.Nomy's s".ToLower(),
             "EA Cubing".ToLower(),
             "Kade Channel".ToLower(),
+            "Lujan Gaming".ToLower(),//3/12
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
