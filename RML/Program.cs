@@ -230,7 +230,6 @@ namespace YoutubeSubscriberManager
             "DS. Kim".ToLower(),
             "Sanchez YT".ToLower(),
             "BOING".ToLower(),
-            "LoveSurfBunny".ToLower(),
             "choub khem".ToLower(),
             "Thomas Scott".ToLower(),
             "Lorna Harpham".ToLower(),
@@ -302,10 +301,10 @@ namespace YoutubeSubscriberManager
             "VnMusic".ToLower(),
             "Rahmat Matondang TV".ToLower(),
             "r3voo".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "PSJ Line".ToLower(),
+            "TNG Gaming".ToLower(),
+            "Beauty of swat kpk".ToLower(),
+            "Pahan Nethu".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -385,6 +384,7 @@ namespace YoutubeSubscriberManager
             "Dragonson".ToLower(),
             "JUANA BULAKENYA".ToLower(),//think red
             "My world Of cooking".ToLower(),//think red
+            "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -426,7 +426,6 @@ namespace YoutubeSubscriberManager
             "Serg Unleashed YT".ToLower(),//waiting; last shot
             "Maryo1stt Gaming".ToLower(),//waiting
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
-            "江南的小厨房".ToLower(),//mixed up but think green
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -469,7 +468,7 @@ namespace YoutubeSubscriberManager
             "TheGoodPlaceForGames".ToLower(),
             "SurxanGames".ToLower(),
             "Rafał Szymski".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Maryo1stt Gaming".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -592,7 +591,7 @@ namespace YoutubeSubscriberManager
             "E_ finish the limit".ToLower(),
             "it'sMs.Nomy's s".ToLower(),
             "EA Cubing".ToLower(),
-            "Salus".ToLower(),
+            "Kade Channel".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
