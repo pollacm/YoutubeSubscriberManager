@@ -9,7 +9,8 @@ namespace YoutubeSubscriberManager.Comment
 {
     public class CommentRepo
     {
-        private readonly string jsonFile = "C:/Users/Owner/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
+        //private readonly string jsonFile = "C:/Users/Owner/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
+        private readonly string jsonFile = "C:/Users/cxp6696/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
         public void RefreshComments(List<Comment> incomingComments)
         {
             var comments = GetComments();
