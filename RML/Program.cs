@@ -385,7 +385,7 @@ namespace YoutubeSubscriberManager
             "JUANA BULAKENYA".ToLower(),//think red
             "My world Of cooking".ToLower(),//think red
             "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
-            "Damla".ToLower(),
+            "WheresLee".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -426,8 +426,8 @@ namespace YoutubeSubscriberManager
             "Serg Unleashed YT".ToLower(),//waiting; last shot
             "Maryo1stt Gaming".ToLower(),//waiting
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "KALIMAN.".ToLower(),//waiting
+            "Thebeardednerd".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -468,10 +468,10 @@ namespace YoutubeSubscriberManager
             "SurxanGames".ToLower(),
             "Rafał Szymski".ToLower(),
             "Maryo1stt Gaming".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Sinefx".ToLower(),
+            "SOUKSAMAI XAYSOMLAN".ToLower(),
+            "Gaming Grandpa".ToLower(),
+            "Mix photo".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -1417,7 +1417,7 @@ namespace YoutubeSubscriberManager
         {
             var jse = (IJavaScriptExecutor)driver;
             //jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "")}</div>\"");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "").Replace("😂", "").Replace("🔥", "").Replace("👍","").Replace("✌","")}</div>\"");
 
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
