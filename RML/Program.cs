@@ -306,6 +306,18 @@ namespace YoutubeSubscriberManager
             "Beauty of swat kpk".ToLower(),
             "Pahan Nethu".ToLower(),
             "Ifrit Overdrive".ToLower(),
+            "Caballero Idem".ToLower(),
+            "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
+            "ELNUR İSMAİLOV".ToLower(),
+            "ClassSniper YT".ToLower(),
+            "Korea Tour TV".ToLower(),
+            "SULUZ YUMMY DIARIES".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -341,7 +353,6 @@ namespace YoutubeSubscriberManager
             "THÙY TV".ToLower(),//split but red I think            
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
-            "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
             "KVZoneHD".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
@@ -392,6 +403,7 @@ namespace YoutubeSubscriberManager
 
             "Ny Sovann".ToLower(),
             "Damla".ToLower(),
+            "Scelero Plays".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -430,10 +442,14 @@ namespace YoutubeSubscriberManager
             "Serg Unleashed YT".ToLower(),//waiting; last shot
             "Maryo1stt Gaming".ToLower(),//waiting
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
+            "BdS 04 Gameplay".ToLower(),//waiting
+            "Akib Gaming".ToLower(),//think he's green
+            "Lee Boon".ToLower(),//think he's green
+            "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
+            "Bonita Marie".ToLower(),//waiting
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
             "ClassSniper YT".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -455,7 +471,6 @@ namespace YoutubeSubscriberManager
             "다 빛나사랑TV".ToLower(),
             "Our Kitchen".ToLower(),//2.5/12
             "prince tv".ToLower(),
-            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "PRADO FAMILY".ToLower(),
             "Fermayil Ahmedov".ToLower(),
             "AJIW NZIDOU LKODDAM".ToLower(),
@@ -476,6 +491,17 @@ namespace YoutubeSubscriberManager
             "SOUKSAMAI XAYSOMLAN".ToLower(),
             "Gaming Grandpa".ToLower(),
             "Mix photo".ToLower(),
+            "WheresLee".ToLower(),
+            "Emma Crafts - Origami, DIY".ToLower(),
+            "BdS 04 Gameplay".ToLower(),
+            "walterarce7".ToLower(),
+            "Rose Bacomo".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -516,7 +542,7 @@ namespace YoutubeSubscriberManager
             "Terese Benge".ToLower(),//9.5/9.5
             "ŞAHİN TAKIMI".ToLower(),
             "GAME WFK".ToLower(),//8/8
-            "Zhang萌萌的咪儿".ToLower(),//4/8
+            "Zhang咪儿娱乐局".ToLower(),//4/8
             "Phynoxtv".ToLower(),
             "K2Z U".ToLower(), //4.6/10
             "Friendship Education".ToLower(),
@@ -533,7 +559,6 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),
             "F2PlayGames".ToLower(),//5/16
             "Mihaela Claudia Puscas".ToLower(), //24/32
-            "walterarce7".ToLower(),
             "FredoriaGaming".ToLower(),//8/8
             "Precocious Turtle".ToLower(),//32/32
             "Silomroad HollandAsianVibe".ToLower(),//waiting
@@ -597,6 +622,10 @@ namespace YoutubeSubscriberManager
             "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
             "Neo 20".ToLower(),
+            "KALIMAN.".ToLower(),//waiting
+            "Thebeardednerd".ToLower(),//waiting
+            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
+            "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -641,10 +670,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
