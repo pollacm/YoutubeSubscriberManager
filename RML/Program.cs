@@ -386,7 +386,11 @@ namespace YoutubeSubscriberManager
             "My world Of cooking".ToLower(),//think red
             "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
             "WheresLee".ToLower(),
-            "Damla".ToLower(),
+
+
+
+
+            "Ny Sovann".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -428,7 +432,7 @@ namespace YoutubeSubscriberManager
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "ClassSniper YT".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -592,7 +596,7 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),
             "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
-            "Salus".ToLower(),
+            "Neo 20".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
