@@ -309,8 +309,8 @@ namespace YoutubeSubscriberManager
             "Caballero Idem".ToLower(),
             "JackyDalshim Letsplays".ToLower(),//was red then 4.68/9
             "ELNUR İSMAİLOV".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "ClassSniper YT".ToLower(),
+            "Korea Tour TV".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -459,7 +459,6 @@ namespace YoutubeSubscriberManager
             "다 빛나사랑TV".ToLower(),
             "Our Kitchen".ToLower(),//2.5/12
             "prince tv".ToLower(),
-            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "PRADO FAMILY".ToLower(),
             "Fermayil Ahmedov".ToLower(),
             "AJIW NZIDOU LKODDAM".ToLower(),
@@ -483,6 +482,7 @@ namespace YoutubeSubscriberManager
             "WheresLee".ToLower(),
             "Emma Crafts - Origami, DIY".ToLower(),
             "BdS 04 Gameplay".ToLower(),
+            "walterarce7".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
         };
@@ -538,7 +538,6 @@ namespace YoutubeSubscriberManager
             "Гильдия Геймеров".ToLower(),
             "F2PlayGames".ToLower(),//5/16
             "Mihaela Claudia Puscas".ToLower(), //24/32
-            "walterarce7".ToLower(),
             "FredoriaGaming".ToLower(),//8/8
             "Precocious Turtle".ToLower(),//32/32
             "Silomroad HollandAsianVibe".ToLower(),//waiting
@@ -603,6 +602,7 @@ namespace YoutubeSubscriberManager
             "Lujan Gaming".ToLower(),//3/12
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
+            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -648,10 +648,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
