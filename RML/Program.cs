@@ -313,7 +313,7 @@ namespace YoutubeSubscriberManager
             "Korea Tour TV".ToLower(),
             "SULUZ YUMMY DIARIES".ToLower(),
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
-            "Orjane".ToLower(),
+            "Tri Le".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
