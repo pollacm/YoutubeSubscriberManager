@@ -397,8 +397,14 @@ namespace YoutubeSubscriberManager
             "JUANA BULAKENYA".ToLower(),//think red
             "My world Of cooking".ToLower(),//think red
             "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
-            "Scelero Plays".ToLower(),
+            "WheresLee".ToLower(),
+
+
+
+
+            "Ny Sovann".ToLower(),
             "Damla".ToLower(),
+            "Scelero Plays".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -441,6 +447,12 @@ namespace YoutubeSubscriberManager
             "Lee Boon".ToLower(),//think he's green
             "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
             "Bonita Marie".ToLower(),//waiting
+            "KALIMAN.".ToLower(),//waiting
+            "Thebeardednerd".ToLower(),//waiting
+            "ClassSniper YT".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -609,6 +621,7 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),
             "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
+            "Neo 20".ToLower(),
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
