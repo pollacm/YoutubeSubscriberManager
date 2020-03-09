@@ -312,7 +312,7 @@ namespace YoutubeSubscriberManager
             "ClassSniper YT".ToLower(),
             "Korea Tour TV".ToLower(),
             "SULUZ YUMMY DIARIES".ToLower(),
-            "Orjane".ToLower(),
+            "AMV.S Madalin".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -397,15 +397,11 @@ namespace YoutubeSubscriberManager
             "My world Of cooking".ToLower(),//think red
             "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
             "WheresLee".ToLower(),
-
-
-
-
             "Ny Sovann".ToLower(),
-            "Damla".ToLower(),
+            "Maxxad TV".ToLower(),
             "Scelero Plays".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Ash's Artudio".ToLower(),
+            "Bhela's Vlog".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -427,7 +423,6 @@ namespace YoutubeSubscriberManager
             "RedShadow".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
             "شمس الدين DZ".ToLower(),//full other waiting
-            "Giant Saint".ToLower(),//full other waiting
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "أكل بيتي مع ساميه".ToLower(),
             "Ron's DigiDiary".ToLower(),//waiting
@@ -449,7 +444,24 @@ namespace YoutubeSubscriberManager
             "Bonita Marie".ToLower(),//waiting
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
-            "ClassSniper YT".ToLower(),//waiting
+            "V GAMER".ToLower(),//waiting
+            "MrChiprocks1".ToLower(),//waiting
+            "GGT".ToLower(),//waiting
+            "AdyUNLIMITED".ToLower(),//waiting
+            "TMT GAMES".ToLower(),//waiting
+            "Narayan Gamer".ToLower(),//waiting
+            "Ole Cranky Gamer".ToLower(),//waiting
+            "spanglish 24/7".ToLower(),//waiting
+            "Vandel".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
+            "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -625,6 +637,7 @@ namespace YoutubeSubscriberManager
             "KALIMAN.".ToLower(),//waiting
             "Thebeardednerd".ToLower(),//waiting
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
+            "Giant Saint".ToLower(),//full other waiting
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -670,10 +683,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -1450,7 +1463,7 @@ namespace YoutubeSubscriberManager
         {
             var jse = (IJavaScriptExecutor)driver;
             //jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "").Replace("😂", "").Replace("🔥", "").Replace("👍","").Replace("✌","")}</div>\"");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "").Replace("😂", "").Replace("😂","").Replace("🔥", "").Replace("👍","").Replace("✌","")}</div>\"");
 
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
