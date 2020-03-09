@@ -312,6 +312,8 @@ namespace YoutubeSubscriberManager
             "ClassSniper YT".ToLower(),
             "Korea Tour TV".ToLower(),
             "SULUZ YUMMY DIARIES".ToLower(),
+            "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
+            "Tri Le".ToLower(),
             "AMV.S Madalin".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -423,7 +425,6 @@ namespace YoutubeSubscriberManager
             "RedShadow".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
             "شمس الدين DZ".ToLower(),//full other waiting
-            "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "أكل بيتي مع ساميه".ToLower(),
             "Ron's DigiDiary".ToLower(),//waiting
             "Parker2417".ToLower(),//waiting
