@@ -312,9 +312,9 @@ namespace YoutubeSubscriberManager
             "ClassSniper YT".ToLower(),
             "Korea Tour TV".ToLower(),
             "SULUZ YUMMY DIARIES".ToLower(),
+            "AMV.S Madalin".ToLower(),
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "Tri Le".ToLower(),
-            "AMV.S Madalin".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
