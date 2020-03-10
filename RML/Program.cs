@@ -315,7 +315,7 @@ namespace YoutubeSubscriberManager
             "AMV.S Madalin".ToLower(),
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "Tri Le".ToLower(),
-            "Orjane".ToLower(),
+            "mimi mo".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -392,7 +392,6 @@ namespace YoutubeSubscriberManager
             "OSCAR GOMEZ DE LA TORRE".ToLower(),//one full split between 2
             "Miki".ToLower(),
             "Fun Mary".ToLower(),//dont know about these. new subscribers
-            "고양이아빠TV".ToLower(),
             "Hoang Vu's Journey".ToLower(),
             "Dragonson".ToLower(),
             "JUANA BULAKENYA".ToLower(),//think red
@@ -404,6 +403,13 @@ namespace YoutubeSubscriberManager
             "Scelero Plays".ToLower(),
             "Ash's Artudio".ToLower(),
             "Bhela's Vlog".ToLower(),
+            "Carromacumba".ToLower(),//no idea
+            "Rosie".ToLower(), //no idea
+            "Munank’s World".ToLower(),//no idea
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -442,19 +448,19 @@ namespace YoutubeSubscriberManager
             "Akib Gaming".ToLower(),//think he's green
             "Lee Boon".ToLower(),//think he's green
             "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
-            "Bonita Marie".ToLower(),//waiting
-            "KALIMAN.".ToLower(),//waiting
-            "Thebeardednerd".ToLower(),//waiting
-            "V GAMER".ToLower(),//waiting
-            "MrChiprocks1".ToLower(),//waiting
+            "Bonita Marie".ToLower(),//waiting, they subbed, need to verify watch time
+            "KALIMAN.".ToLower(),//waiting, they subbed, need to verify watch time
+            "Thebeardednerd".ToLower(),//waiting, they subbed, need to verify watch time
+            "V GAMER".ToLower(),//waiting, they subbed, need to verify watch time
+            "MrChiprocks1".ToLower(),//waiting, they subbed, need to verify watch time
             "GGT".ToLower(),//waiting
             "AdyUNLIMITED".ToLower(),//waiting
-            "TMT GAMES".ToLower(),//waiting
+            "TMT GAMES".ToLower(),//waiting, they subbed, need to verify watch time
             "Narayan Gamer".ToLower(),//waiting
-            "Ole Cranky Gamer".ToLower(),//waiting
-            "spanglish 24/7".ToLower(),//waiting
-            "Vandel".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "Ole Cranky Gamer".ToLower(),//waiting, they subbed, need to verify watch time
+            "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
+            "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
+            "partidasonlinet31vg7".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -639,6 +645,7 @@ namespace YoutubeSubscriberManager
             "Thebeardednerd".ToLower(),//waiting
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Giant Saint".ToLower(),//full other waiting
+            "고양이아빠TV".ToLower(), //I think...
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
