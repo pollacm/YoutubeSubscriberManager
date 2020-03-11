@@ -518,7 +518,7 @@ namespace YoutubeSubscriberManager
             "Andaaz-E-Bayaan".ToLower(),
             "AMS TECH".ToLower(),
             "BlackBunog".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Pelo Gaming".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
