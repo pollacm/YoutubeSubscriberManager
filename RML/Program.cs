@@ -316,11 +316,14 @@ namespace YoutubeSubscriberManager
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "Tri Le".ToLower(),
             "mimi mo".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "SouL".ToLower(),
+            "Vober Bazar".ToLower(),
+            "Awesome Life".ToLower(),
+            "Jobba Jobba".ToLower(),
+            "Scelero Plays".ToLower(),
+            "Best Urdu Poetry Collection".ToLower(),
+            "SportCardCollector959".ToLower(),
+            "Sunera Kitchen".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -366,7 +369,6 @@ namespace YoutubeSubscriberManager
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "Terrill".ToLower(),
             "TheAmazingLSB".ToLower(),
-            "Lev Kris Coins".ToLower(),
             "أنا وخويا Ana okhoya".ToLower(),
             "Won't Grow Up".ToLower(),
 
@@ -400,7 +402,6 @@ namespace YoutubeSubscriberManager
             "WheresLee".ToLower(),
             "Ny Sovann".ToLower(),
             "Maxxad TV".ToLower(),
-            "Scelero Plays".ToLower(),
             "Ash's Artudio".ToLower(),
             "Bhela's Vlog".ToLower(),
             "Carromacumba".ToLower(),//no idea
@@ -461,9 +462,8 @@ namespace YoutubeSubscriberManager
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
             "partidasonlinet31vg7".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "탐구생활 MTV".ToLower(),//waiting
+            "RheAnnKaneKate Fitness & Vlog's".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -515,9 +515,9 @@ namespace YoutubeSubscriberManager
             "BdS 04 Gameplay".ToLower(),
             "walterarce7".ToLower(),
             "Rose Bacomo".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Andaaz-E-Bayaan".ToLower(),
+            "AMS TECH".ToLower(),
+            "BlackBunog".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -580,24 +580,24 @@ namespace YoutubeSubscriberManager
             "Mihaela Claudia Puscas".ToLower(), //24/32
             "FredoriaGaming".ToLower(),//8/8
             "Precocious Turtle".ToLower(),//32/32
-            "Silomroad HollandAsianVibe".ToLower(),//waiting
+            "Silomroad HollandAsianVibe".ToLower(),
             "MercBenz family".ToLower(),//5/9
             "Naomi's Filipino Kitchen and a New Life in France".ToLower(),
             "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
-            "Old Nerd Playing Old PC Games".ToLower(),//full other waiting
-            "marvelous sweet411".ToLower(),//full other waiting
-            "Game Zone World".ToLower(),//full other waiting
-            "BloodyMany".ToLower(),//full other waiting
-            "gamingwithaji".ToLower(),//full other waiting
-            "The Twins Day".ToLower(),//full other waitingp
+            "Old Nerd Playing Old PC Games".ToLower(),
+            "marvelous sweet411".ToLower(),
+            "Game Zone World".ToLower(),
+            "BloodyMany".ToLower(),
+            "gamingwithaji".ToLower(),
+            "The Twins Day".ToLower(),
             "xspysquirrel Gaming".ToLower(),//full other waiting
             "VDM8".ToLower(), //think we watched 6/8 but not sure
-            "FredoriaGaming".ToLower(),//waiting
-            "Jeann Williams My Reality Tv".ToLower(),//waiting
-            "ShowTimeGaming".ToLower(),//full other waiting
-            "Baczek Stream".ToLower(),//full other waiting
-            "SPECTREBOSS GAMES".ToLower(),//full other waiting
-            "Slendecs".ToLower(),//full other waiting
+            "FredoriaGaming".ToLower(),
+            "Jeann Williams My Reality Tv".ToLower(),
+            "ShowTimeGaming".ToLower(),
+            "Baczek Stream".ToLower(),
+            "SPECTREBOSS GAMES".ToLower(),
+            "Slendecs".ToLower(),
             "ปันยาอ่อน channel".ToLower(),
             "GAMER FAV".ToLower(),
             "Cristi Nicola".ToLower(),
@@ -609,7 +609,7 @@ namespace YoutubeSubscriberManager
             "Shivani Devi s".ToLower(), //4.7/12; think she watched 6/8 not sure
             "Zoom Gameplay".ToLower(),
             "Unsab Man".ToLower(),
-            "Cooking with Lisa".ToLower(),//full other waiting            
+            "Cooking with Lisa".ToLower(),           
             "WickedGoodEverything".ToLower(),
             "BigHairyKev".ToLower(),
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
@@ -619,15 +619,15 @@ namespace YoutubeSubscriberManager
             "TurboJoe -Old School Gaming".ToLower(),
             "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "Unity Kitchen".ToLower(),
-            "Hykli".ToLower(),//full other waitings
+            "Hykli".ToLower(),
             "DE channel".ToLower(),
             "Hagru Draw".ToLower(),
             "RedNitrate".ToLower(),
             "ceagre manuel".ToLower(),
             "WhizkySaiyanGamin".ToLower(),
             "ConGames007".ToLower(),
-            "ENKI'S FUN TECHNO STUFF".ToLower(),//think he started watching full
-            "Crazy Gamer".ToLower(),//full other waiting
+            "ENKI'S FUN TECHNO STUFF".ToLower(),
+            "Crazy Gamer".ToLower(),
             "discoverandplay".ToLower(),
             "Pixel P".ToLower(),
             "Vichaal Kahn".ToLower(),
@@ -641,13 +641,12 @@ namespace YoutubeSubscriberManager
             "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
             "Neo 20".ToLower(),
-            "KALIMAN.".ToLower(),//waiting
-            "Thebeardednerd".ToLower(),//waiting
+            "KALIMAN.".ToLower(),
+            "Thebeardednerd".ToLower(),
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
-            "Giant Saint".ToLower(),//full other waiting
-            "고양이아빠TV".ToLower(), //I think...
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "Giant Saint".ToLower(),
+            "Lev Kris Coins".ToLower(),
+            "GameStomper".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -691,10 +690,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
