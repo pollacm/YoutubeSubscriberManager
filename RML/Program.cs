@@ -315,8 +315,8 @@ namespace YoutubeSubscriberManager
             "AMV.S Madalin".ToLower(),
             "House Zarn Gaming".ToLower(), //Think full but need to validate; 1.75 minutes but said full; last shot
             "Tri Le".ToLower(),
-            "mimi mo".ToLower(),
-            "Orjane".ToLower(),
+            "TITO YT".ToLower(),
+            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -406,14 +406,14 @@ namespace YoutubeSubscriberManager
             "Carromacumba".ToLower(),//no idea
             "Rosie".ToLower(), //no idea
             "Munank’s World".ToLower(),//no idea
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Horain beauty hub".ToLower(),//Said full but idk
+            "Mr Ali".ToLower(),//probably red
+            "loan huỳnh".ToLower(),//no idea
+            "Crazy Happinesz".ToLower(),//no idea
+            "QTGamer7842".ToLower(),//no idea
+            "Major Gamerrr".ToLower(),//no idea. think its an old red but idk
+            "루나아빠의 더 게임 라이브 The Game Live".ToLower(),//no idea
+            "AMS TECH".ToLower(),//no idea
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -456,7 +456,7 @@ namespace YoutubeSubscriberManager
             "GGT".ToLower(),//waiting
             "AdyUNLIMITED".ToLower(),//waiting
             "TMT GAMES".ToLower(),//waiting, they subbed, need to verify watch time
-            "Narayan Gamer".ToLower(),//waiting
+            "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "Ole Cranky Gamer".ToLower(),//waiting, they subbed, need to verify watch time
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
@@ -475,8 +475,8 @@ namespace YoutubeSubscriberManager
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),
-            "fasdfsdafsadfsad".ToLower(),
+            "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//5 watches 13.5 minutes. Only one commented
+            "RheAnnKaneKate Fitness & Vlog's".ToLower(),//think full but one 2 watches grouped, 18 minutes, other didnt comment
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
         };
@@ -515,6 +515,7 @@ namespace YoutubeSubscriberManager
             "BdS 04 Gameplay".ToLower(),
             "walterarce7".ToLower(),
             "Rose Bacomo".ToLower(),
+            "mimi mo".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -617,7 +618,6 @@ namespace YoutubeSubscriberManager
             "syamsolver channel".ToLower(),
             "MegaGamerDude".ToLower(),
             "TurboJoe -Old School Gaming".ToLower(),
-            "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
             "Unity Kitchen".ToLower(),
             "Hykli".ToLower(),//full other waitings
             "DE channel".ToLower(),
@@ -646,7 +646,7 @@ namespace YoutubeSubscriberManager
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Giant Saint".ToLower(),//full other waiting
             "고양이아빠TV".ToLower(), //I think...
-            "Salus".ToLower(),
+            "Yozora Gaming TV".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
