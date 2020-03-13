@@ -326,6 +326,12 @@ namespace YoutubeSubscriberManager
             "Sunera Kitchen".ToLower(),
             "TITO YT".ToLower(),
             "VulpesGaming".ToLower(),//2 watched 15 minutes (out of 10)".ToLower(),
+            "Major Gamerrr".ToLower(),//no idea. think its an old red but idk
+            "GGT".ToLower(),//no comment
+            "AdyUNLIMITED".ToLower(),//no comment
+            "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//failed orange
+            "MrChiprocks1".ToLower(),//waiting, they subbed, need to verify watch time; less than a minute
+            "Bonita Marie".ToLower(),//need to verify watch time; didn't comment but once
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -337,6 +343,19 @@ namespace YoutubeSubscriberManager
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
+
+
+
+
+
+
+
+
+            //FROM ORANGE AND YELLOW
+            "Akib Gaming".ToLower(),//think he's green
+            "Lee Boon".ToLower(),//think he's green
+            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
+            "Parker2417".ToLower(),//waiting
         };
 
         public  static List<string> yellowlist = new List<string>
@@ -418,9 +437,19 @@ namespace YoutubeSubscriberManager
             "loan huỳnh".ToLower(),//no idea
             "Crazy Happinesz".ToLower(),//no idea
             "QTGamer7842".ToLower(),//no idea
-            "Major Gamerrr".ToLower(),//no idea. think its an old red but idk
             "루나아빠의 더 게임 라이브 The Game Live".ToLower(),//no idea
             "AMS TECH".ToLower(),//no idea
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
+            "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
 
@@ -429,7 +458,6 @@ namespace YoutubeSubscriberManager
         //I think full
         public static List<string> orangelist = new List<string>
         {
-            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
             "Tt TV OKE".ToLower(),//think he is full
             "다락귀신[ V ]".ToLower(),//full other waiting
             "Unplugged Gaming".ToLower(),//full other waiting
@@ -440,37 +468,28 @@ namespace YoutubeSubscriberManager
             "شمس الدين DZ".ToLower(),//full other waiting
             "أكل بيتي مع ساميه".ToLower(),
             "Ron's DigiDiary".ToLower(),//waiting
-            "Parker2417".ToLower(),//waiting
             "GetAwesome Gaming".ToLower(),//waiting
             "Ys Gaming Dark".ToLower(),//waiting
             "Pelo Gaming".ToLower(),//waiting
             "Flippettirob".ToLower(),//waiting
             "LONE WOLF GAMING".ToLower(),//waiting
-            "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//waiting
             "SaiyanStreamz".ToLower(),//waiting
             "Serg Unleashed YT".ToLower(),//waiting; last shot
             "Maryo1stt Gaming".ToLower(),//waiting
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
             "BdS 04 Gameplay".ToLower(),//waiting
-            "Akib Gaming".ToLower(),//think he's green
-            "Lee Boon".ToLower(),//think he's green
             "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
-            "Bonita Marie".ToLower(),//waiting, they subbed, need to verify watch time
             "KALIMAN.".ToLower(),//waiting, they subbed, need to verify watch time
             "Thebeardednerd".ToLower(),//waiting, they subbed, need to verify watch time
             "V GAMER".ToLower(),//waiting, they subbed, need to verify watch time
-            "MrChiprocks1".ToLower(),//waiting, they subbed, need to verify watch time
-            "GGT".ToLower(),//waiting
-            "AdyUNLIMITED".ToLower(),//waiting
             "TMT GAMES".ToLower(),//waiting, they subbed, need to verify watch time
             "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
-            "Ole Cranky Gamer".ToLower(),//waiting, they subbed, need to verify watch time
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "Paisley’s Gaming Army".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -658,6 +677,7 @@ namespace YoutubeSubscriberManager
             "Lev Kris Coins".ToLower(),
             "GameStomper".ToLower(),
             "Yozora Gaming TV".ToLower(),
+            "Ole Cranky Gamer".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -702,10 +722,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
@@ -1176,7 +1196,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
                 {
                     RemoveElement(driver, currentElement);
                 }
@@ -1212,7 +1232,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
                 {
                     RemoveElement(driver, currentElement);
                 }

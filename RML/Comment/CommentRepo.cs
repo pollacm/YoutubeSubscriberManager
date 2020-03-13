@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
@@ -9,8 +10,8 @@ namespace YoutubeSubscriberManager.Comment
 {
     public class CommentRepo
     {
-        private readonly string jsonFile = "C:/Users/Owner/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
-        //private readonly string jsonFile = "C:/Users/cxp6696/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
+        //private readonly string jsonFile = "C:/Users/Owner/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
+        private readonly string jsonFile = "C:/Users/cxp6696/source/repos/MessageMonitor/MessageMonitor/Comments.txt";
         public void RefreshComments(List<Comment> incomingComments)
         {
             var comments = GetComments();
@@ -49,7 +50,7 @@ namespace YoutubeSubscriberManager.Comment
 
         public string GetLastComments(List<Comment> comments, string commenterName, int numberOfComments)
         {
-            var latestComments = comments.Where(c => c.MessengerName == commenterName).Select(c => c.Message).Take(numberOfComments).ToList();
+            var latestComments = comments.Where(c => c.MessengerName == commenterName).Select(c => c.Message + "(" + (c.Time.HasValue ? c.Time.Value.ToString(CultureInfo.InvariantCulture) : c.StartingTimeSlot.ToString(CultureInfo.InvariantCulture) + " - " + c.EndingTimeSlot.ToString(CultureInfo.InvariantCulture)) + ")").Take(numberOfComments).ToList();
             return latestComments.Count > 0 ? string.Join(" ||| ", latestComments) : string.Empty;
         }
 
