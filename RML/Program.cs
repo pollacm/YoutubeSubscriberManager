@@ -489,7 +489,6 @@ namespace YoutubeSubscriberManager
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),//waiting
-            "Paisley’s Gaming Army".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -549,6 +548,7 @@ namespace YoutubeSubscriberManager
             "AMS TECH".ToLower(),
             "BlackBunog".ToLower(),
             "Pelo Gaming".ToLower(),
+            "Paisley’s Gaming Army".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
