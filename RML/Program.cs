@@ -329,7 +329,6 @@ namespace YoutubeSubscriberManager
             "Major Gamerrr".ToLower(),//no idea. think its an old red but idk
             "GGT".ToLower(),//no comment
             "AdyUNLIMITED".ToLower(),//no comment
-            "XXMRPIIMPXX WALKTHROUGHS".ToLower(),//failed orange
             "MrChiprocks1".ToLower(),//waiting, they subbed, need to verify watch time; less than a minute
             "Bonita Marie".ToLower(),//need to verify watch time; didn't comment but once
             "Orjane".ToLower(),
@@ -488,7 +487,6 @@ namespace YoutubeSubscriberManager
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
-            "RheAnnKaneKate Fitness & Vlog's".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -678,7 +676,9 @@ namespace YoutubeSubscriberManager
             "GameStomper".ToLower(),
             "Yozora Gaming TV".ToLower(),
             "Ole Cranky Gamer".ToLower(),
-            "Salus".ToLower(),
+            "XXMRPIIMPXX WALKTHROUGHS".ToLower(),
+            "RheAnnKaneKate Fitness & Vlog's".ToLower(),
+            "A**holes Watching Movies".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
