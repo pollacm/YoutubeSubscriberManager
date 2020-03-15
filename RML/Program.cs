@@ -331,6 +331,15 @@ namespace YoutubeSubscriberManager
             "AdyUNLIMITED".ToLower(),//no comment
             "MrChiprocks1".ToLower(),//waiting, they subbed, need to verify watch time; less than a minute
             "Bonita Marie".ToLower(),//need to verify watch time; didn't comment but once
+            "Asnakech Tilahun".ToLower(),
+            "ጸዳለ Mariam".ToLower(),
+            "Alerted".ToLower(),
+            "Boral Bangla Entertainment".ToLower(),
+            "Bearzz Gaming".ToLower(),
+            "Xbuster6".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
+            "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -353,7 +362,6 @@ namespace YoutubeSubscriberManager
             //FROM ORANGE AND YELLOW
             "Akib Gaming".ToLower(),//think he's green
             "Lee Boon".ToLower(),//think he's green
-            "Ades - Anak Desa Channel".ToLower(),//pretty sure full
             "Parker2417".ToLower(),//waiting
         };
 
@@ -502,7 +510,6 @@ namespace YoutubeSubscriberManager
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
-            "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//5 watches 13.5 minutes. Only one commented
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),//think full but one 2 watches grouped, 18 minutes, other didnt comment
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -679,8 +686,9 @@ namespace YoutubeSubscriberManager
             "XXMRPIIMPXX WALKTHROUGHS".ToLower(),
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),
             "A**holes Watching Movies".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//5 watches 13.5 minutes. Only one commented
+            "Yozora Gaming TV".ToLower(),
+            "Death in Heels".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
