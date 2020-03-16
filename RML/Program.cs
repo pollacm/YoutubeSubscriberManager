@@ -337,6 +337,8 @@ namespace YoutubeSubscriberManager
             "Boral Bangla Entertainment".ToLower(),
             "Bearzz Gaming".ToLower(),
             "Xbuster6".ToLower(),
+            "ปันยาอ่อน channel".ToLower(),//white but stopped watching back
+            "Game Zone World".ToLower(),//white but stopped watching back
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -375,6 +377,7 @@ namespace YoutubeSubscriberManager
             "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
             "NnT Daily Game".ToLower(),
+            "NnT mm & Games".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
             "Thor Reavenger".ToLower(),//8/8 between 2
@@ -413,7 +416,6 @@ namespace YoutubeSubscriberManager
             "love and chic Diandra".ToLower(),//split full between 2
             "WhiskeyBlue10".ToLower(),
             "7orever".ToLower(),
-            "Wheelassassin".ToLower(),
             "PS5 Gamer".ToLower(),
             "Syafitrie Chanel".ToLower(),
             "BlackWolf Studio".ToLower(),
@@ -446,12 +448,12 @@ namespace YoutubeSubscriberManager
             "QTGamer7842".ToLower(),//no idea
             "루나아빠의 더 게임 라이브 The Game Live".ToLower(),//no idea
             "AMS TECH".ToLower(),//no idea
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "Shemaroo comedy".ToLower(),
+            "Box Clever Gaming".ToLower(),//good comment
+            "CGIOne Gaming".ToLower(),
+            "Trần Nam Vinh 365".ToLower(),
+            "Pythagoraz".ToLower(),
+            "VimusTrack".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -493,14 +495,14 @@ namespace YoutubeSubscriberManager
             "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
+            "Flickzy27".ToLower(),//they subbed, need to verify watch time
+            "Lita Pornpimon".ToLower(),//they subbed, need to verify watch time
+            "MyCherryHurts".ToLower(),//they subbed, need to verify watch time
+            "Ratan Suthar".ToLower(),//they subbed, need to verify watch time
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "AnJunoPlays".ToLower(),//waiting
+            "RAMRAIN4 Gaming".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
@@ -576,7 +578,7 @@ namespace YoutubeSubscriberManager
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
             "games KNRTdrinkz".ToLower(),
-            "Salus Vindex".ToLower(),//4.5/10, 1.75k subs
+            "Salus Vindex Gaming".ToLower(),//4.5/10, 1.75k subs
             "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
@@ -621,7 +623,6 @@ namespace YoutubeSubscriberManager
             "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
             "Old Nerd Playing Old PC Games".ToLower(),
             "marvelous sweet411".ToLower(),
-            "Game Zone World".ToLower(),
             "BloodyMany".ToLower(),
             "gamingwithaji".ToLower(),
             "The Twins Day".ToLower(),
@@ -633,7 +634,6 @@ namespace YoutubeSubscriberManager
             "Baczek Stream".ToLower(),
             "SPECTREBOSS GAMES".ToLower(),
             "Slendecs".ToLower(),
-            "ปันยาอ่อน channel".ToLower(),
             "GAMER FAV".ToLower(),
             "Cristi Nicola".ToLower(),
             "Blue British shorthair cat".ToLower(),
@@ -689,6 +689,7 @@ namespace YoutubeSubscriberManager
             "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//5 watches 13.5 minutes. Only one commented
             "Yozora Gaming TV".ToLower(),
             "Death in Heels".ToLower(),
+            "Wheelassassin".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
@@ -730,10 +731,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
