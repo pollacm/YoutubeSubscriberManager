@@ -298,7 +298,6 @@ namespace YoutubeSubscriberManager
             "Dzakira Zahra".ToLower(),
             "DotSlashFrag".ToLower(),
             "Hoki horas TV".ToLower(),
-            "VnMusic".ToLower(),
             "Rahmat Matondang TV".ToLower(),
             "r3voo".ToLower(),
             "PSJ Line".ToLower(),
@@ -339,14 +338,22 @@ namespace YoutubeSubscriberManager
             "Xbuster6".ToLower(),
             "ปันยาอ่อน channel".ToLower(),//white but stopped watching back
             "Game Zone World".ToLower(),//white but stopped watching back
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "Retro Toys and Cartoons".ToLower(),//white but stopped watching back
+            "WickedGoodEverything".ToLower(),//white but stopped watching back
+            "معلش M3lsh".ToLower(),
+            "Neo 20".ToLower(),
+            "The Backlogged Gamer".ToLower(),
+            "Diy craft Mr perfect".ToLower(),//super generic comment
+            "PINOY AUTOMOTO GPS MASTER".ToLower(),//super generic comment
+            "Asnakech Tilahun".ToLower(),
+            "루나아빠의 더 게임 라이브 The Game Live".ToLower(),//no idea
+            "ZombieGames_YoutubeChannel".ToLower(),
+            "mas khot".ToLower(),
+            "XpertBoost Gaming".ToLower(),
+            "Big Keys".ToLower(),
+            "Thyaggo Maciel".ToLower(),
+            "Numan Tv".ToLower(),
+            "Mata Hati".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
             "Orjane".ToLower(),
@@ -372,7 +379,6 @@ namespace YoutubeSubscriberManager
             "Damla Abulfazli".ToLower(),
             "viajes lauchas".ToLower(),
             "UnspecGamer".ToLower(),
-            "Big Keys".ToLower(),
             "Birgül'ün Yöresel Lezzetleri".ToLower(),
             "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
@@ -400,7 +406,6 @@ namespace YoutubeSubscriberManager
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Rolling Pony".ToLower(),//2 views across 11 minutes
             "Jafmasterflash 7".ToLower(),
-            "WickedGoodEverything".ToLower(),//1 view 2 comments
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "Terrill".ToLower(),
             "TheAmazingLSB".ToLower(),
@@ -411,7 +416,6 @@ namespace YoutubeSubscriberManager
             //---new subs and haven't verified
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
-            "معلش M3lsh".ToLower(),
             "Me and My Kitchen".ToLower(),//split full between 2
             "love and chic Diandra".ToLower(),//split full between 2
             "WhiskeyBlue10".ToLower(),
@@ -446,18 +450,26 @@ namespace YoutubeSubscriberManager
             "loan huỳnh".ToLower(),//no idea
             "Crazy Happinesz".ToLower(),//no idea
             "QTGamer7842".ToLower(),//no idea
-            "루나아빠의 더 게임 라이브 The Game Live".ToLower(),//no idea
             "AMS TECH".ToLower(),//no idea
             "Shemaroo comedy".ToLower(),
             "Box Clever Gaming".ToLower(),//good comment
-            "CGIOne Gaming".ToLower(),
+            "CGIOne Gaming".ToLower(),//generic comment
             "Trần Nam Vinh 365".ToLower(),
             "Pythagoraz".ToLower(),
             "VimusTrack".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "YTScrub".ToLower(),
+            "Hung Dung".ToLower(),//no idea
+            "intenseG".ToLower(),
+            "Tech Easily".ToLower(),
+            "Jaye Trinidad".ToLower(),//not sure reached out on another person's comment
+            "Trương Bảo".ToLower(),//suspecting red
+            "Canal da Cleo Nunes".ToLower(),//suspecting red
+            "ConsoleGamerBoi".ToLower(),//no idea
+            "Mr. SaiyaOFFICIAL".ToLower(),//generic
+            "PracticalPat".ToLower(),//no idea
+            "TaRo Food Channel".ToLower(),//no idea
+            "NAN".ToLower(),
+            "Canal da Cleo Nunes".ToLower(),//generic comment
             "Damla".ToLower(),
             "Damla".ToLower(),
             "Damla".ToLower(),
@@ -501,11 +513,8 @@ namespace YoutubeSubscriberManager
             "Ratan Suthar".ToLower(),//they subbed, need to verify watch time
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
-            "AnJunoPlays".ToLower(),//waiting
             "RAMRAIN4 Gaming".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
-            "fasdfsdafsadfsad".ToLower(),//waiting
+            "Techboo".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -556,9 +565,14 @@ namespace YoutubeSubscriberManager
             "BlackBunog".ToLower(),
             "Pelo Gaming".ToLower(),
             "Paisley’s Gaming Army".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "SILVIU GAMING ROMANIA".ToLower(),
+            "Zhang咪儿娱乐局".ToLower(),
+            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
+            "Lillet Vintage".ToLower(),
+            "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
+            "Food Idea by Tuhin".ToLower(), //4.5/32
+            "Soffis Games".ToLower(),
+            "VnMusic".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -572,7 +586,6 @@ namespace YoutubeSubscriberManager
             "Sir Runningwolf".ToLower(),//FW
             "spanked bob".ToLower(),//FW
             "DHV VLOG".ToLower(),//FW
-            "Food Idea by Tuhin".ToLower(), //4.5/32
             "MT GAMING5".ToLower(), //15/32, 7/15
             "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
@@ -594,11 +607,9 @@ namespace YoutubeSubscriberManager
             "Gaming University Conference".ToLower(),
             "Silent Scoperzzz".ToLower(),
             "Work Commute".ToLower(),
-            "Retro Toys and Cartoons".ToLower(),//2.8/2.8
             "Terese Benge".ToLower(),//9.5/9.5
             "ŞAHİN TAKIMI".ToLower(),
             "GAME WFK".ToLower(),//8/8
-            "Zhang咪儿娱乐局".ToLower(),//4/8
             "Phynoxtv".ToLower(),
             "K2Z U".ToLower(), //4.6/10
             "Friendship Education".ToLower(),
@@ -607,7 +618,6 @@ namespace YoutubeSubscriberManager
             "Febina's fabulous life".ToLower(),
             "Supportive Gamers Community".ToLower(), //2.7/2.7; 10/10
             "kenken TV Quang Thanh".ToLower(),//4.7/8
-            "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
             "FTR Motivated Gaming".ToLower(),
             "Bits of Real Panther".ToLower(),
             "Arlene Arcebal CHANNEL".ToLower(),//7/32
@@ -622,7 +632,7 @@ namespace YoutubeSubscriberManager
             "Naomi's Filipino Kitchen and a New Life in France".ToLower(),
             "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
             "Old Nerd Playing Old PC Games".ToLower(),
-            "marvelous sweet411".ToLower(),
+//            "marvelous sweet411".ToLower(),
             "BloodyMany".ToLower(),
             "gamingwithaji".ToLower(),
             "The Twins Day".ToLower(),
@@ -636,7 +646,6 @@ namespace YoutubeSubscriberManager
             "Slendecs".ToLower(),
             "GAMER FAV".ToLower(),
             "Cristi Nicola".ToLower(),
-            "Blue British shorthair cat".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
             "G V Balajee".ToLower(),
             "Wonder Videos".ToLower(),
@@ -645,7 +654,6 @@ namespace YoutubeSubscriberManager
             "Zoom Gameplay".ToLower(),
             "Unsab Man".ToLower(),
             "Cooking with Lisa".ToLower(),           
-            "WickedGoodEverything".ToLower(),
             "BigHairyKev".ToLower(),
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
             "Abdul's Media".ToLower(),//2/2
@@ -674,10 +682,8 @@ namespace YoutubeSubscriberManager
             "EA Cubing".ToLower(),
             "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
-            "Neo 20".ToLower(),
             "KALIMAN.".ToLower(),
             "Thebeardednerd".ToLower(),
-            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Giant Saint".ToLower(),
             "Lev Kris Coins".ToLower(),
             "GameStomper".ToLower(),
@@ -690,9 +696,11 @@ namespace YoutubeSubscriberManager
             "Yozora Gaming TV".ToLower(),
             "Death in Heels".ToLower(),
             "Wheelassassin".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "ClassicPCGame".ToLower(),
+            "Gamology Yo".ToLower(),
+            "KungFuKuya".ToLower(),//playing the same game and chatted; not sure on watch time
+            "Mila Vlog".ToLower(),
+            "AnJunoPlays".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
