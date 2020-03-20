@@ -363,11 +363,6 @@ namespace YoutubeSubscriberManager
 
 
 
-
-
-
-
-
             //FROM ORANGE AND YELLOW
             "Akib Gaming".ToLower(),//think he's green
             "Lee Boon".ToLower(),//think he's green
@@ -701,7 +696,7 @@ namespace YoutubeSubscriberManager
             "KungFuKuya".ToLower(),//playing the same game and chatted; not sure on watch time
             "Mila Vlog".ToLower(),
             "AnJunoPlays".ToLower(),
-            "Salus".ToLower(),
+            "ConStrongYT".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
             "Salus".ToLower(),
