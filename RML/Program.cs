@@ -354,12 +354,16 @@ namespace YoutubeSubscriberManager
             "Thyaggo Maciel".ToLower(),
             "Numan Tv".ToLower(),
             "Mata Hati".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
-            "Orjane".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
+            "fasdfasdfsadfsadfsad".ToLower(),
 
 
 
@@ -371,9 +375,9 @@ namespace YoutubeSubscriberManager
 
         public  static List<string> yellowlist = new List<string>
         {
+            "UnspecGamer".ToLower(),//think he's full
             "Damla Abulfazli".ToLower(),
             "viajes lauchas".ToLower(),
-            "UnspecGamer".ToLower(),
             "Birgül'ün Yöresel Lezzetleri".ToLower(),
             "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
@@ -395,8 +399,6 @@ namespace YoutubeSubscriberManager
             "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
             "KVZoneHD".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
-            "Damla".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
             "English Learners Club".ToLower(),//2 watched 15 minutes (out of 10)
             "Rolling Pony".ToLower(),//2 views across 11 minutes
@@ -465,9 +467,19 @@ namespace YoutubeSubscriberManager
             "TaRo Food Channel".ToLower(),//no idea
             "NAN".ToLower(),
             "Canal da Cleo Nunes".ToLower(),//generic comment
-            "Damla".ToLower(),
-            "Damla".ToLower(),
-            "Damla".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
 
         };
 
@@ -697,11 +709,15 @@ namespace YoutubeSubscriberManager
             "Mila Vlog".ToLower(),
             "AnJunoPlays".ToLower(),
             "ConStrongYT".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
-            "Salus".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
 
         };
         
