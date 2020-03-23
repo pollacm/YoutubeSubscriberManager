@@ -340,6 +340,8 @@ namespace YoutubeSubscriberManager
             "Game Zone World".ToLower(),//white but stopped watching back
             "Retro Toys and Cartoons".ToLower(),//white but stopped watching back
             "WickedGoodEverything".ToLower(),//white but stopped watching back
+            "GAMER FAV".ToLower(),//white but stopped watching back
+            "SK Gowrob".ToLower(),//white but stopped watching back
             "معلش M3lsh".ToLower(),
             "Neo 20".ToLower(),
             "The Backlogged Gamer".ToLower(),
@@ -467,8 +469,8 @@ namespace YoutubeSubscriberManager
             "TaRo Food Channel".ToLower(),//no idea
             "NAN".ToLower(),
             "Canal da Cleo Nunes".ToLower(),//generic comment
-            "fasdfsdafsadfsadfs".ToLower(),
-            "fasdfsdafsadfsadfs".ToLower(),
+            "Anna quatsera".ToLower(),
+            "Shahenaz Kitchen- North Indian Food".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -594,7 +596,6 @@ namespace YoutubeSubscriberManager
             "spanked bob".ToLower(),//FW
             "DHV VLOG".ToLower(),//FW
             "MT GAMING5".ToLower(), //15/32, 7/15
-            "SK Gowrob".ToLower(),
             "BROWEN".ToLower(), //10/32
             "Ranscan KNRT".ToLower(),//10/10
             "games KNRTdrinkz".ToLower(),
@@ -651,7 +652,6 @@ namespace YoutubeSubscriberManager
             "Baczek Stream".ToLower(),
             "SPECTREBOSS GAMES".ToLower(),
             "Slendecs".ToLower(),
-            "GAMER FAV".ToLower(),
             "Cristi Nicola".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
             "G V Balajee".ToLower(),
@@ -1186,7 +1186,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 16)
                 {
                     RemoveElement(driver, currentElement);
                 }
