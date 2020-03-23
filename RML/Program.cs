@@ -750,10 +750,10 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementOnSubPage = 4;
             var rowsToIncrementComments = 8;
 
-            //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
-            //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
-            string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
+            //String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
+            //string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("user-data-dir=" + pathToProfile);
             Environment.SetEnvironmentVariable("webdriver.chrome.driver", pathToChromedriver);
