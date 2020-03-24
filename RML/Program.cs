@@ -344,6 +344,7 @@ namespace YoutubeSubscriberManager
             "RAV STAR 3.0".ToLower(),
             "Burn Reyn".ToLower(),
             "Gaming Grandpa".ToLower(),//last chance
+            "Techboo".ToLower(),//waiting
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -557,7 +558,6 @@ namespace YoutubeSubscriberManager
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
             "RAMRAIN4 Gaming".ToLower(),//waiting
-            "Techboo".ToLower(),//waiting
             "Game Hauntings".ToLower(),//subbed; need to verify watch time
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
