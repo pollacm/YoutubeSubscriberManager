@@ -342,7 +342,8 @@ namespace YoutubeSubscriberManager
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),//think full but one 2 watches grouped, 18 minutes, other didnt comment
             "Bích Nga".ToLower(),
             "RAV STAR 3.0".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
+            "Burn Reyn".ToLower(),
+            "Gaming Grandpa".ToLower(),//last chance
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -615,7 +616,6 @@ namespace YoutubeSubscriberManager
             "VnMusic".ToLower(),
             "Me Meemer".ToLower(),
             "TONYMAX HD".ToLower(),
-            "Gaming Grandpa".ToLower(),//last chance
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
