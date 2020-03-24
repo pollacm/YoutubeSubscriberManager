@@ -345,6 +345,7 @@ namespace YoutubeSubscriberManager
             "Burn Reyn".ToLower(),
             "Gaming Grandpa".ToLower(),//last chance
             "Techboo".ToLower(),//waiting
+            "Game Hauntings".ToLower(),//subbed; need to verify watch time
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -558,7 +559,6 @@ namespace YoutubeSubscriberManager
             "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
             "RAMRAIN4 Gaming".ToLower(),//waiting
-            "Game Hauntings".ToLower(),//subbed; need to verify watch time
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),//waiting
