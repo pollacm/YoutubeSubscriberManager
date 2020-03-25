@@ -545,12 +545,12 @@ namespace YoutubeSubscriberManager
             "GetAwesome Gaming".ToLower(),//waiting
             "Ys Gaming Dark".ToLower(),//waiting
             "Pelo Gaming".ToLower(),//waiting
-            "LONE WOLF GAMING".ToLower(),//waiting
+            "LONE WOLF GAMING".ToLower(),//waiting; need to verify time
             "SaiyanStreamz".ToLower(),//waiting
-            "Serg Unleashed YT".ToLower(),//waiting; last shot
-            "Maryo1stt Gaming".ToLower(),//waiting
+            "Serg Unleashed YT".ToLower(),//waiting; need to verify time
+            "Maryo1stt Gaming".ToLower(),//waiting; need to verify time
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
-            "BdS 04 Gameplay".ToLower(),//waiting
+            "BdS 04 Gameplay".ToLower(),//waiting; need to verify time
             "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
             "KALIMAN.".ToLower(),//waiting, they subbed, need to verify watch time
             "V GAMER".ToLower(),//waiting, they subbed, need to verify watch time
@@ -1229,7 +1229,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 16)
+                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 20)
                 {
                     RemoveElement(driver, currentElement);
                 }
