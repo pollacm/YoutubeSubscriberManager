@@ -345,7 +345,16 @@ namespace YoutubeSubscriberManager
             "Burn Reyn".ToLower(),
             "Gaming Grandpa".ToLower(),//last chance
             "Techboo".ToLower(),//waiting
-            "Game Hauntings".ToLower(),//subbed; need to verify watch time
+            "7orever".ToLower(),
+            "Pakistani Vlogger in UAE".ToLower(),
+            "Lee Boon".ToLower(),//think he's green
+            "RedShadow".ToLower(),//full other waiting
+            "AHMET TÜRKCAN".ToLower(),
+            "Rany Art2".ToLower(),
+            "Together make it".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -400,7 +409,7 @@ namespace YoutubeSubscriberManager
             "Thyaggo Maciel".ToLower(),
             "Numan Tv".ToLower(),
             "Mata Hati".ToLower(),
-            "RedNitrate".ToLower(),
+            
             "Flippettirob".ToLower(),
             "fasdfasdfsadfsadfsad".ToLower(),
             "fasdfasdfsadfsadfsad".ToLower(),
@@ -417,10 +426,8 @@ namespace YoutubeSubscriberManager
 
             //FROM ORANGE AND YELLOW
             "Akib Gaming".ToLower(),//think he's green
-            "Lee Boon".ToLower(),//think he's green
             "Parker2417".ToLower(),//waiting
             "Unplugged Gaming".ToLower(),//full other waiting
-            "RedShadow".ToLower(),//full other waiting
             "Jafmasterflash 7".ToLower(),
             "TheAmazingLSB".ToLower(),
             "My world Of cooking".ToLower(),//think red
@@ -460,14 +467,13 @@ namespace YoutubeSubscriberManager
             "Murder Motion TV".ToLower(), //Pretty sure less than a minute but in same bracket as trip watches
             "أنا وخويا Ana okhoya".ToLower(),
             "Won't Grow Up".ToLower(),
-
+            "Game Hauntings".ToLower(),//subbed; need to verify watch time
 
             //---new subs and haven't verified
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
             "Me and My Kitchen".ToLower(),//split full between 2
-            "love and chic Diandra".ToLower(),//split full between 2
-            "7orever".ToLower(),
+            "love and chic Diandra".ToLower(),//split full between 2            
             "PS5 Gamer".ToLower(),
             "Syafitrie Chanel".ToLower(),
             "ALI PENJAGA ARJUNA GYM".ToLower(),
@@ -522,8 +528,8 @@ namespace YoutubeSubscriberManager
             "Being Tasbiha Sohrat".ToLower(),
             "Gram Bangla Entertainment".ToLower(),
             "Food Express".ToLower(),//no idea
-            "fasdfsdafsadfsadfs".ToLower(),
-            "fasdfsdafsadfsadfs".ToLower(),
+            "HK71 Channel".ToLower(),//no idea
+            "Mắm Mắm TV".ToLower(),//no idea
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -616,8 +622,8 @@ namespace YoutubeSubscriberManager
             "VnMusic".ToLower(),
             "Me Meemer".ToLower(),
             "TONYMAX HD".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "Hương Giang ca hát tự do và cuộc sống quanh ta".ToLower(),
+            "DreamingSlugger".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -755,6 +761,7 @@ namespace YoutubeSubscriberManager
             "Bunny L.A.W.".ToLower(),
             "WhiskeyBlue10".ToLower(),
             "Saadon Aksah".ToLower(),
+            "RedNitrate".ToLower(),
             "Mateusz K".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
