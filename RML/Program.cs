@@ -351,11 +351,13 @@ namespace YoutubeSubscriberManager
             "RedShadow".ToLower(),//full other waiting
             "AHMET TÜRKCAN".ToLower(),
             "Rany Art2".ToLower(),
+            "TONYMAX HD".ToLower(),
+            "CGIOne Gaming".ToLower(),//generic comment
             "Together make it".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
+            "Boss Line".ToLower(),
+            "TreRealLifeENT".ToLower(),
+            "Tiago Cavalheiro".ToLower(),
+            "Notify Klipz".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -504,7 +506,6 @@ namespace YoutubeSubscriberManager
             "AMS TECH".ToLower(),//no idea
             "Shemaroo comedy".ToLower(),
             "Box Clever Gaming".ToLower(),//good comment
-            "CGIOne Gaming".ToLower(),//generic comment
             "Trần Nam Vinh 365".ToLower(),
             "Pythagoraz".ToLower(),
             "VimusTrack".ToLower(),
@@ -516,7 +517,6 @@ namespace YoutubeSubscriberManager
             "Trương Bảo".ToLower(),//suspecting red
             "ConsoleGamerBoi".ToLower(),//no idea
             "Mr. SaiyaOFFICIAL".ToLower(),//generic
-            "PracticalPat".ToLower(),//no idea
             "TaRo Food Channel".ToLower(),//no idea
             "NAN".ToLower(),
             "Canal da Cleo Nunes".ToLower(),//generic comment
@@ -530,7 +530,7 @@ namespace YoutubeSubscriberManager
             "Food Express".ToLower(),//no idea
             "HK71 Channel".ToLower(),//no idea
             "Mắm Mắm TV".ToLower(),//no idea
-            "fasdfsdafsadfsadfs".ToLower(),
+            "saima vlogs &recipe".ToLower(),//no idea; generic; no more than pink
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -617,12 +617,13 @@ namespace YoutubeSubscriberManager
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Lillet Vintage".ToLower(),
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
-            "Food Idea by Tuhin".ToLower(), //4.5/32
+            "Food Idea by Tuhin".ToLower(), //not full last time, pink, last time
+            "Keyser Reveal".ToLower(),//not full last time, pink, last time
             "Soffis Games".ToLower(),
             "VnMusic".ToLower(),
-            "Me Meemer".ToLower(),
-            "TONYMAX HD".ToLower(),
+            "Me Meemer".ToLower(),            
             "Hương Giang ca hát tự do và cuộc sống quanh ta".ToLower(),
+            "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "DreamingSlugger".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -646,7 +647,6 @@ namespace YoutubeSubscriberManager
             "Ranscan KNRT".ToLower(),//10/10
             "games KNRTdrinkz".ToLower(),
             "Salus Vindex Gaming".ToLower(),//4.5/10, 1.75k subs
-            "Keyser Reveal".ToLower(),//3.5/10, 11k subs
             "HAPPY TIME".ToLower(),//7.5/32
             "Hot Fried Griyo and Peeklees".ToLower(), //KOULWAH 2
             "CREEPY KOULWAH".ToLower(),
@@ -686,7 +686,6 @@ namespace YoutubeSubscriberManager
             "Naomi's Filipino Kitchen and a New Life in France".ToLower(),
             "pAppA 009 [ Edit for your Pleasure ]".ToLower(),
             "Old Nerd Playing Old PC Games".ToLower(),
-//            "marvelous sweet411".ToLower(),
             "BloodyMany".ToLower(),
             "gamingwithaji".ToLower(),
             "The Twins Day".ToLower(),
@@ -700,7 +699,6 @@ namespace YoutubeSubscriberManager
             "Slendecs".ToLower(),
             "Cristi Nicola".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
-            //"G V Balajee".ToLower(),
             "Wonder Videos".ToLower(),
             "Shivani Devi s".ToLower(), //4.7/12; think she watched 6/8 not sure
             "Zoom Gameplay".ToLower(),
@@ -720,7 +718,6 @@ namespace YoutubeSubscriberManager
             "ConGames007".ToLower(),
             "ENKI'S FUN TECHNO STUFF".ToLower(),
             "Crazy Gamer".ToLower(),
-            //"discoverandplay".ToLower(),
             "Pixel P".ToLower(),
             "Vichaal Kahn".ToLower(),
             "Pinky and Lhian vlog".ToLower(),
@@ -753,7 +750,6 @@ namespace YoutubeSubscriberManager
             "ConStrongYT".ToLower(),
             "Thebeardednerd".ToLower(),//waiting, they subbed, need to verify watch time
             "TMT GAMES".ToLower(),//waiting, they subbed, need to verify watch time
-            "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "Flickzy27".ToLower(),//they subbed, need to verify watch time
             "Lita Pornpimon".ToLower(),//they subbed, need to verify watch time
             "MyCherryHurts".ToLower(),//they subbed, need to verify watch time
@@ -763,9 +759,10 @@ namespace YoutubeSubscriberManager
             "Saadon Aksah".ToLower(),
             "RedNitrate".ToLower(),
             "Mateusz K".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
+            "PracticalPat".ToLower(),//no idea
+            "Kieu Mai".ToLower(),
+            "The Wonder".ToLower(),
+            "Joyful Eats".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
 
