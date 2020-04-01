@@ -359,6 +359,19 @@ namespace YoutubeSubscriberManager
             "Tiago Cavalheiro".ToLower(),
             "Notify Klipz".ToLower(),
             "Hữu Tài Bình Phước".ToLower(),
+            "Angel sanoe".ToLower(),
+            "Life with shamaila".ToLower(),//no idea; generic; probably black;spam
+            "Muzam Abiet".ToLower(),//no idea; generic; probably black;spam
+            "DUL JONI".ToLower(),
+            "Devmarker".ToLower(),
+            "AU DEE".ToLower(),
+            "Piggies Travelling".ToLower(),
+            "Purwanto Harahap".ToLower(),//no idea; generic; asked for support with them; 0 score
+            "Mo Games".ToLower(),//no idea; generic; ; 0 score
+            "NIALL'S CLOSET".ToLower(),//no idea; generic; ; 0 score
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
 
@@ -374,9 +387,10 @@ namespace YoutubeSubscriberManager
             "G V Balajee".ToLower(),
             "discoverandplay".ToLower(),//white but stopped watching back
             "BlackWolf Studio".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
+            "Arlene Arcebal CHANNEL".ToLower(),//white but stopped watching back
+            "Baczek Stream".ToLower(),//white but stopped watching back
+            "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//white but stopped watching back; 5 watches 13.5 minutes. Only one commented; last chance
+            "Abdul's Media".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
@@ -413,7 +427,7 @@ namespace YoutubeSubscriberManager
             "Mata Hati".ToLower(),
             
             "Flippettirob".ToLower(),
-            "fasdfasdfsadfsadfsad".ToLower(),
+            "ĐINH PHÚ YÊN OFFICIAL".ToLower(),//no idea generic comment iq score 0
             "fasdfasdfsadfsadfsad".ToLower(),
             "fasdfasdfsadfsadfsad".ToLower(),
             "fasdfasdfsadfsadfsad".ToLower(),
@@ -427,7 +441,6 @@ namespace YoutubeSubscriberManager
 
 
             //FROM ORANGE AND YELLOW
-            "Akib Gaming".ToLower(),//think he's green
             "Parker2417".ToLower(),//waiting
             "Unplugged Gaming".ToLower(),//full other waiting
             "Jafmasterflash 7".ToLower(),
@@ -435,6 +448,11 @@ namespace YoutubeSubscriberManager
             "My world Of cooking".ToLower(),//think red
             "Levie's Trip".ToLower(),
             "Canal da Cleo Nunes".ToLower(),//suspecting red
+            "MultiVerse Studio".ToLower(),//full other waiting
+            "Thor Reavenger".ToLower(),//8/8 between 2
+            "Mắm Mắm TV".ToLower(),//no idea
+            "NnT Daily Game".ToLower(),
+            "NnT mm & Games".ToLower(),
         };
 
         public  static List<string> yellowlist = new List<string>
@@ -445,11 +463,8 @@ namespace YoutubeSubscriberManager
             "Birgül'ün Yöresel Lezzetleri".ToLower(),
             "KOBOY KNC SUKABUMI".ToLower(), //3.6/32
             "LOOT JAC / AHMAD PAISAL".ToLower(),
-            "NnT Daily Game".ToLower(),
-            "NnT mm & Games".ToLower(),
             "Aras'ın Dünyası".ToLower(),
             "Kidz Coloring Joy".ToLower(),
-            "Thor Reavenger".ToLower(),//8/8 between 2
             "fia sonarean".ToLower(),//possible full between mult
             "Diah 082134778877wa".ToLower(), //4.4/8 split
             "Correteando la Cheve".ToLower(),//4.4/8 split
@@ -529,8 +544,17 @@ namespace YoutubeSubscriberManager
             "Gram Bangla Entertainment".ToLower(),
             "Food Express".ToLower(),//no idea
             "HK71 Channel".ToLower(),//no idea
-            "Mắm Mắm TV".ToLower(),//no idea
             "saima vlogs &recipe".ToLower(),//no idea; generic; no more than pink
+            "easy math world".ToLower(),//no idea; long generic; spam
+            "Akib Gaming".ToLower(),//think he's green
+            "Miki".ToLower(),//no idea; long generic; 48 rating
+            "RITA BALCONY GARDEN".ToLower(),//no idea; long generic; 0 rating
+            "Eliab Sandoval".ToLower(),//no idea;; decent comment; 50 rating
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -543,7 +567,6 @@ namespace YoutubeSubscriberManager
             "Tt TV OKE".ToLower(),//think he is full
             "다락귀신[ V ]".ToLower(),//full other waiting
             "روائع الفن اليماني - بو نواف و فهد".ToLower(),//full other waiting
-            "MultiVerse Studio".ToLower(),//full other waiting
             "Ecen's Channel".ToLower(),//8/8 between 2
             "شمس الدين DZ".ToLower(),//full other waiting
             "أكل بيتي مع ساميه".ToLower(),
@@ -625,7 +648,7 @@ namespace YoutubeSubscriberManager
             "Hương Giang ca hát tự do và cuộc sống quanh ta".ToLower(),
             "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "DreamingSlugger".ToLower(),
-            "dfsdfsd".ToLower(),
+            "O A".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
@@ -696,7 +719,7 @@ namespace YoutubeSubscriberManager
             "ShowTimeGaming".ToLower(),
             "Baczek Stream".ToLower(),
             "SPECTREBOSS GAMES".ToLower(),
-            "Slendecs".ToLower(),
+            "Slendecs".ToLower(),//pink this video
             "Cristi Nicola".ToLower(),
             "ImEdwin_".ToLower(), //pretty sure full
             "Wonder Videos".ToLower(),
@@ -724,7 +747,7 @@ namespace YoutubeSubscriberManager
             "Unity Kitchen".ToLower(),
             "M3athead Gaming".ToLower(),
             "Mr. Biggler Gaming".ToLower(),
-            "E_ finish the limit".ToLower(),
+            "E_ finish the limit".ToLower(),//pink this video
             "it'sMs.Nomy's s".ToLower(),
             "EA Cubing".ToLower(),
             "Kade Channel".ToLower(),
@@ -739,7 +762,6 @@ namespace YoutubeSubscriberManager
             "XXMRPIIMPXX WALKTHROUGHS".ToLower(),
             "RheAnnKaneKate Fitness & Vlog's".ToLower(),
             "A**holes Watching Movies".ToLower(),
-            "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//5 watches 13.5 minutes. Only one commented
             "Yozora Gaming TV".ToLower(),
             "Death in Heels".ToLower(),
             "Wheelassassin".ToLower(),
@@ -763,6 +785,15 @@ namespace YoutubeSubscriberManager
             "Kieu Mai".ToLower(),
             "The Wonder".ToLower(),
             "Joyful Eats".ToLower(),
+            "TikarBuruk Gaming".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
 
@@ -1233,7 +1264,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 20)
+                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
                 {
                     RemoveElement(driver, currentElement);
                 }
@@ -1287,6 +1318,42 @@ namespace YoutubeSubscriberManager
 
             subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
 
+            //yellow list single vid
+            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
+            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
+            {
+                ScrollToBottom(driver);
+                Thread.Sleep(3000);
+            }
+
+            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
+            currentElement = 0;
+            subscriberNameRepo = new SubscriberNameRepo();
+            viewedSubscribers = new List<string>();
+            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
+
+            foreach (var video in videos)
+            {
+                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
+                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
+
+                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 5).ToLower();
+                if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
+                {
+                    RemoveElement(driver, currentElement);
+                }
+                else
+                {
+                    StampElement(driver, subscriberName, currentElement, latestComments);
+                    viewedSubscribers.Add(subscriberName);
+                    subscriberNameString += $",{subscriberName}";
+
+                    currentElement++;
+                }
+            }
+
+            subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
+
             //pink list single vid
             driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
             for (int i = 0; i < rowsToIncrementOnSubPage; i++)
@@ -1308,42 +1375,6 @@ namespace YoutubeSubscriberManager
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 5).ToLower();
                 if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
-                {
-                    RemoveElement(driver, currentElement);
-                }
-                else
-                {
-                    StampElement(driver, subscriberName, currentElement, latestComments);
-                    viewedSubscribers.Add(subscriberName);
-                    subscriberNameString += $",{subscriberName}";
-
-                    currentElement++;
-                }
-            }
-
-            subscriberNameRepo.RefreshSubscribers(viewedSubscribers);
-
-            //yellow list single vid
-            driver.NavigateToUrl("https:/www.youtube.com/feed/subscriptions");
-            for (int i = 0; i < rowsToIncrementOnSubPage; i++)
-            {
-                ScrollToBottom(driver);
-                Thread.Sleep(3000);
-            }
-
-            videos = driver.FindElementsByXPath("//ytd-grid-video-renderer");
-            currentElement = 0;
-            subscriberNameRepo = new SubscriberNameRepo();
-            viewedSubscribers = new List<string>();
-            subscriberNameString = subscriberNameRepo.GetSubscribers().ToLower();
-
-            foreach (var video in videos)
-            {
-                var subscriberName = video.FindElement(By.XPath("./div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ytd-channel-name")).Text;
-                var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
-
-                var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 5).ToLower();
-                if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 15)
                 {
                     RemoveElement(driver, currentElement);
                 }
