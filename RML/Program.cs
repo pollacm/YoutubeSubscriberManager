@@ -362,6 +362,7 @@ namespace YoutubeSubscriberManager
             "Angel sanoe".ToLower(),
             "Life with shamaila".ToLower(),//no idea; generic; probably black;spam
             "Muzam Abiet".ToLower(),//no idea; generic; probably black;spam
+            "Dharmendra kumar mahto".ToLower(),//no idea; generic; probably black;spam; 0 score
             "DUL JONI".ToLower(),
             "Devmarker".ToLower(),
             "AU DEE".ToLower(),
@@ -369,6 +370,12 @@ namespace YoutubeSubscriberManager
             "Purwanto Harahap".ToLower(),//no idea; generic; asked for support with them; 0 score
             "Mo Games".ToLower(),//no idea; generic; ; 0 score
             "NIALL'S CLOSET".ToLower(),//no idea; generic; ; 0 score
+            "CapuzTodd".ToLower(),
+            "Đậu Kitchen".ToLower(),
+            "たっつん福岡TV".ToLower(),
+            "MyHealth 24".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -585,7 +592,6 @@ namespace YoutubeSubscriberManager
             "V GAMER".ToLower(),//waiting, they subbed, need to verify watch time
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
             "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
-            "partidasonlinet31vg7".ToLower(),//waiting
             "탐구생활 MTV".ToLower(),//waiting
             "RAMRAIN4 Gaming".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),
@@ -786,7 +792,7 @@ namespace YoutubeSubscriberManager
             "The Wonder".ToLower(),
             "Joyful Eats".ToLower(),
             "TikarBuruk Gaming".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
+            "Retro Games BR 3.0".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
