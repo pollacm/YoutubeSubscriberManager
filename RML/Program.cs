@@ -374,6 +374,26 @@ namespace YoutubeSubscriberManager
             "Đậu Kitchen".ToLower(),
             "たっつん福岡TV".ToLower(),
             "MyHealth 24".ToLower(),
+            "Roman".ToLower(),
+            "Presidential Phantom".ToLower(),
+            "예원데이Yewon Day".ToLower(),
+            "Hồng Lý bảo hiểm".ToLower(),
+            "xotina".ToLower(),
+            "The P".ToLower(),
+            "NNPC".ToLower(),
+            "Layila Faon".ToLower(),
+            "Munank’s World".ToLower(),
+            "Box Clever Gaming".ToLower(),
+            "ĐINH PHÚ YÊN OFFICIAL".ToLower(),
+            "Alma's Things".ToLower(),
+            "SurxanGames".ToLower(),
+            "Sethika GamerKH".ToLower(),
+            "Cy GameMix".ToLower(), //spam; generic comment; 28 score
+            "Carmela Joyce Iligan".ToLower(),// not sure; semi generic question; 0 score
+            "mj atienza".ToLower(),
+            "Mind Relaxing Channel".ToLower(),
+            "Luisa Cesarr".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
@@ -496,7 +516,6 @@ namespace YoutubeSubscriberManager
             //---new subs and haven't verified
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
-            "Me and My Kitchen".ToLower(),//split full between 2
             "love and chic Diandra".ToLower(),//split full between 2            
             "PS5 Gamer".ToLower(),
             "Syafitrie Chanel".ToLower(),
@@ -511,7 +530,6 @@ namespace YoutubeSubscriberManager
             "Hoang Vu's Journey".ToLower(),
             "Dragonson".ToLower(),
             "JUANA BULAKENYA".ToLower(),//think red
-            "LoveSurfBunny".ToLower(),//says full but not sure, seemed red but not sure
             "WheresLee".ToLower(),
             "Ny Sovann".ToLower(),
             "Maxxad TV".ToLower(),
@@ -519,13 +537,11 @@ namespace YoutubeSubscriberManager
             "Bhela's Vlog".ToLower(),
             "Carromacumba".ToLower(),//no idea
             "Rosie".ToLower(), //no idea
-            "Munank’s World".ToLower(),//no idea
             "Horain beauty hub".ToLower(),//Said full but idk
             "Mr Ali".ToLower(),//probably red
             "loan huỳnh".ToLower(),//no idea
             "Crazy Happinesz".ToLower(),//no idea
             "QTGamer7842".ToLower(),//no idea
-            "AMS TECH".ToLower(),//no idea
             "Shemaroo comedy".ToLower(),
             "Box Clever Gaming".ToLower(),//good comment
             "Trần Nam Vinh 365".ToLower(),
@@ -557,8 +573,8 @@ namespace YoutubeSubscriberManager
             "Miki".ToLower(),//no idea; long generic; 48 rating
             "RITA BALCONY GARDEN".ToLower(),//no idea; long generic; 0 rating
             "Eliab Sandoval".ToLower(),//no idea;; decent comment; 50 rating
-            "fasdfsdafsadfsadfs".ToLower(),
-            "fasdfsdafsadfsadfs".ToLower(),
+            "Bonsai Cương Nguyễn".ToLower(),//no idea;; decent comment; 32 rating
+            "Luisa Cesarr".ToLower(),//asked to be friends, score 50
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -625,7 +641,6 @@ namespace YoutubeSubscriberManager
             "Jamaica L.".ToLower(),
             "Unknown Sith".ToLower(),
             "TheGoodPlaceForGames".ToLower(),
-            "SurxanGames".ToLower(),
             "Rafał Szymski".ToLower(),
             "Maryo1stt Gaming".ToLower(),
             "Sinefx".ToLower(),
@@ -642,23 +657,22 @@ namespace YoutubeSubscriberManager
             "Pelo Gaming".ToLower(),
             "Paisley’s Gaming Army".ToLower(),
             "SILVIU GAMING ROMANIA".ToLower(),
-            "Zhang咪儿娱乐局".ToLower(),
             "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
             "Lillet Vintage".ToLower(),
-            "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9
+            "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9; last chance
             "Food Idea by Tuhin".ToLower(), //not full last time, pink, last time
             "Keyser Reveal".ToLower(),//not full last time, pink, last time
-            "Soffis Games".ToLower(),
             "VnMusic".ToLower(),
             "Me Meemer".ToLower(),            
             "Hương Giang ca hát tự do và cuộc sống quanh ta".ToLower(),
-            "Narayan Gamer".ToLower(),//waiting, they subbed, said full watch
             "DreamingSlugger".ToLower(),
             "O A".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
-            "dfsdfsd".ToLower(),
+            "MEDIA NGUYỄN".ToLower(),
+            "BdS 04 Gameplay".ToLower(),
+            "Soffis Games".ToLower(),
+            "Terrill".ToLower(),
+            "PracticalPat".ToLower(),//no idea
+            "Vendetta Gaming Plus More".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
         };
@@ -771,7 +785,7 @@ namespace YoutubeSubscriberManager
             "Yozora Gaming TV".ToLower(),
             "Death in Heels".ToLower(),
             "Wheelassassin".ToLower(),
-            "ClassicPCGame".ToLower(),
+            "ClassicPCGame".ToLower(),//was red once
             "Gamology Yo".ToLower(),
             "KungFuKuya".ToLower(),//playing the same game and chatted; not sure on watch time
             "Mila Vlog".ToLower(),
@@ -787,13 +801,17 @@ namespace YoutubeSubscriberManager
             "Saadon Aksah".ToLower(),
             "RedNitrate".ToLower(),
             "Mateusz K".ToLower(),
-            "PracticalPat".ToLower(),//no idea
             "Kieu Mai".ToLower(),
             "The Wonder".ToLower(),
             "Joyful Eats".ToLower(),
             "TikarBuruk Gaming".ToLower(),
             "Retro Games BR 3.0".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
+            "poyee alvarez".ToLower(),
+            "Me and My Kitchen".ToLower(),
+            "Zhang咪儿娱乐局".ToLower(),
+            "Narayan Gamer".ToLower(),
+            "AMS TECH".ToLower(),
+            "LoveSurfBunny Empire".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
@@ -1380,7 +1398,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 5).ToLower();
-                if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
+                if (!pinklist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 12)
                 {
                     RemoveElement(driver, currentElement);
                 }
@@ -1614,7 +1632,7 @@ namespace YoutubeSubscriberManager
         {
             var jse = (IJavaScriptExecutor)driver;
             //jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div id =\"buttons\" class=\"style-scope ytd-grid-video-renderer\">{commentString}</div>\"");
-            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "").Replace("😂", "").Replace("😂","").Replace("🔥", "").Replace("👍","").Replace("✌","")}</div>\"");
+            jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].children.dismissed.outerHTML += \"<div>{commentString.Replace("\n","").Replace("\r", "").Replace("😂", "").Replace("😂","").Replace("🔥", "").Replace("👍","").Replace("✌","").Replace("\"", "'")}</div>\"");
 
             if (blacklist.Contains(subscriberName.ToLower()))
                 jse.ExecuteScript($"return document.getElementsByTagName('ytd-grid-video-renderer')[{index}].style.border = \"5px solid red\";");
