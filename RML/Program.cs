@@ -277,7 +277,6 @@ namespace YoutubeSubscriberManager
             "Kashan Hussain".ToLower(),
             "Icyyy".ToLower(),
             "Force Hammer Gaming".ToLower(),
-            "Ron's DigiDiary".ToLower(),
             "Spirit Dude Gamer".ToLower(),
             "sunitha simple rangoli".ToLower(),
             "Anwar.s. M".ToLower(),
@@ -381,7 +380,6 @@ namespace YoutubeSubscriberManager
             "xotina".ToLower(),
             "The P".ToLower(),
             "NNPC".ToLower(),
-            "Layila Faon".ToLower(),
             "Munank’s World".ToLower(),
             "Box Clever Gaming".ToLower(),
             "ĐINH PHÚ YÊN OFFICIAL".ToLower(),
@@ -393,12 +391,33 @@ namespace YoutubeSubscriberManager
             "mj atienza".ToLower(),
             "Mind Relaxing Channel".ToLower(),
             "Luisa Cesarr".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
-            "sfdgfsdgdfgdsfgd".ToLower(),
+            "스토리아storia".ToLower(),
+            "NONKA 79".ToLower(),
+            "Yoيو Gaming".ToLower(),
+            "Playstation GamesHd".ToLower(),//generic; not spam;0 score
+            "TWIZTED GOBLIN".ToLower(),//generic; not spam;0 score
+            "Angolv".ToLower(),
+            "gaming ninja 1007".ToLower(),
+            "sapro gamer".ToLower(),
+            "Chou Hyun seng".ToLower(),//generic; not spam;0 score
+            "DetockXX BDG".ToLower(),// no idea, generic comment, 0 score
+            "KIDS GAME CHANNEL".ToLower(),
+            "Numizmaticar".ToLower(),
+            "Twitch and Xtian".ToLower(),
+            "Stepping Out".ToLower(),
+            "Jennilyn Panotes".ToLower(),
+            "CraveGamerz".ToLower(),
+            "솜털친구들fluffycat".ToLower(),
+            "TRẦN TRẠNG VLOGS".ToLower(),
+            "N7 SOLDIER".ToLower(),
+            "GAMING INFINITY".ToLower(),
+            "EVOTAMA Id".ToLower(),
+            "BERBAGI MATA".ToLower(),
+            "Black & White".ToLower(),
+            "Dragonson".ToLower(),
+            "iTeHee".ToLower(),
+            "DANGHOST612".ToLower(),
+            "OLE LAND".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
 
@@ -414,13 +433,10 @@ namespace YoutubeSubscriberManager
             "G V Balajee".ToLower(),
             "discoverandplay".ToLower(),//white but stopped watching back
             "BlackWolf Studio".ToLower(),
-            "Arlene Arcebal CHANNEL".ToLower(),//white but stopped watching back
-            "Baczek Stream".ToLower(),//white but stopped watching back
             "Cuộc sống vùng Quê l Dương Tiến".ToLower(),//white but stopped watching back; 5 watches 13.5 minutes. Only one commented; last chance
             "Abdul's Media".ToLower(),//white but stopped watching back
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
-            "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
+            "Lev Kris Coins".ToLower(),//white but stopped watching back
+            "GamingSiege Ghost".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
             "sfdgfsdgdfgdsfgd".ToLower(),//white but stopped watching back
@@ -480,6 +496,12 @@ namespace YoutubeSubscriberManager
             "Mắm Mắm TV".ToLower(),//no idea
             "NnT Daily Game".ToLower(),
             "NnT mm & Games".ToLower(),
+            "Vandel".ToLower(),//waiting, they subbed, need to verify watch time, -
+            "GetAwesome Gaming".ToLower(),//waiting, -
+            "Benim Mutfağım".ToLower(),//-
+            "TaRo Food Channel".ToLower(),//no idea, -
+            "Bhela's Vlog".ToLower(),//-
+            "JUANA BULAKENYA".ToLower(),//think red, -
         };
 
         public  static List<string> yellowlist = new List<string>
@@ -499,10 +521,8 @@ namespace YoutubeSubscriberManager
             "Billy B".ToLower(), //waiting
             "badboy3420".ToLower(), //waiting
             "GeumSung entertainment".ToLower(),//waiting
-            "HABIB ART & CRAFT STUDIO".ToLower(),//think full but cant tell
             "Sudda production සුද්දා".ToLower(),//split but think its red
             "THÙY TV".ToLower(),//split but red I think            
-            "OLE LAND".ToLower(),//2 views; dont know which; possible full watch
             "Diverse Canal".ToLower(),//possible full; I don't think so though
             "KVZoneHD".ToLower(),//full other waiting
             "Damla".ToLower(),//full other waiting
@@ -512,7 +532,22 @@ namespace YoutubeSubscriberManager
             "أنا وخويا Ana okhoya".ToLower(),
             "Won't Grow Up".ToLower(),
             "Game Hauntings".ToLower(),//subbed; need to verify watch time
-
+            "Arlene Arcebal CHANNEL".ToLower(),//white but stopped watching back
+            "Layila Faon".ToLower(),//not sure between this and one below were full; this not spam; was red though
+            "Ömer Amoyev".ToLower(),//not sure between this and one above were full; this spam
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
+            "sadfsdafsdafsd".ToLower(),
             //---new subs and haven't verified
             "NDZ Gaming".ToLower(),
             "KASAKU".ToLower(),
@@ -528,13 +563,10 @@ namespace YoutubeSubscriberManager
             "Miki".ToLower(),
             "Fun Mary".ToLower(),//dont know about these. new subscribers
             "Hoang Vu's Journey".ToLower(),
-            "Dragonson".ToLower(),
-            "JUANA BULAKENYA".ToLower(),//think red
             "WheresLee".ToLower(),
             "Ny Sovann".ToLower(),
             "Maxxad TV".ToLower(),
             "Ash's Artudio".ToLower(),
-            "Bhela's Vlog".ToLower(),
             "Carromacumba".ToLower(),//no idea
             "Rosie".ToLower(), //no idea
             "Horain beauty hub".ToLower(),//Said full but idk
@@ -555,12 +587,9 @@ namespace YoutubeSubscriberManager
             "Trương Bảo".ToLower(),//suspecting red
             "ConsoleGamerBoi".ToLower(),//no idea
             "Mr. SaiyaOFFICIAL".ToLower(),//generic
-            "TaRo Food Channel".ToLower(),//no idea
             "NAN".ToLower(),
-            "Canal da Cleo Nunes".ToLower(),//generic comment
             "Anna quatsera".ToLower(),
             "Shahenaz Kitchen- North Indian Food".ToLower(),
-            "Benim Mutfağım".ToLower(),
             "Bich Nga".ToLower(),
             "Saadon Aksah".ToLower(),//no idea
             "Being Tasbiha Sohrat".ToLower(),
@@ -575,6 +604,15 @@ namespace YoutubeSubscriberManager
             "Eliab Sandoval".ToLower(),//no idea;; decent comment; 50 rating
             "Bonsai Cương Nguyễn".ToLower(),//no idea;; decent comment; 32 rating
             "Luisa Cesarr".ToLower(),//asked to be friends, score 50
+            "Cy GameMix".ToLower(), //not sure; generic comment; 28 rating
+            "X PROGAME".ToLower(),//no idea, generic comment, 23 score
+            "من الألعاب".ToLower(),// no idea, generic comment, 10 score
+            "Küçük Dünyam".ToLower(),// no idea, generic comment, 19 score
+            "SAM MARINO OFFICIAL".ToLower(),// no idea, slightly not generic comment, 0 score
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
+            "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -593,22 +631,17 @@ namespace YoutubeSubscriberManager
             "Ecen's Channel".ToLower(),//8/8 between 2
             "شمس الدين DZ".ToLower(),//full other waiting
             "أكل بيتي مع ساميه".ToLower(),
-            "Ron's DigiDiary".ToLower(),//waiting
-            "GetAwesome Gaming".ToLower(),//waiting
             "Ys Gaming Dark".ToLower(),//waiting
             "Pelo Gaming".ToLower(),//waiting
             "LONE WOLF GAMING".ToLower(),//waiting; need to verify time
             "SaiyanStreamz".ToLower(),//waiting
             "Serg Unleashed YT".ToLower(),//waiting; need to verify time
-            "Maryo1stt Gaming".ToLower(),//waiting; need to verify time
             "شهيوات احلام ام رحمة délices ahlam oum rahma".ToLower(),//think they watched 5+
             "BdS 04 Gameplay".ToLower(),//waiting; need to verify time
             "Нурсаид Тв уз".ToLower(),//could be green, was watching with cristi for a 23 minute combined watch
             "KALIMAN.".ToLower(),//waiting, they subbed, need to verify watch time
             "V GAMER".ToLower(),//waiting, they subbed, need to verify watch time
             "spanglish 24/7".ToLower(),//waiting, they subbed, need to verify watch time
-            "Vandel".ToLower(),//waiting, they subbed, need to verify watch time
-            "탐구생활 MTV".ToLower(),//waiting
             "RAMRAIN4 Gaming".ToLower(),//waiting
             "fasdfsdafsadfsad".ToLower(),
             "fasdfsdafsadfsad".ToLower(),
@@ -652,12 +685,12 @@ namespace YoutubeSubscriberManager
             "walterarce7".ToLower(),
             "Rose Bacomo".ToLower(),
             "Andaaz-E-Bayaan".ToLower(),
-            "AMS TECH".ToLower(),
+            "AMS TECH".ToLower(),//pink last time
             "BlackBunog".ToLower(),
             "Pelo Gaming".ToLower(),
             "Paisley’s Gaming Army".ToLower(),
             "SILVIU GAMING ROMANIA".ToLower(),
-            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11
+            "CrazyPicklersgaming".ToLower(),//was red, then 3.5/11; red again
             "Lillet Vintage".ToLower(),
             "fadaa zahira".ToLower(),//7.69/15.. then 2/14, 1.2/10, 1.5/10, 12.9/12.9; last chance
             "Food Idea by Tuhin".ToLower(), //not full last time, pink, last time
@@ -673,6 +706,8 @@ namespace YoutubeSubscriberManager
             "Terrill".ToLower(),
             "PracticalPat".ToLower(),//no idea
             "Vendetta Gaming Plus More".ToLower(),
+            "Ron's DigiDiary".ToLower(),
+            "탐구생활 MTV".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
         };
@@ -680,7 +715,7 @@ namespace YoutubeSubscriberManager
         //"Game Boys".ToLower(), //8/32
         public static List<string> whitelist = new List<string>
         {
-            "milada มิลา".ToLower(), //FW
+            "Drawing milada".ToLower(), //FW
             "Runningwolf World of Tanks".ToLower(),//FW
             "Sir Runningwolf".ToLower(),//FW
             "spanked bob".ToLower(),//FW
@@ -700,7 +735,6 @@ namespace YoutubeSubscriberManager
             "No_Talent_Guy".ToLower(),
             "Nfamiz Jay".ToLower(),
             "Select Start Save".ToLower(),
-            "GamingSiege Ghost".ToLower(),
             "Gaming University Conference".ToLower(),
             "Silent Scoperzzz".ToLower(),
             "Work Commute".ToLower(),
@@ -708,9 +742,9 @@ namespace YoutubeSubscriberManager
             "ŞAHİN TAKIMI".ToLower(),
             "GAME WFK".ToLower(),//8/8
             "Phynoxtv".ToLower(),
-            "K2Z U".ToLower(), //4.6/10
+            "K2Z U".ToLower(), //4.6/10; pink last time
             "Friendship Education".ToLower(),
-            "F2PlayGames".ToLower(),
+            "F2PlayGames".ToLower(),//last red
             "Гильдия Геймеров".ToLower(),//6/8 then .22 so I thought, YT slow
             "Febina's fabulous life".ToLower(),
             "Supportive Gamers Community".ToLower(), //2.7/2.7; 10/10
@@ -812,6 +846,20 @@ namespace YoutubeSubscriberManager
             "Narayan Gamer".ToLower(),
             "AMS TECH".ToLower(),
             "LoveSurfBunny Empire".ToLower(),
+            "Kai Vorlavong ไก่สาวลาว".ToLower(),
+            "chin dhy barbievlogs".ToLower(),
+            "K마린블루".ToLower(),
+            "HABIB ART & CRAFT STUDIO".ToLower(),
+            "Gael Vaz".ToLower(),
+            "Baczek Stream".ToLower(),//white but stopped watching back
+            "hdê kpuih".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
+            "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
@@ -853,7 +901,7 @@ namespace YoutubeSubscriberManager
             var rowsToIncrementComments = 8;
 
             //String pathToProfile = @"C:\Users\cxp6696\ChromeProfiles\User Data";
-            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data";
+            String pathToProfile = @"C:\Users\Owner\ChromeProfiles\User Data2";
             //string pathToChromedriver = @"C:\Users\cxp6696\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             string pathToChromedriver = @"C:\Users\Owner\source\repos\TubeBuddyScraper\packages\Selenium.WebDriver.ChromeDriver.77.0.3865.4000\driver\win32\chromedriver.exe";
             ChromeOptions options = new ChromeOptions();
@@ -1288,7 +1336,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 10)
+                if (!whitelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 20)
                 {
                     RemoveElement(driver, currentElement);
                 }
@@ -1326,7 +1374,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 12).ToLower();
-                if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
+                if (!orangelist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 8)
                 {
                     RemoveElement(driver, currentElement);
                 }
@@ -1362,7 +1410,7 @@ namespace YoutubeSubscriberManager
                 var latestComments = commentRepo.GetLastComments(comments, subscriberName, 3);
 
                 var shrunkSubscriberName = subscriberName.Length <= 12 ? subscriberName.ToLower() : subscriberName.Substring(0, 5).ToLower();
-                if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 5)
+                if (!yellowlist.Contains(subscriberName.ToLower()) || subscriberNameString.Contains(shrunkSubscriberName) || currentElement > 8)
                 {
                     RemoveElement(driver, currentElement);
                 }
