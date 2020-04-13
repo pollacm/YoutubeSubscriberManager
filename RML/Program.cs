@@ -418,6 +418,12 @@ namespace YoutubeSubscriberManager
             "iTeHee".ToLower(),
             "DANGHOST612".ToLower(),
             "OLE LAND".ToLower(),
+            "Đời Thường Vlog".ToLower(),//generic comment;0 score
+            "Thạch Kiên Dominico".ToLower(),//generic comment;0 score; spam
+            "Culture Food and Travel with Priyanka".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
+            "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
             "sfdgfsdgdfgdsfgd".ToLower(),
 
@@ -609,9 +615,10 @@ namespace YoutubeSubscriberManager
             "من الألعاب".ToLower(),// no idea, generic comment, 10 score
             "Küçük Dünyam".ToLower(),// no idea, generic comment, 19 score
             "SAM MARINO OFFICIAL".ToLower(),// no idea, slightly not generic comment, 0 score
-            "fasdfsdafsadfsadfs".ToLower(),
-            "fasdfsdafsadfsadfs".ToLower(),
-            "fasdfsdafsadfsadfs".ToLower(),
+            "Destination DeRo".ToLower(),// no idea;generic; 47 score
+            "Tongbin Cooking".ToLower(),//no idea;generic;0 score
+            "Sơn Hào".ToLower(),//no idea;generic;63 score
+            "ARUNK LEZAT".ToLower(),//no idea;generic;47 score
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
             "fasdfsdafsadfsadfs".ToLower(),
@@ -632,7 +639,6 @@ namespace YoutubeSubscriberManager
             "شمس الدين DZ".ToLower(),//full other waiting
             "أكل بيتي مع ساميه".ToLower(),
             "Ys Gaming Dark".ToLower(),//waiting
-            "Pelo Gaming".ToLower(),//waiting
             "LONE WOLF GAMING".ToLower(),//waiting; need to verify time
             "SaiyanStreamz".ToLower(),//waiting
             "Serg Unleashed YT".ToLower(),//waiting; need to verify time
@@ -708,6 +714,13 @@ namespace YoutubeSubscriberManager
             "Vendetta Gaming Plus More".ToLower(),
             "Ron's DigiDiary".ToLower(),
             "탐구생활 MTV".ToLower(),
+            "Kade Channel".ToLower(),
+            "Pelo Gaming".ToLower(),//waiting
+            "torksFrom Youtube".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
+            "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
             "dfsdfsd".ToLower(),
         };
@@ -783,7 +796,6 @@ namespace YoutubeSubscriberManager
             "Cooking with Lisa".ToLower(),           
             "BigHairyKev".ToLower(),
             "GRIPICA Draw Beauty TV - 드로잉 뷰티".ToLower(),
-            "Abdul's Media".ToLower(),//2/2
             "syamsolver channel".ToLower(),
             "MegaGamerDude".ToLower(),
             "TurboJoe -Old School Gaming".ToLower(),
@@ -804,7 +816,6 @@ namespace YoutubeSubscriberManager
             "E_ finish the limit".ToLower(),//pink this video
             "it'sMs.Nomy's s".ToLower(),
             "EA Cubing".ToLower(),
-            "Kade Channel".ToLower(),
             "Lujan Gaming".ToLower(),//3/12
             "KALIMAN.".ToLower(),
             "Thebeardednerd".ToLower(),
@@ -853,7 +864,7 @@ namespace YoutubeSubscriberManager
             "Gael Vaz".ToLower(),
             "Baczek Stream".ToLower(),//white but stopped watching back
             "hdê kpuih".ToLower(),
-            "gsdfgsdfgsdfgdsf".ToLower(),
+            "Tyt Channel".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
             "gsdfgsdfgsdfgdsf".ToLower(),
